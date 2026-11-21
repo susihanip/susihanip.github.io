@@ -13,13 +13,13 @@
       "types": [
         "학생부종합"
       ],
-      "quota": "정원 내 2,233명 (지역균형 523 · 일반 1,529 · 사회통합 181)",
+      "quota": "전형 합계 2,233명 (지역균형 523 · 일반 1,529 · 기회균형(사회통합) 181, 정원 외 4명 포함)",
       "schedule": "2026. 9. 7.(월) 10:00 ~ 9. 9.(수) 18:00",
-      "summary": "지역균형 서류100(3배수)→면접30 | 일반 서류100(2배수)→면접·구술 | 수능최저는 지역균형에만 적용(3개 영역 등급합 7) | 2027 의대 통합 6년제",
+      "summary": "지역균형 서류100(3배수)→1단계70+면접30, 고교별 추천 2명·수능최저 3개 영역 등급합 7 | 일반전형 서류100(2배수)→성적+면접·구술, 수능최저 미적용(디자인과 제외) | 의대 2027 통합 6년제",
       "keywords": "지역균형 일반전형 사회통합 기회균형 면접 구술",
       "noticeUrl": "https://admission.snu.ac.kr/undergraduate/notice?bbsidx=170690&md=v",
       "pdfUrl": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
-      "shortsUrl": "",
+      "shortsUrl": "https://youtube.com/shorts/P_ImIXkuP4E",
       "region": "서울"
     },
     {
@@ -31,13 +31,13 @@
         "학생부종합",
         "논술"
       ],
-      "quota": "정원 내 2,088명 (교과 추천형 487 · 종합 1,278 · 논술 272 · 체육인재 38 · 특수교육 13)",
+      "quota": "정원 내 2,088명 (추천형 487 · 활동우수형 714 · 국제형 254 · 국제인재 120 · 기회균형 190 · 논술 272 · 체육인재 38 · 특수교육 13)",
       "schedule": "2026. 9. 7.(월) 10:00 ~ 9. 9.(수) 17:00",
-      "summary": "추천형 교과90+정성10 | 활동우수형 서류60+면접40 | 논술 100% | 수능최저는 추천형·활동우수형·국제형(국내고)만 | 첨단컴퓨팅학부 분리 선발",
+      "summary": "추천형 학생부교과 100% 일괄합산(수능최저 적용) | 활동우수형 서류100(4배수)→1단계60+면접40 | 논술 100%(10.10 시험)·수능최저 미적용 | 수능최저는 추천형·활동우수형·국제형(국내고)만 | 첨단컴퓨팅학부 3개 학과 분리 선발",
       "keywords": "추천형 활동우수형 국제형 국제인재 기회균형 논술 첨단컴퓨팅",
       "noticeUrl": "https://admission.yonsei.ac.kr/seoul/admission/html/counsel/dataView.asp?BBS_NO=3505&s_data=2027",
       "pdfUrl": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
-      "shortsUrl": "",
+      "shortsUrl": "https://youtube.com/shorts/4fSGGB82UaI",
       "region": "서울"
     },
     {

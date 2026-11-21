@@ -152,6 +152,28 @@ main{padding-bottom:8px}
 }
 .btn:active{transform:scale(.975)}
 .btn svg{width:13px;height:13px;opacity:.9}
+.btn.notice-link{background:rgba(250,204,21,.10);border-color:rgba(250,204,21,.32);color:#ffeaa6}
+/* 요강 PDF가 없어 '입학처 공지' 단독인 카드: 카드 하단을 꽉 채우는 메인 버튼으로 */
+.actions.solo{grid-template-columns:1fr}
+.btn.notice-link.solo{
+  grid-column:1/-1;min-height:48px;padding:14px 16px;gap:8px;
+  font-size:13.5px;font-weight:800;
+  border-color:rgba(250,204,21,.55);
+  background:linear-gradient(135deg,rgba(250,204,21,.20),rgba(245,158,11,.07) 62%,rgba(255,255,255,.04));
+  color:#fff3c0;
+  box-shadow:0 6px 18px rgba(250,204,21,.13), inset 0 1px 0 rgba(255,255,255,.07);
+  transition:transform .15s,background .18s,border-color .18s,box-shadow .18s;
+}
+.btn.notice-link.solo .ic{font-size:15px;line-height:1}
+.btn.notice-link.solo svg{width:15px;height:15px;opacity:1;color:var(--gold);margin-left:2px}
+.btn.notice-link.solo:focus-visible{outline:2px solid rgba(250,204,21,.9);outline-offset:2px}
+@media (hover:hover){
+  .btn.notice-link.solo:hover{
+    border-color:rgba(250,204,21,.85);transform:translateY(-1px);
+    background:linear-gradient(135deg,rgba(250,204,21,.30),rgba(245,158,11,.13) 62%,rgba(255,255,255,.07));
+    box-shadow:0 10px 24px rgba(250,204,21,.22), inset 0 1px 0 rgba(255,255,255,.10);
+  }
+}
 .btn.pdf{background:rgba(250,204,21,.16);border-color:rgba(250,204,21,.5);color:#ffe9a3}
 .btn.shorts{grid-column:1/-1;background:linear-gradient(135deg,rgba(250,204,21,.9),rgba(251,191,36,.9));border-color:transparent;color:var(--on-gold);font-weight:800}
 .btn.pending{grid-column:1/-1;background:rgba(250,204,21,.06);border-color:rgba(250,204,21,.2);color:#cbbd8e;font-weight:600;cursor:default}

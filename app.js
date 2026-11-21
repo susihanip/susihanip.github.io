@@ -50,8 +50,10 @@
       return '<span class="g ' + (TYPE_CLASS[t] || "") + '">' + esc(t) + "</span>";
     }).join("");
 
+    var solo = !!u.noticeUrl && !u.pdfUrl;
     var links = [];
-    if (u.noticeUrl) links.push('<a class="btn" href="' + esc(u.noticeUrl) + '" target="_blank" rel="noopener">입학처 공지' + extIcon() + "</a>");
+    if (u.noticeUrl) links.push('<a class="btn notice-link' + (solo ? " solo" : "") + '" href="' + esc(u.noticeUrl) + '" target="_blank" rel="noopener">' +
+      (solo ? '<span class="ic" aria-hidden="true">🏛️</span>입학처 공지 바로가기' : "입학처 공지") + extIcon() + "</a>");
     if (u.pdfUrl) links.push('<a class="btn pdf" href="' + esc(u.pdfUrl) + '" target="_blank" rel="noopener">요강 PDF' + extIcon() + "</a>");
     if (u.shortsUrl) links.push('<a class="btn shorts" href="' + esc(u.shortsUrl) + '" target="_blank" rel="noopener">1분 요약 쇼츠 보기' + extIcon() + "</a>");
     else links.push('<span class="btn pending" aria-disabled="true">1분 요약 쇼츠 준비 중</span>');
@@ -72,7 +74,7 @@
         (u.summary
           ? '<div class="summary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h10M4 17h13"/></svg><span>' + esc(u.summary) + "</span></div>"
           : "") +
-        '<div class="actions">' + links.join("") + "</div>" +
+        '<div class="actions' + (solo ? " solo" : "") + '">' + links.join("") + "</div>" +
       "</article>";
   }
 

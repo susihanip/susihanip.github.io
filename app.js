@@ -1,5 +1,5 @@
 (function () {
-  var state = { items: [], q: "", type: "전체", ready: false };
+  var state = { items: [], q: "", type: "전체", region: "전체", sort: "추천순", ready: false };
   var listEl = document.getElementById("list");
   var countEl = document.getElementById("count");
   var qEl = document.getElementById("q");
@@ -22,10 +22,15 @@
     var q = state.q.trim().toLowerCase();
     var rows = state.items.filter(function (u) {
       var okType = state.type === "전체" || (u.types || []).indexOf(state.type) !== -1;
+      var okRegion = state.region === "전체" || u.region === state.region;
       var okQuery = !q || haystack(u).indexOf(q) !== -1;
-      return okType && okQuery;
+      return okType && okRegion && okQuery;
     });
-    if (q) {
+    if (state.sort === "가나다순") {
+      rows.sort(function (a, b) {
+        return String(a.name || "").localeCompare(String(b.name || ""), "ko");
+      });
+    } else if (q) {
       // 대학명이 검색어와 맞는 항목을 먼저 보여줌
       rows.sort(function (a, b) {
         var an = String(a.name || "").toLowerCase().indexOf(q) !== -1 ? 0 : 1;
@@ -77,6 +82,7 @@
     countEl.hidden = false;
     countEl.innerHTML = "총 <b>" + rows.length + "</b>곳" +
       (state.type === "전체" ? "" : " · " + esc(state.type)) +
+      (state.region === "전체" ? "" : " · " + esc(state.region)) +
       (state.q.trim() ? " · ‘" + esc(state.q.trim()) + "’ 검색" : "");
 
     if (!rows.length) {
@@ -89,15 +95,22 @@
     listEl.innerHTML = rows.map(card).join("");
   }
 
-  document.querySelectorAll(".chip").forEach(function (chip) {
-    chip.addEventListener("click", function () {
-      state.type = chip.dataset.type;
-      document.querySelectorAll(".chip").forEach(function (c) {
-        c.setAttribute("aria-pressed", String(c === chip));
+  function wireChips(attr, apply) {
+    var chips = document.querySelectorAll(".chip[data-" + attr + "]");
+    Array.prototype.forEach.call(chips, function (chip) {
+      chip.addEventListener("click", function () {
+        apply(chip.dataset[attr]);
+        Array.prototype.forEach.call(chips, function (c) {
+          c.setAttribute("aria-pressed", String(c === chip));
+        });
+        render();
       });
-      render();
     });
-  });
+  }
+
+  wireChips("type", function (v) { state.type = v; });
+  wireChips("region", function (v) { state.region = v; });
+  wireChips("sort", function (v) { state.sort = v; });
 
   var t = null;
   qEl.addEventListener("input", function () {

@@ -97,6 +97,10 @@ header.top{
 .chip[aria-pressed="true"]{color:var(--on-gold);background:linear-gradient(135deg,var(--gold),var(--gold-soft));border-color:transparent;box-shadow:0 4px 16px rgba(250,204,21,.3)}
 .count{margin:2px 2px 12px;font-size:12px;color:#a89f82}
 .count b{color:var(--text)}
+.count-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:2px 2px 12px}
+.count-row .count{margin:0}
+.sort{display:flex;gap:5px;flex:0 0 auto}
+.sort .chip{font-size:12px;padding:6px 11px;font-weight:600}
 
 /* ── cards ── */
 main{padding-bottom:8px}

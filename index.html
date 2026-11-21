@@ -9,6 +9,7 @@
 <meta property="og:title" content="2027 수시모집요강 모음 | 수시한입" />
 <meta property="og:description" content="대학별 2027 수시모집요강 · 전형 · 모집인원 · 수능 최저 · 원서접수 일정 · 입학처 공지 · PDF · 1분 요약 쇼츠" />
 <meta property="og:type" content="website" />
+<meta name="naver-site-verification" content="175f17e021e1e6ac3767f42b7ec002d3f2776b96" />
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9MYLSQM1V"></script>
 <script>
@@ -61,11 +62,24 @@
     <button class="chip" type="button" data-type="학생부교과" aria-pressed="false">학생부교과</button>
     <button class="chip" type="button" data-type="학생부종합" aria-pressed="false">학생부종합</button>
     <button class="chip" type="button" data-type="논술" aria-pressed="false">논술</button>
+    <button class="chip" type="button" data-type="실기" aria-pressed="false">실기</button>
+  </div>
+  <div class="filters" role="group" aria-label="지역 필터">
+    <button class="chip" type="button" data-region="전체" aria-pressed="true">전체</button>
+    <button class="chip" type="button" data-region="서울" aria-pressed="false">서울</button>
+    <button class="chip" type="button" data-region="수도권" aria-pressed="false">수도권</button>
+    <button class="chip" type="button" data-region="지방" aria-pressed="false">지방</button>
   </div>
 </div>
 
 <main class="wrap">
-  <div class="count" id="count" hidden></div>
+  <div class="count-row">
+    <div class="count" id="count" hidden></div>
+    <div class="sort" role="group" aria-label="정렬">
+      <button class="chip" type="button" data-sort="추천순" aria-pressed="true">추천순</button>
+      <button class="chip" type="button" data-sort="가나다순" aria-pressed="false">가나다순</button>
+    </div>
+  </div>
   <div id="list">
     <div class="loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>요강 목록 불러오는 중…</span></div>
   </div>

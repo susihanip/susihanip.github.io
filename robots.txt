@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://susihanip.github.io/sitemap.xml

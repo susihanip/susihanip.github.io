@@ -1,0 +1,3076 @@
+{
+ "_meta": {
+  "title": "2027학년도 수시 수능최저학력기준 (전형·계열별)",
+  "base_year": "2027학년도",
+  "source": "대입정보포털 어디가(KCUE) 2027학년도 대학별 전형평가기준 「전형별 주요사항」 + 수시한입 요강 요약",
+  "note": "전형·모집단위·계열별로 기준이 달라 대표값만 담았습니다. 탐구 반영 과목 수, 영어·한국사 조건은 각 대학 요강 원문을 확인하세요.",
+  "collected_at": "2026-11-22"
+ },
+ "snu": {
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 7,
+     "label": "지역균형",
+     "src": "summary"
+    }
+   ],
+   "none": [
+    "일반",
+    "기회균형특별 ( 사회통합 )"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  }
+ },
+ "yonsei": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "topN",
+     "count": 2,
+     "limit": 1,
+     "label": "추천형",
+     "flags": {
+      "math": "require"
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 4,
+     "label": "인문",
+     "flags": {
+      "math": "korormath"
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자연",
+     "flags": {
+      "math": "require"
+     }
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    1,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "topN",
+     "count": 2,
+     "limit": 1,
+     "label": "활동우수형",
+     "flags": {
+      "math": "require"
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 4,
+     "label": "인문",
+     "flags": {
+      "math": "korormath"
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자연",
+     "flags": {
+      "math": "require"
+     }
+    }
+   ],
+   "none": [
+    "국제인재",
+    "기회균형",
+    "해외고 / 검정고시"
+   ],
+   "applied": [],
+   "range": [
+    1,
+    5
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "korea": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 7,
+     "label": "학교추천",
+     "src": "summary",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [],
+   "applied": [
+    "학교추천"
+   ],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 8,
+     "label": "학업우수",
+     "src": "summary",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [
+    "계열적합",
+    "고른기회",
+    "다문화",
+    "재직자",
+    "사이버국방"
+   ],
+   "applied": [
+    "학업우수"
+   ],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 8,
+     "label": "논술",
+     "src": "summary",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": false
+  }
+ },
+ "sogang": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "지역균형"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "일반 I"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "skku": {
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "융합인재"
+    }
+   ],
+   "none": [
+    "성균인재-지역인재",
+    "기회균형",
+    "과학인재"
+   ],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "hanyang": {
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 7,
+     "label": "자연·인문·상경"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    4,
+    7
+   ],
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "konkuk": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "KU 지역균형"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "인문",
+     "src": "summary"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "자연",
+     "src": "summary"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    4
+   ],
+   "has_any_none": false
+  }
+ },
+ "postech": {
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 4,
+     "label": "일반Ⅱ",
+     "src": "summary",
+     "flags": {
+      "math": "require"
+     }
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    4,
+    4
+   ],
+   "has_any_none": false
+  }
+ },
+ "cau": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "지역균형"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "탐구형인재",
+    "융합형인재"
+   ],
+   "applied": [
+    "성장형인재"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "khu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "지역균형",
+     "flags": {
+      "hanguksa": 5
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "지역균형",
+     "flags": {
+      "hanguksa": 5
+     }
+    }
+   ],
+   "none": [
+    "기회균형I-특성화고 등을 졸업한 재직자"
+   ],
+   "applied": [],
+   "range": [
+    5,
+    4
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "네오르네상스",
+     "flags": {
+      "hanguksa": 5
+     }
+    }
+   ],
+   "none": [
+    "기회균형I",
+    "기회균형II"
+   ],
+   "applied": [],
+   "range": [
+    4,
+    4
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "hufs": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 ( 면접형 )",
+    "학생부종합 (SW 인재 )",
+    "학생부종합 ( 서류형 )",
+    "기회균형"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "uos": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "고교추천"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 Ⅰ",
+    "학생부종합 Ⅱ"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "ewha": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "고교추천"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "미래인재-서류형"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "예체능서류"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "미래인재-서류형"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 9,
+     "label": "예체능서류"
+    }
+   ],
+   "none": [
+    "미래인재-면접형",
+    "고른기회",
+    "사회기여자"
+   ],
+   "applied": [],
+   "range": [
+    5,
+    6
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "dongguk": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "학교장추천인재"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "Do Dream",
+    "불교추천인재",
+    "기회균형통합",
+    "특수교육대상자",
+    "특성화고등을졸업한재직자 ( 서류형 )"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "hongik": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "학교장추천자 ( 서울 )",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [
+    "농어촌학생 ( 인문계열 / 자연계열 / 예술"
+   ],
+   "applied": [
+    "교과우수자 ( 세종 )"
+   ],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "학교생활우수자",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [
+    "고른기회 I",
+    "고른기회 II",
+    "기초생활수급자·차상위계층",
+    "특성화고등을졸업한 재직자 ( 서울 )"
+   ],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "sookmyung": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "지역균형선발"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "숙명인재 ( 면접형 )",
+    "소프트웨어인재",
+    "기회균형 농어촌학생 ( 정원외 ) 특성화고교",
+    "특수교육대상자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kookmin": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "교과우수자 ( 학교장추천 )"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "국민프런티어 국제인재 알고리즘우수자 기회균형",
+    "농어촌학생 기회균형 Ⅱ"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "ssu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "교과우수자-학교장 추천",
+     "narrow": 1
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "SSU 미래인재 ( 면접형 )",
+    "SSU 미래인재 ( 서류형 )",
+    "SW 우수자",
+    "기회균형",
+    "특수교육대상자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "sejong": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자유전공학부"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "인문 , 자연"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 10,
+     "label": "항공시스템공학 특별"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    10
+   ],
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "dankook": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "지역균형선발"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "DKU 인재 ( 서류형 )",
+    "DKU 인재 ( 면접형 )",
+    "SW 인재",
+    "창업인재",
+    "기회균형선발 사회적배려대상자 교육기회배려자 "
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "ajou": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "고교추천",
+     "narrow": 1
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "고교추천",
+     "narrow": 1
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    6
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "ACE",
+    "첨단융합인재",
+    "고른기회 1",
+    "고른기회 2",
+    "특수교육대상자"
+   ],
+   "applied": [
+    "지역의사선발"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "inha": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "지역균형"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "인하미래인재 ( 면접형 )",
+    "지역의사선발",
+    "인하미래인재 ( 서류형 )",
+    "고른기회"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "pusan": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "농어촌학생"
+   ],
+   "applied": [
+    "학생부교과 , 지역인재"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합",
+    "지역인재",
+    "학생부종합 ( 지역인재 저소득층학생 , 사회"
+   ],
+   "applied": [
+    "지역의사선발"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "knu": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "교과우수자",
+    "지역인재",
+    "지역인재 기초생활수급자등 대상자"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "일반학생"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "jnu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "특성화고교졸업자",
+    "특성화고졸재직자",
+    "특수교육대상자"
+   ],
+   "applied": [
+    "일반",
+    "기초 / 차상위 / 한부모"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "고교생활우수자 Ⅱ"
+   ],
+   "applied": [
+    "고교생활우수자 Ⅰ",
+    "지역의사 _ 진료권"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "jbnu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "큰사람",
+    "사회통합",
+    "국가보훈대상자",
+    "농어촌학생",
+    "기회균형선발"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "cnu": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "일반",
+    "지역인재",
+    "지역인재 저소득층",
+    "국가안보교과"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 Ⅱ ( 소프트웨어인재 )",
+    "학생부종합 Ⅱ ( 영농창업인재 )",
+    "학생부종합 Ⅱ ( 국가안보융합인재 )",
+    "학생부종합 Ⅱ ( 기회균형선발 Ⅱ )",
+    "학생부종합 Ⅲ ( 농어촌학생 )"
+   ],
+   "applied": [
+    "학생부종합 Ⅰ ( 면접 )",
+    "학생부종합 Ⅰ ( 서류 )",
+    "학생부종합 Ⅱ ( 지역인재-의예과 )",
+    "학생부종합 Ⅱ ( 지역의사선발 )"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "cbnu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "국가보훈대상자"
+   ],
+   "applied": [
+    "학생부교과"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 Ⅰ",
+    "농어촌학생"
+   ],
+   "applied": [
+    "학생부종합 II"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kangwon": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 13,
+     "label": "실기우수자"
+    }
+   ],
+   "none": [
+    "농어촌학생 ) 학생부교과 ( 사회배려자",
+    "특성화고교졸업자",
+    "특수교육대상자"
+   ],
+   "applied": [
+    "학생부교과 ( 일반교과 ) 학생부교과 ( 지"
+   ],
+   "range": [
+    13,
+    13
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 7,
+     "label": "지역인재면접"
+    }
+   ],
+   "none": [
+    "미래인재서류 ) 학생부종합 ( 기회균형",
+    "미래인재면접 ) 학생부종합 ( 영농창업인재"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "jeju": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "일반학생"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "일반학생",
+    "사회통합"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "gnu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "우주항공방산대학"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "일반"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "간호대학"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 9,
+     "label": "법과대학"
+    }
+   ],
+   "none": [],
+   "applied": [
+    "지역인재"
+   ],
+   "range": [
+    5,
+    12
+   ],
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kmou": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "농·어촌학생",
+    "특성화고교 졸업자",
+    "기회균형 선발"
+   ],
+   "applied": [
+    "일반",
+    "교과성적 우수자",
+    "지역인재"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "특성화고 등을 졸업한 재직자"
+   ],
+   "applied": [
+    "아치해양인재 Ⅰ",
+    "아치해양인재 Ⅱ",
+    "특수교육대상자"
+   ],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "seoultech": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "고교추천"
+    }
+   ],
+   "none": [
+    "특성화고졸 재직자"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kw": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "지역균형"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "mju": {
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "smu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "고교추천",
+    "서해 5 도학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "상명인재",
+    "기회균형",
+    "특수교육대상자",
+    "특성화고졸재직자 ※"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "gachon": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "학생부우수자",
+    "지역의사선발"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "가천의약학"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kyonggi": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "교과성적우수자",
+     "flags": {
+      "hanguksa": 6
+     }
+    }
+   ],
+   "none": [
+    "학교장추천",
+    "농어촌학생",
+    "기초생활수급자등 선발"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "공통"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "sungshin": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "지역균형"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "자기주도인재",
+    "기회균형 Ⅰ",
+    "특수교육대상자",
+    "특성화고등을 졸업한재직자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "swu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "교과우수자"
+    }
+   ],
+   "none": [
+    "교과우수자 _ 체육"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 ( 공통 )"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "duksung": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "글로벌융합대학"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "약학대학",
+     "flags": {
+      "math": "require"
+     }
+    }
+   ],
+   "none": [
+    "고교추천",
+    "기회균형 Ⅰ _ 사회통합"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    5
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "덕성인재 Ⅰ",
+    "덕성인재 Ⅱ",
+    "기회균형 Ⅱ _ 사회통합",
+    "기회균형 Ⅰ _ 특성화고교",
+    "기회균형 Ⅰ _ 농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "dongduk": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "학생부교과 우수자"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "학생부교과 우수자"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": false
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "catholic": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "농어촌학생 [ 정원외 ]",
+    "특성화고교졸업자 [ 정원외 ]"
+   ],
+   "applied": [
+    "지역균형 [ 정원내 ]"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "잠재능력우수자 서류",
+    "잠재능력우수자 면접",
+    "가톨릭지도자 추천",
+    "기회균형 Ⅰ",
+    "특성화고 등을 졸업한 재직자 [ 정원 내 ]"
+   ],
+   "applied": [
+    "학교장추천",
+    "기회균형 Ⅱ"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kau": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "학교장추천"
+   ],
+   "applied": [
+    "교과성적우수자"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "미래인재",
+    "고른기회"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "inu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "동북아국제통상전공"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "교과성적우수자"
+    }
+   ],
+   "none": [
+    "지역균형",
+    "사회통합"
+   ],
+   "applied": [],
+   "range": [
+    6,
+    7
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "자기추천",
+    "기회균형",
+    "서해 5 도출신자",
+    "특수교육대상자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "hansung": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "지역균형",
+    "농어촌학생",
+    "특성화고교졸업자"
+   ],
+   "applied": [
+    "교과우수"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "한성인재",
+    "고른기회"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "syu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "학교장 추천"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "학교장 추천"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "농어촌",
+     "narrow": 1
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "기회균형 Ⅱ",
+     "narrow": 1
+    }
+   ],
+   "none": [
+    "세움인재"
+   ],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": true
+  }
+ },
+ "knue": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 12,
+     "label": "지역인재"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    12,
+    12
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 14,
+     "label": "학생부종합우수자"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    14,
+    14
+   ],
+   "has_any_none": false
+  }
+ },
+ "yu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "학생부교과 공통사항",
+     "narrow": 1
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 9,
+     "label": "학생부교과 공통사항",
+     "narrow": 1
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "지역의사선발"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "약학부"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    8,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "약학부"
+    },
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 6,
+     "label": "의예과"
+    }
+   ],
+   "none": [
+    "잠재능력우수자",
+    "잠재능력우수자",
+    "특성화고교졸업자",
+    "특성화고졸재직자"
+   ],
+   "applied": [],
+   "range": [
+    5,
+    6
+   ],
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kmu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "학생부교과"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "ulsan": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 1,
+     "limit": 5,
+     "label": "일반교과"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "자율전공학부"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "간호학과"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 10,
+     "label": "미래엔지니어링융합대"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "잠재역량 ( 의예과 ) 지역인재 ( 의예과 ",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
+   ],
+   "none": [
+    "잠재역량 ( 자율전공학부 , 의예과 , 간호",
+    "잠재역량 ( 자율전공학부 , 간호학과 )"
+   ],
+   "applied": [],
+   "range": [
+    4,
+    4
+   ],
+   "has_any_none": true
+  }
+ },
+ "donga": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 4,
+     "label": "지역인재교과"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "교과진로우수자"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "지역인재기회균형 대상자"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 10,
+     "label": "지역인재교과"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    4,
+    10
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 4,
+     "label": "지역인재종합"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "지역인재종합"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "학교생활우수자",
+     "narrow": 1
+    }
+   ],
+   "none": [],
+   "applied": [
+    "잠재능력우수자"
+   ],
+   "range": [
+    4,
+    6
+   ],
+   "has_any_none": false
+  }
+ },
+ "chosun": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "군사학과",
+    "지역인재",
+    "사회통합",
+    "평생학습자",
+    "특성화고교"
+   ],
+   "applied": [
+    "일반",
+    "지역의사선발",
+    "지역기회균형"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "면접",
+    "서류",
+    "농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "wku": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "일반",
+    "지역인재교과",
+    "군사학과",
+    "고른기회",
+    "특성화고교 졸업자"
+   ],
+   "applied": [
+    "실기"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합"
+   ],
+   "applied": [
+    "지역인재종합"
+   ],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "kongju": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "기회균형일반",
+    "기회균형지역",
+    "농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "일반",
+    "장애인 등 대상자",
+    "특성화고교졸업자",
+    "특성화고 등을 졸업한 재직자",
+    "성인학습자 Ⅰ"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "kunsan": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "공통"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "공통"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "kumoh": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 9,
+     "label": "공학"
+    }
+   ],
+   "none": [
+    "농어촌학생",
+    "고른기회 특수교육대상자 특성화고교출신자",
+    "특성화고 등을 졸업한 재직자",
+    "만학도"
+   ],
+   "applied": [],
+   "range": [
+    9,
+    9
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "KIT 인재",
+    "자율인재"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "sunchon": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "지역인재",
+    "지역기회균형인재",
+    "교과일반",
+    "성인학습자등",
+    "특수교육자등"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "종합면접",
+    "종합서류",
+    "사회배려대상자",
+    "사회다양성",
+    "농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "gyeongguk": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "지역사회배려대상자",
+    "실기"
+   ],
+   "applied": [
+    "일반학생",
+    "지역인재"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "바른인재",
+    "장애인등대상자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "changwon": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "사회통합",
+    "취업자",
+    "평생학습자",
+    "농어촌학생",
+    "기회균형선발"
+   ],
+   "applied": [
+    "학업성적우수자",
+    "글로컬인재",
+    "지역인재"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "지역인재"
+    }
+   ],
+   "none": [
+    "계열적합인재"
+   ],
+   "applied": [],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": true
+  }
+ },
+ "hanbat": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "일반",
+    "지역인재 ( 교과 )",
+    "사회통합",
+    "실기 ( 일반 )",
+    "농어촌학생"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "일반",
+    "학·석사",
+    "지역인재 ( 종합 )",
+    "소프트웨어인재",
+    "야간"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "knut": {
+  "종합": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "학생부종합 I/II"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "hknu": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "일반 ( 평택 )"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "koreatech": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "공 통"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "창의인재 ( 서류형 ), 사회통합 , 특성화",
+    "창의인재 ( 면접형 ), 충남형 계약학과"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "tue": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "교과우수자"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "교과우수자"
+    }
+   ],
+   "none": [
+    "지역균형",
+    "특성화고교졸업자"
+   ],
+   "applied": [],
+   "range": [
+    7,
+    8
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "기회균형",
+    "융합인재",
+    "창의인재",
+    "조기취업형계약학과"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "논술"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "knsu": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "교과성적우수자"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "snue": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "학교장추천"
+   ],
+   "range": null,
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "교직인성우수자"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "ginue": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 14,
+     "label": "학교장추천"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    14,
+    14
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "모든",
+    "교직적성"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "gjue": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 ( 모든 )",
+    "교직적성인재"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "gjnue": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "학생부교과-지역인재-다문화"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합-교직적성우수자-농어촌학생-기초 /",
+    "학생부종합-전남교육감추천-전남교육감다문화-광"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "dnue": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "모집 모든"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "bnue": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "초등교직적성자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "jnue": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부위주 ( 종합 )"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "cjue": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "배움나눔인재",
+    "배움나눔인재 외 모든"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "hallym": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 10,
+     "label": "교과우수자",
+     "narrow": 1
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    10,
+    10
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "학교생활우수자 ( 의학과 )",
+     "narrow": 1
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "지역의사 ( 의학과 )"
+    }
+   ],
+   "none": [
+    "지역인재 ( 광고홍보학과 , 간호학과 )",
+    "지역인재 _ 기초생활수급자및차상위계층 ( 의",
+    "농어촌학생 ( 의학과 )",
+    "장애인등대상자"
+   ],
+   "applied": [],
+   "range": [
+    4,
+    5
+   ],
+   "has_any_none": true
+  }
+ },
+ "sch": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "일반학생",
+    "충남형 지역인재",
+    "충청형 지역인재",
+    "지역인재-기초생활수급자및 차상위계층",
+    "SW 융합"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "baekseok": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "일반",
+    "사회기여자 및 배려대상자",
+    "지역인재 ( 일반 )",
+    "지역인재 ( 기초 )",
+    "백석인재"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "sunmoon": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "공통",
+    "일반"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "서류"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "cju": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "일반"
+    }
+   ],
+   "none": [
+    "교과인재",
+    "미래인재",
+    "농어촌학생",
+    "특성화고",
+    "기회균형"
+   ],
+   "applied": [
+    "군사학과"
+   ],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": true
+  }
+ },
+ "mokwon": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "교과",
+    "교과면접",
+    "지역인재",
+    "사회적배려자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "dju": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "공통사항",
+     "narrow": 1,
+     "flags": {
+      "hanguksa": 5
+     }
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "지역인재 Ⅰ·Ⅱ , 혜화인재"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    6
+   ],
+   "has_any_none": false
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "혜화인재",
+     "flags": {
+      "hanguksa": 5
+     }
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
+   "has_any_none": false
+  }
+ },
+ "wsu": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "종합서류형",
+    "종합면접형",
+    "지역인재 Ⅱ"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "konyang": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "일반 [ 교과 ]",
+    "군사학",
+    "기초생활수급자 , 차상위계층 , 한부모가족 ",
+    "특성화고교 졸업자",
+    "채용조건형 [계약]"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "daegu": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "일반",
+     "narrow": 1
+    }
+   ],
+   "none": [
+    "지역인재",
+    "면접",
+    "특수창의융합인재",
+    "라이프디자인",
+    "특성화교과"
+   ],
+   "applied": [],
+   "range": [
+    8,
+    8
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "서류",
+    "지역인재",
+    "지역기회균형",
+    "장애인 등 대상자 특별"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "dcatholic": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "간호 학과"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "기회균형"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 10,
+     "label": "체육 교육과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "의예과"
+    }
+   ],
+   "none": [
+    "교과",
+    "지역교과",
+    "가톨릭지도자 추천",
+    "특성화고",
+    "라이프융합"
+   ],
+   "applied": [
+    "지역기회균형"
+   ],
+   "range": [
+    7,
+    7
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "간호학과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "약학부"
+    }
+   ],
+   "none": [
+    "종합",
+    "지역종합"
+   ],
+   "applied": [],
+   "range": [
+    8,
+    6
+   ],
+   "has_any_none": true
+  }
+ },
+ "handong": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "일반"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "deu": {
+  "교과": {
+   "criteria": [],
+   "none": [
+    "특성화고",
+    "기회균형",
+    "농어촌학생",
+    "특성화고동일계",
+    "조기취업형계약학과"
+   ],
+   "applied": [
+    "일반고교과",
+    "지역인재교과",
+    "지역인재교과 ( 저소득층 )"
+   ],
+   "range": null,
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학교생활우수자 ( 면접 )",
+    "지역인재종합",
+    "평생학습자",
+    "성인학습자"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "ks": {
+  "교과": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "지역인재 지역인재 ( 저소득층 )"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "지역인재 지역인재 ( 저소득층 )"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 7,
+     "label": "지역인재 지역인재 ( 저소득층 )"
+    }
+   ],
+   "none": [
+    "공통"
+   ],
+   "applied": [],
+   "range": [
+    8,
+    7
+   ],
+   "has_any_none": true
+  },
+  "종합": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "학교생활우수자 지역인재 Ⅱ"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
+   "has_any_none": false
+  }
+ },
+ "bufs": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부서류"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ },
+ "inje": {
+  "교과": {
+   "criteria": [],
+   "none": [],
+   "applied": [
+    "학생부교과",
+    "면접"
+   ],
+   "range": null,
+   "has_any_none": false
+  }
+ },
+ "kyungnam": {
+  "종합": {
+   "criteria": [],
+   "none": [
+    "학생부종합 ( 일반 )"
+   ],
+   "applied": [],
+   "range": null,
+   "has_any_none": true
+  }
+ }
+}

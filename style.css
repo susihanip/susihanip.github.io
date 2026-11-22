@@ -177,6 +177,63 @@ header.top{
   background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:7px 9px;cursor:pointer;
 }
 .band-filters{margin-top:10px}
+
+/* ── 수능 등급 입력 ── */
+.se-block{margin-top:12px;padding-top:11px;border-top:1px dashed var(--line)}
+.se-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.se-title{font-size:12px;font-weight:800;color:var(--text-body);letter-spacing:-.2px}
+.se-title em{font-style:normal;font-weight:700;color:var(--muted);font-size:10.5px;margin-left:3px}
+.seg-sm{padding:2px}
+.seg-sm button{font-size:11px;padding:5px 9px;border-radius:7px}
+.se-subj{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.se-subj label{display:grid;gap:3px;min-width:0}
+.se-subj label span{font-size:10.5px;font-weight:700;color:var(--dim);text-align:center;letter-spacing:-.2px}
+.se-subj input{
+  width:100%;min-width:0;text-align:center;
+  font-family:inherit;font-size:13.5px;font-weight:700;color:var(--text);
+  background:var(--surface);border:1px solid var(--line);border-radius:9px;
+  padding:8px 2px;outline:none;-moz-appearance:textfield;appearance:textfield;
+}
+.se-subj input::-webkit-outer-spin-button,.se-subj input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.se-subj input::placeholder{color:var(--dim);font-weight:500}
+.se-subj input:focus{border-color:var(--accent-line);background:var(--surface-strong)}
+.se-sum{display:flex;align-items:center;gap:7px}
+.se-sum select,.se-sum input{
+  font-family:inherit;font-size:13px;font-weight:700;color:var(--text);
+  background:var(--surface);border:1px solid var(--line);border-radius:9px;
+  padding:8px 9px;outline:none;-moz-appearance:textfield;appearance:textfield;
+}
+.se-sum select{min-width:74px;appearance:none;text-align:center;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 14px) 52%,calc(100% - 9px) 52%;background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+.se-sum input{flex:1;min-width:0;max-width:120px;text-align:center}
+.se-sum input::-webkit-outer-spin-button,.se-sum input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.se-sum input:focus,.se-sum select:focus{border-color:var(--accent-line);background-color:var(--surface-strong)}
+.se-unit2{font-size:11px;font-weight:700;color:var(--muted)}
+.se-hint{margin:8px 0 0;font-size:10.5px;line-height:1.55;color:var(--muted)}
+.se-hint b{color:var(--text-body);font-weight:700}
+
+/* ── 판정 사유 ── */
+.why{
+  margin:0 0 11px;padding:9px 11px 10px;
+  border:1px solid var(--line);border-left:3px solid var(--b-none-bd);
+  background:var(--surface-soft);border-radius:11px;
+}
+.why-good{border-left-color:var(--b-stable-bd);background:linear-gradient(90deg,var(--b-stable-bg),transparent 62%),var(--surface-soft)}
+.why-warn{border-left-color:var(--b-bold-bd);background:linear-gradient(90deg,var(--b-bold-bg),transparent 62%),var(--surface-soft)}
+.why-bad{border-left-color:var(--b-hard-bd);background:linear-gradient(90deg,var(--b-hard-bg),transparent 62%),var(--surface-soft)}
+.why-info{border-left-color:var(--line-soft)}
+.why-rows{display:grid;gap:3px}
+.why-row{display:flex;gap:8px;font-size:11.5px;line-height:1.5}
+.why-k{flex:0 0 48px;font-size:10.5px;font-weight:800;color:var(--dim);letter-spacing:-.2px;padding-top:1px}
+.why-v{color:var(--text-body);min-width:0}
+.why-verdict{margin:7px 0 0;padding-top:6px;border-top:1px dashed var(--line);font-size:12px;line-height:1.58;color:var(--text-soft)}
+.why-alt{
+  display:inline-flex;align-items:center;gap:4px;margin-top:8px;
+  font-family:inherit;font-size:11.5px;font-weight:800;color:var(--gold-ink);
+  background:var(--accent-soft);border:1px solid var(--accent-line);
+  border-radius:999px;padding:6px 11px;cursor:pointer;
+}
+html[data-theme="light"] .why-alt{color:#8a5a00}
+.why-alt:active{transform:scale(.98)}
 .score-sum{margin:9px 0 0;font-size:12px;color:var(--text-body);line-height:1.6}
 .score-sum b{color:var(--text)}
 .score-sum .pill{display:inline-block;margin:2px 4px 0 0;padding:2px 7px;border-radius:999px;font-size:11px;font-weight:800;border:1px solid var(--line)}

@@ -1079,877 +1079,877 @@
       "pdfUrl": "",
       "shortsUrl": ""
     },
-  {
-    "id": "kongju",
-    "name": "국립공주대학교",
-    "campus": "공주·천안·예산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,858명 · 2027학년도 총 3,254명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
-    "summary": "학생부교과·종합·실기 병행 | 특성화고 산림과학 1명 증원 재공고(2026.6.9) 반영",
-    "keywords": "학생부교과 학생부종합 실기 공주",
-    "noticeUrl": "https://ipsi.kongju.ac.kr/kor/56/pdfViewer/CAT006",
-    "pdfUrl": "https://ipsi.kongju.ac.kr/attach/44a038e6d069249324e35d9e6f1998b6/13055e35ba7465cb478c5b4be490c5a8",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "kunsan",
-    "name": "국립군산대학교",
-    "campus": "군산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,757명 · 2027학년도 총 1,875명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 2026.5.29 공지",
-    "keywords": "학생부교과 학생부종합 실기 군산",
-    "noticeUrl": "https://www.kunsan.ac.kr/iphak/index.kunsan?menuCd=DOM_000001212002000000",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "kumoh",
-    "name": "국립금오공과대학교",
-    "campus": "구미캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합"
-    ],
-    "quota": "수시 1,090명 · 2027학년도 총 1,368명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | AX융합학과 신설, 컴퓨터공학부 전공 분리 선발",
-    "keywords": "학생부교과 학생부종합 금오공과",
-    "noticeUrl": "https://www.kumoh.ac.kr/ipsi/sub0101.do",
-    "pdfUrl": "https://www.kumoh.ac.kr/cms/fileOpen.do?path=%2F_res%2Fipsi%2Fetc%2F2027susi_mozip.pdf",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "mokpo",
-    "name": "국립목포대학교",
-    "campus": "목포캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,429명 · 2027학년도 총 1,560명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 교과일반·지역인재(호남권) 중심, 의료인 양성 모집단위 수능최저",
-    "keywords": "학생부교과 학생부종합 실기 목포",
-    "noticeUrl": "https://www.mokpo.ac.kr/ipsi/789/subview.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "mmu",
-    "name": "국립목포해양대학교",
-    "campus": "목포캠퍼스",
-    "types": [
-      "학생부교과",
-      "실기"
-    ],
-    "quota": "수시 683명 · 2027학년도 총 782명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
-    "summary": "학생부교과·실기 병행 | 학생부성적우수자·누구나·지역인재·선원자녀, 해양스포츠 실기",
-    "keywords": "학생부교과 실기 목포해양",
-    "noticeUrl": "https://www.mmu.ac.kr/admission/contents/lastEarly",
-    "pdfUrl": "https://www.mmu.ac.kr/upload/pdf/874/30946b6a1fa54c298f8abb97615ff52a.pdf",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "sunchon",
-    "name": "국립순천대학교",
-    "campus": "순천캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,662명 · 2027학년도 총 1,718명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 학사구조 개편 반영 최종 요강(2026.5.29)",
-    "keywords": "학생부교과 학생부종합 실기 순천",
-    "noticeUrl": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?nttSn=281311425",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "gyeongguk",
-    "name": "국립경국대학교",
-    "campus": "안동캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,575명 · 2027학년도 총 1,665명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 21:00",
-    "summary": "교과 100%(교과80+출결20) | 바른인재 서류100·간호 면접, 학부 통합모집(전공선택권 100%)",
-    "keywords": "학생부교과 학생부종합 실기 경국",
-    "noticeUrl": "https://ipsi.gknu.ac.kr/admission/sub.htm?nav_code=and1536915398",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "changwon",
-    "name": "국립창원대학교",
-    "campus": "창원캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,623명 · 2027학년도 총 1,922명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강 입학 홈페이지 게시",
-    "keywords": "학생부교과 학생부종합 실기 창원",
-    "noticeUrl": "https://www.changwon.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=12008&cntntsId=4590",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "hanbat",
-    "name": "국립한밭대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,914명 · 2027학년도 총 2,105명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 정시모집 공지 2026.8.31",
-    "keywords": "학생부교과 학생부종합 실기 한밭",
-    "noticeUrl": "https://www.hanbat.ac.kr/prog/dataDetail/IPSI1/view.do?detailNo=138",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "knut",
-    "name": "국립한국교통대학교",
-    "campus": "충주·증평캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,860명 · 2027학년도 총 2,161명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 충주·증평·의왕 캠퍼스 (입학처 사이트 접속 불가 → 대입정보포털 링크)",
-    "keywords": "학생부교과 학생부종합 실기 한국교통",
-    "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000034",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "gwnu",
-    "name": "국립강릉원주대학교",
-    "campus": "강릉·원주캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,737명 · 2027학년도 총 1,829명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 요강 2026.5.29 공지",
-    "keywords": "학생부교과 학생부종합 실기 강릉원주",
-    "noticeUrl": "https://dor.gwnu.ac.kr/iphak/7603/subview.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "hknu",
-    "name": "한경국립대학교",
-    "campus": "안성캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,085명 · 2027학년도 총 1,436명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
-    "summary": "학생부교과·종합·실기 병행 | 수시 모집요강 2026.6.23 탑재",
-    "keywords": "학생부교과 학생부종합 실기 한경",
-    "noticeUrl": "https://ipsi.hknu.ac.kr/mojib/mojib.php?m_type=SUSI",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "수도권"
-  },
-  {
-    "id": "koreatech",
-    "name": "한국기술교육대학교",
-    "campus": "천안캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "논술"
-    ],
-    "quota": "수시 786명 · 2027학년도 총 936명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·논술 병행 | 수시 모집요강 2026.5.13 공지, 논술전형 운영",
-    "keywords": "학생부교과 학생부종합 논술 한국기술교육",
-    "noticeUrl": "https://www.koreatech.ac.kr/board.es?act=view&bid=0036&list_no=55805&mid=a40601000000&nPage=1",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "kentech",
-    "name": "한국에너지공과대학교",
-    "campus": "나주캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "학부 모집인원은 입학처 모집안내 참조 (2027 시행계획 미수록)",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "이공계 특수목적대학(나주) | 서류·면접 중심 선발, 2027학년도 학부 모집안내 참조",
-    "keywords": "한국에너지공과",
-    "noticeUrl": "https://admission.kentech.ac.kr/ipsi",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "tue",
-    "name": "한국공학대학교",
-    "campus": "시흥캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "논술"
-    ],
-    "quota": "수시 1,097명 · 2027학년도 총 1,680명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강(2026.9.7) 게시",
-    "keywords": "학생부교과 학생부종합 논술 한국공학",
-    "noticeUrl": "https://iphak.tukorea.ac.kr/susi/guide.htm?bbsid=guide&bltn_seq=13544&ctg_cd=susi&mode=view",
-    "pdfUrl": "https://iphak.tukorea.ac.kr/bbs/fileview.php?bbsid=guide&file_seq=2027&save_file_nm=guide_20260907185426_2035.pdf",
-    "shortsUrl": "",
-    "region": "수도권"
-  },
-  {
-    "id": "knsu",
-    "name": "한국체육대학교",
-    "campus": "서울캠퍼스",
-    "types": [
-      "실기"
-    ],
-    "quota": "모집인원은 입학처 모집요강 참조 (2027 시행계획 미수록)",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "실기·실적 중심 | 2027 수시모집요강 변경 알림(실기고사 일정) 공지",
-    "keywords": "한국체육",
-    "noticeUrl": "https://ape.knsu.ac.kr/ipsi/rolling/application.do?mode=view&articleNo=55825",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "서울"
-  },
-  {
-    "id": "karts",
-    "name": "한국예술종합학교",
-    "campus": "서울 석관동",
-    "types": [
-      "실기"
-    ],
-    "quota": "예술사과정 정원내·정원외 별도 공고 (2027 시행계획 미수록)",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "수시·정시 구분 없이 연중 전형 | 예술사과정 정원내·정원외 요강 별도 공지",
-    "keywords": "한국예술종합학교",
-    "noticeUrl": "https://karts.ac.kr/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000007&ctgryId=BBSCTG_0001020200000&noticeAt=Y&nttNo=69907",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "서울"
-  },
-  {
-    "id": "snue",
-    "name": "서울교육대학교",
-    "campus": "서울캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합"
-    ],
-    "quota": "수시 235명 · 2027학년도 총 353명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합 병행 | 수시 모집요강 입학처 게시",
-    "keywords": "학생부교과 학생부종합 서울교육",
-    "noticeUrl": "https://admission.snue.ac.kr/admission/main.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "서울"
-  },
-  {
-    "id": "ginue",
-    "name": "경인교육대학교",
-    "campus": "인천·안양캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합"
-    ],
-    "quota": "수시 402명 · 2027학년도 총 584명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 수시 모집요강 입학본부 게시",
-    "keywords": "학생부교과 학생부종합 경인교육",
-    "noticeUrl": "https://ipsi.ginue.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN019",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "수도권"
-  },
-  {
-    "id": "gjue",
-    "name": "공주교육대학교",
-    "campus": "공주캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 177명 · 2027학년도 총 341명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합 병행 | 초등교육과 단일 모집단위",
-    "keywords": "학생부종합 공주교육",
-    "noticeUrl": "https://www.gjue.ac.kr/ipsi/216/pdfViewer/CAT241",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "gjnue",
-    "name": "광주교육대학교",
-    "campus": "광주캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합"
-    ],
-    "quota": "수시 262명 · 2027학년도 총 335명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합 병행 | 초등교육과 단일 모집단위, 만학도 10명(자율화)",
-    "keywords": "학생부교과 학생부종합 광주교육",
-    "noticeUrl": "https://www.gnue.ac.kr/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "dnue",
-    "name": "대구교육대학교",
-    "campus": "대구캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 310명 · 2027학년도 총 402명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 수시 모집요강 입학안내 게시",
-    "keywords": "학생부종합 대구교육",
-    "noticeUrl": "http://admission.dnue.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN019",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "bnue",
-    "name": "부산교육대학교",
-    "campus": "부산캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 222명 · 2027학년도 총 344명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 수시 모집요강 입학 홈페이지 게시",
-    "keywords": "학생부종합 부산교육",
-    "noticeUrl": "https://enter.bnue.ac.kr/content/susi01",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "jnue",
-    "name": "전주교육대학교",
-    "campus": "전주캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 195명 · 2027학년도 총 274명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 초등교육과 단일 모집단위",
-    "keywords": "학생부종합 전주교육",
-    "noticeUrl": "https://www.jnue.ac.kr/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "cue",
-    "name": "진주교육대학교",
-    "campus": "진주캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 208명 · 2027학년도 총 330명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 2027학년도 진주교대 수시모집 요강 PDF 게시",
-    "keywords": "학생부종합 진주교육",
-    "noticeUrl": "https://www.cue.ac.kr/enter/CMS/Contents/Contents.do?mCode=MN017",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "cjue",
-    "name": "청주교육대학교",
-    "campus": "청주캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 209명 · 2027학년도 총 277명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 수시 모집요강 입학 홈페이지 게시",
-    "keywords": "학생부종합 청주교육",
-    "noticeUrl": "https://www.cje.ac.kr/ipsi/web/board/brdList.do?menu_cd=000048",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "cnue",
-    "name": "춘천교육대학교",
-    "campus": "춘천캠퍼스",
-    "types": [
-      "학생부종합"
-    ],
-    "quota": "수시 184명 · 2027학년도 총 304명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 2027 수시모집 경쟁률 2026.9.11 공지",
-    "keywords": "학생부종합 춘천교육",
-    "noticeUrl": "https://enter.cnue.ac.kr/enter/susi/guide.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "hallym",
-    "name": "한림대학교",
-    "campus": "춘천캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,602명 · 2027학년도 총 1,953명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 게시",
-    "keywords": "학생부교과 학생부종합 실기 한림",
-    "noticeUrl": "https://www.hallym.ac.kr/admission/6070/subview.do",
-    "pdfUrl": "https://www.hallym.ac.kr/pdfView/admission/16/141/fileDownload.do",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "sch",
-    "name": "순천향대학교",
-    "campus": "아산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,201명 · 2027학년도 총 2,794명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "수시 2,201명 규모 · 교과 1,174 · 종합 835 · 실기 177 · 기타 15 선발",
-    "keywords": "학생부교과 학생부종합 실기 순천향",
-    "noticeUrl": "https://www.sch.ac.kr/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "hoseo",
-    "name": "호서대학교",
-    "campus": "아산·천안캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,755명 · 2027학년도 총 3,136명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 최종본 게시",
-    "keywords": "학생부교과 학생부종합 실기 호서",
-    "noticeUrl": "https://ipsi.hoseo.ac.kr/submenu.do?menuurl=7dcKmGI5ZvQB9F1mAEBAGg%3D%3D",
-    "pdfUrl": "https://ipsi.hoseo.ac.kr/file/download.do?sfn=20260904111225722_2027+%ed%98%b8%ec%84%9c%eb%8c%80_%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95_%ec%b5%9c%ec%a2%85_%eb%8b%a8%eb%a9%b4.pdf&ofn=2027+%ed%98%b8%ec%84%9c%eb%8c%80_%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95_%ec%b5%9c%ec%a2%85_%eb%8b%a8%eb%a9%b4.pdf",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "baekseok",
-    "name": "백석대학교",
-    "campus": "천안캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,860명 · 2027학년도 총 3,096명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 게시",
-    "keywords": "학생부교과 학생부종합 실기 백석",
-    "noticeUrl": "https://ipsi.bu.ac.kr/10000015",
-    "pdfUrl": "https://ipsi.bu.ac.kr/files/ipsi/content/202606/43de97b68b19e771a457ac79b17242ae.pdf",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "sunmoon",
-    "name": "선문대학교",
-    "campus": "아산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,211명 · 2027학년도 총 2,299명 중",
-    "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 19:00",
-    "summary": "교과 100%(면접형 교과60+면접40) | 정원내·정원외 및 지역학생전형 운영",
-    "keywords": "학생부교과 학생부종합 실기 선문",
-    "noticeUrl": "https://ilove.sunmoon.ac.kr/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "nsu",
-    "name": "남서울대학교",
-    "campus": "천안캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,177명 · 2027학년도 총 2,338명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 정시·수시 모집요강 바로가기 제공",
-    "keywords": "학생부교과 학생부종합 실기 남서울",
-    "noticeUrl": "https://www.namseoul.net/submenu.do?menuurl=%2bwb2%2f2YpjUGJjmg2NfyS6Q%3d%3d&",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "cju",
-    "name": "청주대학교",
-    "campus": "청주캠퍼스",
-    "types": [
-      "학생부교과",
-      "실기"
-    ],
-    "quota": "수시 2,558명 · 2027학년도 총 2,818명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강 게시",
-    "keywords": "학생부교과 실기 청주",
-    "noticeUrl": "https://www.cju.ac.kr/ipsi/contents.do?key=793",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "hannam",
-    "name": "한남대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,776명 · 2027학년도 총 2,931명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 전용 페이지 운영",
-    "keywords": "학생부교과 학생부종합 실기 한남",
-    "noticeUrl": "https://www.hannam.ac.kr/2609-susi/",
-    "pdfUrl": "https://ibsi.hannam.ac.kr/upload/BBS0020/20260708094851001.pdf",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "pcu",
-    "name": "배재대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,848명 · 2027학년도 총 1,957명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 PDF 뷰어",
-    "keywords": "학생부교과 학생부종합 실기 배재",
-    "noticeUrl": "https://www.pcu.ac.kr/enter/19/pdfViewer/CAT079",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "mokwon",
-    "name": "목원대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,980명 · 2027학년도 총 1,993명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강(2026.5.26)",
-    "keywords": "학생부교과 학생부종합 실기 목원",
-    "noticeUrl": "https://enter.mokwon.ac.kr/enter/html/sub01/0103.html?GotoPage=1&mode=V&no=230f6f37357adaa242d4a9914e3a25d0",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "dju",
-    "name": "대전대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,870명 · 2027학년도 총 1,916명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 대전캠퍼스",
-    "keywords": "학생부교과 학생부종합 실기 대전",
-    "noticeUrl": "https://ipsi.dju.ac.kr/enter/html/main/intro.asp",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "wsu",
-    "name": "우송대학교",
-    "campus": "대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,107명 · 2027학년도 총 2,148명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강 v2(2026.9.3)",
-    "keywords": "학생부교과 학생부종합 실기 우송",
-    "noticeUrl": "https://ent.wsu.ac.kr/board/read.jsp?id=267261&code=einfo0601",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "konyang",
-    "name": "건양대학교",
-    "campus": "논산·대전캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,655명 · 2027학년도 총 1,776명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 수시전형 모집요강 탑재 (입학처 사이트 접속 불가 → 대입정보포털 링크)",
-    "keywords": "학생부교과 학생부종합 실기 건양",
-    "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000054",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "daegu",
-    "name": "대구대학교",
-    "campus": "경산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 4,165명 · 2027학년도 총 4,355명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 PDF 뷰어",
-    "keywords": "학생부교과 학생부종합 실기 대구",
-    "noticeUrl": "https://ipsi.daegu.ac.kr/kor/25/pdfViewer/CAT073",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "dcatholic",
-    "name": "대구가톨릭대학교",
-    "campus": "경산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,531명 · 2027학년도 총 2,923명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 수시 전형안내 페이지",
-    "keywords": "학생부교과 학생부종합 실기 대구가톨릭",
-    "noticeUrl": "https://ibsi.cu.ac.kr/kor/susi/doctrine/view.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "handong",
-    "name": "한동대학교",
-    "campus": "포항캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합"
-    ],
-    "quota": "수시 730명 · 2027학년도 총 760명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합 병행 | 수시 공지 게시",
-    "keywords": "학생부교과 학생부종합 한동",
-    "noticeUrl": "https://admissions.handong.edu/early/notice/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "deu",
-    "name": "동의대학교",
-    "campus": "부산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 3,820명 · 2027학년도 총 4,038명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 모집요강 입학처 게시",
-    "keywords": "학생부교과 학생부종합 실기 동의",
-    "noticeUrl": "https://ipsi.deu.ac.kr/ipsi/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "ks",
-    "name": "경성대학교",
-    "campus": "부산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,730명 · 2027학년도 총 2,923명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 PDF 게시",
-    "keywords": "학생부교과 학생부종합 실기 경성",
-    "noticeUrl": "https://www.ks.ac.kr/ipsi/CMS/Contents/Contents.do?mCode=MN025",
-    "pdfUrl": "https://www.ks.ac.kr/ipsi/ajx_json/UploadMgr/downloadRun.do?qcode=Q29udGVudE1nciwyMDkxMDEsWQ==",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "bufs",
-    "name": "부산외국어대학교",
-    "campus": "부산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,474명 · 2027학년도 총 1,589명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 모집요강 입학안내 게시",
-    "keywords": "학생부교과 학생부종합 실기 부산외국어",
-    "noticeUrl": "https://enter.bufs.ac.kr/",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "silla",
-    "name": "신라대학교",
-    "campus": "부산캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 1,689명 · 2027학년도 총 1,872명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 요강 페이지",
-    "keywords": "학생부교과 학생부종합 실기 신라",
-    "noticeUrl": "https://ipsi.silla.ac.kr/ipsi/index.php?pCode=1779878804",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "inje",
-    "name": "인제대학교",
-    "campus": "김해캠퍼스",
-    "types": [
-      "학생부교과",
-      "실기"
-    ],
-    "quota": "수시 1,663명 · 2027학년도 총 1,806명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 2027 수시 모집요강 뷰어",
-    "keywords": "학생부교과 실기 인제",
-    "noticeUrl": "https://magazine.inje.ac.kr/inje_susi/1",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "kyungnam",
-    "name": "경남대학교",
-    "campus": "창원캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,033명 · 2027학년도 총 2,167명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 PDF 게시",
-    "keywords": "학생부교과 학생부종합 실기 경남",
-    "noticeUrl": "https://ipsi.kyungnam.ac.kr/ipsi/6809/subview.do",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  },
-  {
-    "id": "jeonju",
-    "name": "전주대학교",
-    "campus": "전주캠퍼스",
-    "types": [
-      "학생부교과",
-      "학생부종합",
-      "실기"
-    ],
-    "quota": "수시 2,585명 · 2027학년도 총 2,722명 중",
-    "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
-    "summary": "학생부교과 중심 | 2027 수시 모집요강 게시판",
-    "keywords": "학생부교과 학생부종합 실기 전주",
-    "noticeUrl": "https://iphak.jj.ac.kr/iphak/early/guidelines.do?mode=list&article.offset=0",
-    "pdfUrl": "",
-    "shortsUrl": "",
-    "region": "지방"
-  }
+    {
+      "id": "kongju",
+      "name": "국립공주대학교",
+      "campus": "공주·천안·예산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,858명 · 2027학년도 총 3,254명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
+      "summary": "학생부교과·종합·실기 병행 | 특성화고 산림과학 1명 증원 재공고(2026.6.9) 반영",
+      "keywords": "학생부교과 학생부종합 실기 공주",
+      "noticeUrl": "https://ipsi.kongju.ac.kr/kor/56/pdfViewer/CAT006",
+      "pdfUrl": "https://ipsi.kongju.ac.kr/attach/44a038e6d069249324e35d9e6f1998b6/13055e35ba7465cb478c5b4be490c5a8",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "kunsan",
+      "name": "국립군산대학교",
+      "campus": "군산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,757명 · 2027학년도 총 1,875명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 2026.5.29 공지",
+      "keywords": "학생부교과 학생부종합 실기 군산",
+      "noticeUrl": "https://www.kunsan.ac.kr/iphak/index.kunsan?menuCd=DOM_000001212002000000",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "kumoh",
+      "name": "국립금오공과대학교",
+      "campus": "구미캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합"
+      ],
+      "quota": "수시 1,090명 · 2027학년도 총 1,368명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·학생부종합 병행 | AX융합학과 신설, 컴퓨터공학부 전공 분리 선발",
+      "keywords": "학생부교과 학생부종합 금오공과",
+      "noticeUrl": "https://www.kumoh.ac.kr/ipsi/sub0101.do",
+      "pdfUrl": "https://www.kumoh.ac.kr/cms/fileOpen.do?path=%2F_res%2Fipsi%2Fetc%2F2027susi_mozip.pdf",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "mokpo",
+      "name": "국립목포대학교",
+      "campus": "목포캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,429명 · 2027학년도 총 1,560명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 교과일반·지역인재(호남권) 중심, 의료인 양성 모집단위 수능최저",
+      "keywords": "학생부교과 학생부종합 실기 목포",
+      "noticeUrl": "https://www.mokpo.ac.kr/ipsi/789/subview.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "mmu",
+      "name": "국립목포해양대학교",
+      "campus": "목포캠퍼스",
+      "types": [
+        "학생부교과",
+        "실기"
+      ],
+      "quota": "수시 683명 · 2027학년도 총 782명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
+      "summary": "학생부교과·실기 병행 | 학생부성적우수자·누구나·지역인재·선원자녀, 해양스포츠 실기",
+      "keywords": "학생부교과 실기 목포해양",
+      "noticeUrl": "https://www.mmu.ac.kr/admission/contents/lastEarly",
+      "pdfUrl": "https://www.mmu.ac.kr/upload/pdf/874/30946b6a1fa54c298f8abb97615ff52a.pdf",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "sunchon",
+      "name": "국립순천대학교",
+      "campus": "순천캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,662명 · 2027학년도 총 1,718명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 학사구조 개편 반영 최종 요강(2026.5.29)",
+      "keywords": "학생부교과 학생부종합 실기 순천",
+      "noticeUrl": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?nttSn=281311425",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "gyeongguk",
+      "name": "국립경국대학교",
+      "campus": "안동캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,575명 · 2027학년도 총 1,665명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 21:00",
+      "summary": "교과 100%(교과80+출결20) | 바른인재 서류100·간호 면접, 학부 통합모집(전공선택권 100%)",
+      "keywords": "학생부교과 학생부종합 실기 경국",
+      "noticeUrl": "https://ipsi.gknu.ac.kr/admission/sub.htm?nav_code=and1536915398",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "changwon",
+      "name": "국립창원대학교",
+      "campus": "창원캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,623명 · 2027학년도 총 1,922명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강 입학 홈페이지 게시",
+      "keywords": "학생부교과 학생부종합 실기 창원",
+      "noticeUrl": "https://www.changwon.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=12008&cntntsId=4590",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "hanbat",
+      "name": "국립한밭대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,914명 · 2027학년도 총 2,105명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 정시모집 공지 2026.8.31",
+      "keywords": "학생부교과 학생부종합 실기 한밭",
+      "noticeUrl": "https://www.hanbat.ac.kr/prog/dataDetail/IPSI1/view.do?detailNo=138",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "knut",
+      "name": "국립한국교통대학교",
+      "campus": "충주·증평캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,860명 · 2027학년도 총 2,161명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 충주·증평·의왕 캠퍼스 (입학처 사이트 접속 불가 → 대입정보포털 링크)",
+      "keywords": "학생부교과 학생부종합 실기 한국교통",
+      "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000034",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "gwnu",
+      "name": "국립강릉원주대학교",
+      "campus": "강릉·원주캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,737명 · 2027학년도 총 1,829명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 요강 2026.5.29 공지",
+      "keywords": "학생부교과 학생부종합 실기 강릉원주",
+      "noticeUrl": "https://dor.gwnu.ac.kr/iphak/7603/subview.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "hknu",
+      "name": "한경국립대학교",
+      "campus": "안성캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,085명 · 2027학년도 총 1,436명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
+      "summary": "학생부교과·종합·실기 병행 | 수시 모집요강 2026.6.23 탑재",
+      "keywords": "학생부교과 학생부종합 실기 한경",
+      "noticeUrl": "https://ipsi.hknu.ac.kr/mojib/mojib.php?m_type=SUSI",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "수도권"
+    },
+    {
+      "id": "koreatech",
+      "name": "한국기술교육대학교",
+      "campus": "천안캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "논술"
+      ],
+      "quota": "수시 786명 · 2027학년도 총 936명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·논술 병행 | 수시 모집요강 2026.5.13 공지, 논술전형 운영",
+      "keywords": "학생부교과 학생부종합 논술 한국기술교육",
+      "noticeUrl": "https://www.koreatech.ac.kr/board.es?act=view&bid=0036&list_no=55805&mid=a40601000000&nPage=1",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "kentech",
+      "name": "한국에너지공과대학교",
+      "campus": "나주캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "학부 모집인원은 입학처 모집안내 참조 (2027 시행계획 미수록)",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "이공계 특수목적대학(나주) | 서류·면접 중심 선발, 2027학년도 학부 모집안내 참조",
+      "keywords": "한국에너지공과",
+      "noticeUrl": "https://admission.kentech.ac.kr/ipsi",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "tue",
+      "name": "한국공학대학교",
+      "campus": "시흥캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "논술"
+      ],
+      "quota": "수시 1,097명 · 2027학년도 총 1,680명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
+      "summary": "학생부교과·학생부종합·논술 병행 | 2027 수시 모집요강(2026.9.7) 게시",
+      "keywords": "학생부교과 학생부종합 논술 한국공학",
+      "noticeUrl": "https://iphak.tukorea.ac.kr/susi/guide.htm?bbsid=guide&bltn_seq=13544&ctg_cd=susi&mode=view",
+      "pdfUrl": "https://iphak.tukorea.ac.kr/bbs/fileview.php?bbsid=guide&file_seq=2027&save_file_nm=guide_20260907185426_2035.pdf",
+      "shortsUrl": "",
+      "region": "수도권"
+    },
+    {
+      "id": "knsu",
+      "name": "한국체육대학교",
+      "campus": "서울캠퍼스",
+      "types": [
+        "실기"
+      ],
+      "quota": "모집인원은 입학처 모집요강 참조 (2027 시행계획 미수록)",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "실기·실적 중심 | 2027 수시모집요강 변경 알림(실기고사 일정) 공지",
+      "keywords": "한국체육",
+      "noticeUrl": "https://ape.knsu.ac.kr/ipsi/rolling/application.do?mode=view&articleNo=55825",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "서울"
+    },
+    {
+      "id": "karts",
+      "name": "한국예술종합학교",
+      "campus": "서울 석관동",
+      "types": [
+        "실기"
+      ],
+      "quota": "예술사과정 정원내·정원외 별도 공고 (2027 시행계획 미수록)",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "수시·정시 구분 없이 연중 전형 | 예술사과정 정원내·정원외 요강 별도 공지",
+      "keywords": "한국예술종합학교",
+      "noticeUrl": "https://karts.ac.kr/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_000000000007&ctgryId=BBSCTG_0001020200000&noticeAt=Y&nttNo=69907",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "서울"
+    },
+    {
+      "id": "snue",
+      "name": "서울교육대학교",
+      "campus": "서울캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합"
+      ],
+      "quota": "수시 235명 · 2027학년도 총 353명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합 병행 | 수시 모집요강 입학처 게시",
+      "keywords": "학생부교과 학생부종합 서울교육",
+      "noticeUrl": "https://admission.snue.ac.kr/admission/main.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "서울"
+    },
+    {
+      "id": "ginue",
+      "name": "경인교육대학교",
+      "campus": "인천·안양캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합"
+      ],
+      "quota": "수시 402명 · 2027학년도 총 584명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과 중심 | 수시 모집요강 입학본부 게시",
+      "keywords": "학생부교과 학생부종합 경인교육",
+      "noticeUrl": "https://ipsi.ginue.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN019",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "수도권"
+    },
+    {
+      "id": "gjue",
+      "name": "공주교육대학교",
+      "campus": "공주캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 177명 · 2027학년도 총 341명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 단일 모집단위 | 2027 모집요강 PDF 뷰어",
+      "keywords": "학생부종합 공주교육",
+      "noticeUrl": "https://www.gjue.ac.kr/ipsi/216/pdfViewer/CAT241",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "gjnue",
+      "name": "광주교육대학교",
+      "campus": "광주캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합"
+      ],
+      "quota": "수시 262명 · 2027학년도 총 335명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합 병행 | 초등교육과 단일 모집단위, 만학도 10명(자율화)",
+      "keywords": "학생부교과 학생부종합 광주교육",
+      "noticeUrl": "https://www.gnue.ac.kr/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "dnue",
+      "name": "대구교육대학교",
+      "campus": "대구캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 310명 · 2027학년도 총 402명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 중심 모집 | 2027 수시 모집요강 입학안내 게시",
+      "keywords": "학생부종합 대구교육",
+      "noticeUrl": "http://admission.dnue.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN019",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "bnue",
+      "name": "부산교육대학교",
+      "campus": "부산캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 222명 · 2027학년도 총 344명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 중심 모집 | 2027 수시 모집요강 입학 홈페이지 게시",
+      "keywords": "학생부종합 부산교육",
+      "noticeUrl": "https://enter.bnue.ac.kr/content/susi01",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "jnue",
+      "name": "전주교육대학교",
+      "campus": "전주캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 195명 · 2027학년도 총 274명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 단일 모집단위 | 2027 수시 모집요강 게시",
+      "keywords": "학생부종합 전주교육",
+      "noticeUrl": "https://www.jnue.ac.kr/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "cue",
+      "name": "진주교육대학교",
+      "campus": "진주캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 208명 · 2027학년도 총 330명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 중심 모집 | 2027 진주교대 수시모집 요강 PDF 게시",
+      "keywords": "학생부종합 진주교육",
+      "noticeUrl": "https://www.cue.ac.kr/enter/CMS/Contents/Contents.do?mCode=MN017",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "cjue",
+      "name": "청주교육대학교",
+      "campus": "청주캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 209명 · 2027학년도 총 277명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 중심 모집 | 2027 수시 모집요강 입학 홈페이지 게시",
+      "keywords": "학생부종합 청주교육",
+      "noticeUrl": "https://www.cje.ac.kr/ipsi/web/board/brdList.do?menu_cd=000048",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "cnue",
+      "name": "춘천교육대학교",
+      "campus": "춘천캠퍼스",
+      "types": [
+        "학생부종합"
+      ],
+      "quota": "수시 184명 · 2027학년도 총 304명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "초등교육과 중심 모집 | 2027 수시모집 경쟁률 2026.9.11 공지",
+      "keywords": "학생부종합 춘천교육",
+      "noticeUrl": "https://enter.cnue.ac.kr/enter/susi/guide.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "hallym",
+      "name": "한림대학교",
+      "campus": "춘천캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,602명 · 2027학년도 총 1,953명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 게시",
+      "keywords": "학생부교과 학생부종합 실기 한림",
+      "noticeUrl": "https://www.hallym.ac.kr/admission/6070/subview.do",
+      "pdfUrl": "https://www.hallym.ac.kr/pdfView/admission/16/141/fileDownload.do",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "sch",
+      "name": "순천향대학교",
+      "campus": "아산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,201명 · 2027학년도 총 2,794명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "수시 2,201명 규모 · 교과 1,174 · 종합 835 · 실기 177 · 기타 15 선발",
+      "keywords": "학생부교과 학생부종합 실기 순천향",
+      "noticeUrl": "https://www.sch.ac.kr/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "hoseo",
+      "name": "호서대학교",
+      "campus": "아산·천안캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,755명 · 2027학년도 총 3,136명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 18:00",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 최종본 게시",
+      "keywords": "학생부교과 학생부종합 실기 호서",
+      "noticeUrl": "https://ipsi.hoseo.ac.kr/submenu.do?menuurl=7dcKmGI5ZvQB9F1mAEBAGg%3D%3D",
+      "pdfUrl": "https://ipsi.hoseo.ac.kr/file/download.do?sfn=20260904111225722_2027+%ed%98%b8%ec%84%9c%eb%8c%80_%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95_%ec%b5%9c%ec%a2%85_%eb%8b%a8%eb%a9%b4.pdf&ofn=2027+%ed%98%b8%ec%84%9c%eb%8c%80_%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95_%ec%b5%9c%ec%a2%85_%eb%8b%a8%eb%a9%b4.pdf",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "baekseok",
+      "name": "백석대학교",
+      "campus": "천안캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,860명 · 2027학년도 총 3,096명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 게시",
+      "keywords": "학생부교과 학생부종합 실기 백석",
+      "noticeUrl": "https://ipsi.bu.ac.kr/10000015",
+      "pdfUrl": "https://ipsi.bu.ac.kr/files/ipsi/content/202606/43de97b68b19e771a457ac79b17242ae.pdf",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "sunmoon",
+      "name": "선문대학교",
+      "campus": "아산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,211명 · 2027학년도 총 2,299명 중",
+      "schedule": "2026. 9. 7.(월) 09:00 ~ 9. 11.(금) 19:00",
+      "summary": "교과 100%(면접형 교과60+면접40) | 정원내·정원외 및 지역학생전형 운영",
+      "keywords": "학생부교과 학생부종합 실기 선문",
+      "noticeUrl": "https://ilove.sunmoon.ac.kr/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "nsu",
+      "name": "남서울대학교",
+      "campus": "천안캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,177명 · 2027학년도 총 2,338명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 정시·수시 모집요강 바로가기 제공",
+      "keywords": "학생부교과 학생부종합 실기 남서울",
+      "noticeUrl": "https://www.namseoul.net/submenu.do?menuurl=%2bwb2%2f2YpjUGJjmg2NfyS6Q%3d%3d&",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "cju",
+      "name": "청주대학교",
+      "campus": "청주캠퍼스",
+      "types": [
+        "학생부교과",
+        "실기"
+      ],
+      "quota": "수시 2,558명 · 2027학년도 총 2,818명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·실기 병행 | 2027 수시 모집요강 게시",
+      "keywords": "학생부교과 실기 청주",
+      "noticeUrl": "https://www.cju.ac.kr/ipsi/contents.do?key=793",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "hannam",
+      "name": "한남대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,776명 · 2027학년도 총 2,931명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 전용 페이지 운영",
+      "keywords": "학생부교과 학생부종합 실기 한남",
+      "noticeUrl": "https://www.hannam.ac.kr/2609-susi/",
+      "pdfUrl": "https://ibsi.hannam.ac.kr/upload/BBS0020/20260708094851001.pdf",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "pcu",
+      "name": "배재대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,848명 · 2027학년도 총 1,957명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 PDF 뷰어",
+      "keywords": "학생부교과 학생부종합 실기 배재",
+      "noticeUrl": "https://www.pcu.ac.kr/enter/19/pdfViewer/CAT079",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "mokwon",
+      "name": "목원대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,980명 · 2027학년도 총 1,993명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강(2026.5.26)",
+      "keywords": "학생부교과 학생부종합 실기 목원",
+      "noticeUrl": "https://enter.mokwon.ac.kr/enter/html/sub01/0103.html?GotoPage=1&mode=V&no=230f6f37357adaa242d4a9914e3a25d0",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "dju",
+      "name": "대전대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,870명 · 2027학년도 총 1,916명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 대전캠퍼스",
+      "keywords": "학생부교과 학생부종합 실기 대전",
+      "noticeUrl": "https://ipsi.dju.ac.kr/enter/html/main/intro.asp",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "wsu",
+      "name": "우송대학교",
+      "campus": "대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,107명 · 2027학년도 총 2,148명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 모집요강 v2(2026.9.3)",
+      "keywords": "학생부교과 학생부종합 실기 우송",
+      "noticeUrl": "https://ent.wsu.ac.kr/board/read.jsp?id=267261&code=einfo0601",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "konyang",
+      "name": "건양대학교",
+      "campus": "논산·대전캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,655명 · 2027학년도 총 1,776명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 수시전형 모집요강 탑재 (입학처 사이트 접속 불가 → 대입정보포털 링크)",
+      "keywords": "학생부교과 학생부종합 실기 건양",
+      "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000054",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "daegu",
+      "name": "대구대학교",
+      "campus": "경산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 4,165명 · 2027학년도 총 4,355명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시 요강 PDF 뷰어",
+      "keywords": "학생부교과 학생부종합 실기 대구",
+      "noticeUrl": "https://ipsi.daegu.ac.kr/kor/25/pdfViewer/CAT073",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "dcatholic",
+      "name": "대구가톨릭대학교",
+      "campus": "경산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,531명 · 2027학년도 총 2,923명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 수시 전형안내 페이지",
+      "keywords": "학생부교과 학생부종합 실기 대구가톨릭",
+      "noticeUrl": "https://ibsi.cu.ac.kr/kor/susi/doctrine/view.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "handong",
+      "name": "한동대학교",
+      "campus": "포항캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합"
+      ],
+      "quota": "수시 730명 · 2027학년도 총 760명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합 병행 | 수시 공지 게시",
+      "keywords": "학생부교과 학생부종합 한동",
+      "noticeUrl": "https://admissions.handong.edu/early/notice/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "deu",
+      "name": "동의대학교",
+      "campus": "부산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 3,820명 · 2027학년도 총 4,038명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 모집요강 입학처 게시",
+      "keywords": "학생부교과 학생부종합 실기 동의",
+      "noticeUrl": "https://ipsi.deu.ac.kr/ipsi/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "ks",
+      "name": "경성대학교",
+      "campus": "부산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,730명 · 2027학년도 총 2,923명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 PDF 게시",
+      "keywords": "학생부교과 학생부종합 실기 경성",
+      "noticeUrl": "https://www.ks.ac.kr/ipsi/CMS/Contents/Contents.do?mCode=MN025",
+      "pdfUrl": "https://www.ks.ac.kr/ipsi/ajx_json/UploadMgr/downloadRun.do?qcode=Q29udGVudE1nciwyMDkxMDEsWQ==",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "bufs",
+      "name": "부산외국어대학교",
+      "campus": "부산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,474명 · 2027학년도 총 1,589명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 모집요강 입학안내 게시",
+      "keywords": "학생부교과 학생부종합 실기 부산외국어",
+      "noticeUrl": "https://enter.bufs.ac.kr/",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "silla",
+      "name": "신라대학교",
+      "campus": "부산캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 1,689명 · 2027학년도 총 1,872명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집 요강 페이지",
+      "keywords": "학생부교과 학생부종합 실기 신라",
+      "noticeUrl": "https://ipsi.silla.ac.kr/ipsi/index.php?pCode=1779878804",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "inje",
+      "name": "인제대학교",
+      "campus": "김해캠퍼스",
+      "types": [
+        "학생부교과",
+        "실기"
+      ],
+      "quota": "수시 1,663명 · 2027학년도 총 1,806명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과 중심 | 2027 수시 모집요강 뷰어",
+      "keywords": "학생부교과 실기 인제",
+      "noticeUrl": "https://magazine.inje.ac.kr/inje_susi/1",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "kyungnam",
+      "name": "경남대학교",
+      "campus": "창원캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,033명 · 2027학년도 총 2,167명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과·종합·실기 병행 | 2027 수시모집요강 PDF 게시",
+      "keywords": "학생부교과 학생부종합 실기 경남",
+      "noticeUrl": "https://ipsi.kyungnam.ac.kr/ipsi/6809/subview.do",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    },
+    {
+      "id": "jeonju",
+      "name": "전주대학교",
+      "campus": "전주캠퍼스",
+      "types": [
+        "학생부교과",
+        "학생부종합",
+        "실기"
+      ],
+      "quota": "수시 2,585명 · 2027학년도 총 2,722명 중",
+      "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+      "summary": "학생부교과 중심 | 2027 수시 모집요강 게시판",
+      "keywords": "학생부교과 학생부종합 실기 전주",
+      "noticeUrl": "https://iphak.jj.ac.kr/iphak/early/guidelines.do?mode=list&article.offset=0",
+      "pdfUrl": "",
+      "shortsUrl": "",
+      "region": "지방"
+    }
   ]
 }

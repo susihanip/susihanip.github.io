@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="dark">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>2027 수시모집요강 모음 | 수시한입</title>
-<meta name="description" content="2027학년도 대학별 수시모집요강을 한 곳에서 — 전형(교과·종합·논술)·모집인원·수능 최저·원서접수 일정과 입학처 공지, 요강 PDF, 1분 요약 쇼츠 링크를 모았습니다. (수시한입)" />
-<meta name="theme-color" content="#0D1B2A" />
+<meta name="description" content="2027학년도 대학별 수시모집요강을 한 곳에서 — 전형(교과·종합·논술)·모집인원·수능 최저·원서접수 일정과 입학처 공지, 요강 PDF, 1분 요약 쇼츠 링크를 모았습니다. 내 내신 등급으로 지원 가능 대학을 참고용으로 추려보세요. (수시한입)" />
+<meta name="theme-color" content="#09090b" id="meta-theme" />
 <meta property="og:title" content="2027 수시모집요강 모음 | 수시한입" />
 <meta property="og:description" content="대학별 2027 수시모집요강 · 전형 · 모집인원 · 수능 최저 · 원서접수 일정 · 입학처 공지 · PDF · 1분 요약 쇼츠" />
 <meta property="og:type" content="website" />
@@ -35,8 +35,19 @@
         <span>대학별 2027 수시모집요강</span>
       </span>
     </a>
-    <a class="ch-link" href="https://www.youtube.com/@susihanip" target="_blank" rel="noopener">유튜브 채널
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+    <div class="theme-switch" role="group" aria-label="화면 테마 선택">
+      <button type="button" data-theme-set="light" aria-pressed="false" title="화이트 모드">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/></svg>
+        <span>라이트</span>
+      </button>
+      <button type="button" data-theme-set="dark" aria-pressed="true" title="다크 모드">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20.5 14.6A8.5 8.5 0 1 1 9.4 3.5a6.9 6.9 0 0 0 11.1 11.1Z"/></svg>
+        <span>다크</span>
+      </button>
+    </div>
+    <a class="ch-link" href="https://www.youtube.com/@susihanip" target="_blank" rel="noopener" aria-label="수시한입 유튜브 채널">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.1 5 12 5 12 5s-6.1 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.9 2 12 2 12s0 3.1.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.9 19 12 19 12 19s6.1 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8C22 15.1 22 12 22 12s0-3.1-.4-4.8ZM10 15.2V8.8L15.5 12 10 15.2Z"/></svg>
+      <span>유튜브</span>
     </a>
   </div>
 </header>
@@ -51,10 +62,37 @@
   </div>
 </div>
 
+<section class="wrap score-card" aria-labelledby="score-title">
+  <div class="score-head">
+    <h2 id="score-title">내 내신 등급으로 대학 추리기</h2>
+    <span class="score-tag">2026학년도 70% 컷</span>
+  </div>
+  <div class="score-row">
+    <div class="seg" role="group" aria-label="비교할 전형 선택">
+      <button type="button" data-track="gyogwa" aria-pressed="true">학생부교과</button>
+      <button type="button" data-track="jonghap" aria-pressed="false">학생부종합</button>
+    </div>
+    <div class="score-input">
+      <input id="score" type="number" inputmode="decimal" min="1" max="9" step="0.01" placeholder="예: 2.5" aria-label="내 내신 등급 입력" />
+      <span class="score-unit" id="score-unit">등급</span>
+    </div>
+    <button type="button" class="score-clear" id="score-clear" hidden>초기화</button>
+  </div>
+  <div class="filters band-filters" id="band-filters" role="group" aria-label="지원 가능성 필터" hidden>
+    <button class="chip" type="button" data-band="전체" aria-pressed="true">전체</button>
+    <button class="chip" type="button" data-band="안정" aria-pressed="false">안정</button>
+    <button class="chip" type="button" data-band="적정" aria-pressed="false">적정</button>
+    <button class="chip" type="button" data-band="소신" aria-pressed="false">소신</button>
+    <button class="chip" type="button" data-band="어려움" aria-pressed="false">어려움</button>
+  </div>
+  <p class="score-sum" id="score-sum" hidden></p>
+  <p class="score-note">전년도 입결(대교협 ‘어디가’·대학 공개 70% 컷) 기준 <b>참고용 필터</b>입니다. 학과·반영비율·변환표준점수·수능최저에 따라 달라지므로, 정확한 지원 가능 여부는 반드시 각 대학 입학처 및 대입정보포털(어디가)에서 확인하세요.</p>
+</section>
+
 <div class="wrap controls">
   <div class="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="대학명 또는 키워드 검색 (예: 서울대, 논술, 수능최저)" aria-label="대학명 또는 키워드 검색" />
+    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="대학명·키워드 검색 (예: 서울대, 논술)" aria-label="대학명 또는 키워드 검색" />
     <button class="clear" id="clear" type="button" aria-label="검색어 지우기">✕</button>
   </div>
   <div class="filters" role="group" aria-label="전형 필터">
@@ -73,6 +111,7 @@
 </div>
 
 <main class="wrap">
+  <p class="result-note" id="result-note">전년도 입결(대교협 ‘어디가’·대학 공개 70% 컷) 기준 참고용이며, 학과·반영비율·변환표준점수·수능최저에 따라 달라집니다. 정확한 지원 가능 여부는 각 대학 입학처 및 대입정보포털(어디가)에서 확인하세요.</p>
   <div class="count-row">
     <div class="count" id="count" hidden></div>
     <div class="sort" role="group" aria-label="정렬">
@@ -80,6 +119,7 @@
       <button class="chip" type="button" data-sort="가나다순" aria-pressed="false">가나다순</button>
     </div>
   </div>
+  <p class="legend" id="legend" hidden><b>안정</b> = 대학 상위 20% 모집단위 컷보다 좋음 · <b>적정</b> = 중위 컷 수준 · <b>소신</b> = 대학 최고 컷(가장 높은 등급) 이내 · <b>어려움</b> = 그보다 낮음 (등급은 낮을수록 좋음)</p>
   <div id="list">
     <div class="loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>요강 목록 불러오는 중…</span></div>
   </div>
@@ -95,6 +135,7 @@
       <li>2027학년도 수시 원서접수는 <b>2026년 9월 7일~11일</b>에 대학별로 진행됐습니다(대학별 마감 시각 상이). 최종 합격 발표·충원 일정은 각 대학 입학처 공지가 기준입니다.</li>
       <li>표시된 모집인원은 각 대학 <b>2027학년도 모집요강·대교협 전형시행계획</b> 기준입니다. 모집단위 신설·개편으로 최종 인원이 달라질 수 있으니 원서접수 전 입학처 공지에서 다시 확인하세요.</li>
       <li>전형방법·수능 최저는 대학별 <b>최종 확정 요강</b>이 기준입니다. 이 페이지는 원문 링크를 모아둔 안내용입니다.</li>
+      <li>입결 배지는 <b>2026학년도 최종등록자 70% 컷(학생부 환산등급)</b>을 대학 단위로 묶은 참고값입니다. 학과별·전형별 차이가 크고, 대학마다 반영 방식이 달라 다른 대학과 직접 비교할 수 없습니다.</li>
       <li>모든 링크는 각 대학 입학처와 유튜브로 연결됩니다.</li>
     </ul>
   </div>

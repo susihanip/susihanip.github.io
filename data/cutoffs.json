@@ -1,0 +1,2268 @@
+{
+ "meta": {
+  "title": "2026학년도 수시 70% 컷(내신 등급) 참고 매핑",
+  "base_year": "2026학년도",
+  "source": "대입정보포털 어디가(KCUE) 전형 평가기준 및 전년도 결과공개",
+  "note": "학생부 환산등급 70% 컷(최종등록자). 값이 작을수록 성적이 좋음(1등급이 최고).",
+  "disclaimer": "전년도 입결 기준 참고용. 학과·반영비율·수능최저에 따라 달라짐."
+ },
+ "universities": {
+  "konkuk": {
+   "name": "건국대학교",
+   "gyogwa": {
+    "min": 1.12,
+    "max": 2.31,
+    "median": 1.88,
+    "p20": 1.7,
+    "p80": 2.07,
+    "n": 28
+   },
+   "jonghap": {
+    "min": 1.64,
+    "max": 4.95,
+    "median": 2.44,
+    "p20": 2.09,
+    "p80": 2.84,
+    "n": 47
+   },
+   "suneung_choejeo": "미적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "snu": {
+   "name": "서울대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 1.0,
+    "max": 3.95,
+    "median": 1.67,
+    "p20": 1.25,
+    "p80": 2.36,
+    "n": 136
+   },
+   "suneung_choejeo": "미적용",
+   "note": null,
+   "gyogwa_note": "서울대는 학생부교과전형 미운영",
+   "jonghap_note": null
+  },
+  "yonsei": {
+   "name": "연세대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 1.78,
+    "median": 1.32,
+    "p20": 1.22,
+    "p80": 1.45,
+    "n": 55
+   },
+   "jonghap": {
+    "min": 1.07,
+    "max": 3.31,
+    "median": 1.76,
+    "p20": 1.5,
+    "p80": 2.19,
+    "n": 75
+   },
+   "suneung_choejeo": "미적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "korea": {
+   "name": "고려대학교",
+   "gyogwa": {
+    "min": 1.02,
+    "max": 1.69,
+    "median": 1.42,
+    "p20": 1.29,
+    "p80": 1.49,
+    "n": 54
+   },
+   "jonghap": {
+    "min": 1.23,
+    "max": 4.2,
+    "median": 2.17,
+    "p20": 1.8,
+    "p80": 2.77,
+    "n": 138
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kaist": {
+   "name": "KAIST",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": "미적용",
+   "note": "어디가 표준공개자료 미등재 — KAIST는 70% 컷·수능 백분위를 공개하지 않음(대학 공식 입시결과는 경쟁률·충원만)",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "postech": {
+   "name": "POSTECH",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": "어디가 표준공개자료 미등재 — POSTECH은 내신 70% 컷·수능 백분위를 공개하지 않음(경쟁률·충원만)",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sogang": {
+   "name": "서강대학교",
+   "gyogwa": {
+    "min": 1.25,
+    "max": 1.96,
+    "median": 1.53,
+    "p20": 1.4,
+    "p80": 1.63,
+    "n": 19
+   },
+   "jonghap": {
+    "min": 1.42,
+    "max": 3.86,
+    "median": 2.81,
+    "p20": 1.85,
+    "p80": 3.25,
+    "n": 45
+   },
+   "suneung_choejeo": "일부 전형만 적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "skku": {
+   "name": "성균관대학교",
+   "gyogwa": {
+    "min": 1.36,
+    "max": 1.9,
+    "median": 1.65,
+    "p20": 1.51,
+    "p80": 1.75,
+    "n": 38
+   },
+   "jonghap": {
+    "min": 1.86,
+    "max": 5.83,
+    "median": 3.31,
+    "p20": 2.8,
+    "p80": 4.57,
+    "n": 59
+   },
+   "suneung_choejeo": "일부 전형만 적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hanyang": {
+   "name": "한양대학교",
+   "gyogwa": {
+    "min": 1.16,
+    "max": 1.8,
+    "median": 1.53,
+    "p20": 1.45,
+    "p80": 1.66,
+    "n": 49
+   },
+   "jonghap": {
+    "min": 1.25,
+    "max": 5.06,
+    "median": 2.98,
+    "p20": 1.93,
+    "p80": 3.58,
+    "n": 97
+   },
+   "suneung_choejeo": "일부 전형만 적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "cau": {
+   "name": "중앙대학교",
+   "gyogwa": {
+    "min": 1.1,
+    "max": 1.89,
+    "median": 1.69,
+    "p20": 1.56,
+    "p80": 1.79,
+    "n": 20
+   },
+   "jonghap": {
+    "min": 1.16,
+    "max": 5.86,
+    "median": 2.42,
+    "p20": 1.9,
+    "p80": 3.88,
+    "n": 70
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "khu": {
+   "name": "경희대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 2.37,
+    "median": 1.75,
+    "p20": 1.52,
+    "p80": 1.91,
+    "n": 43
+   },
+   "jonghap": {
+    "min": 1.34,
+    "max": 5.2,
+    "median": 2.09,
+    "p20": 1.87,
+    "p80": 3.22,
+    "n": 82
+   },
+   "suneung_choejeo": "일부 전형만 적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hufs": {
+   "name": "한국외국어대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 1.97,
+    "max": 5.81,
+    "median": 3.82,
+    "p20": 2.99,
+    "p80": 4.74,
+    "n": 140
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": "대학이 '추가 안내자료 참고'로 수치 미제출",
+   "jonghap_note": null
+  },
+  "uos": {
+   "name": "서울시립대학교",
+   "gyogwa": {
+    "min": 1.57,
+    "max": 1.97,
+    "median": 1.84,
+    "p20": 1.71,
+    "p80": 1.93,
+    "n": 27
+   },
+   "jonghap": {
+    "min": 2.02,
+    "max": 6.29,
+    "median": 2.48,
+    "p20": 2.21,
+    "p80": 3.21,
+    "n": 46
+   },
+   "suneung_choejeo": "미적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ewha": {
+   "name": "이화여자대학교",
+   "gyogwa": {
+    "min": 1.37,
+    "max": 2.28,
+    "median": 1.62,
+    "p20": 1.49,
+    "p80": 1.75,
+    "n": 42
+   },
+   "jonghap": {
+    "min": 1.06,
+    "max": 5.23,
+    "median": 2.12,
+    "p20": 1.92,
+    "p80": 2.65,
+    "n": 91
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dongguk": {
+   "name": "동국대학교",
+   "gyogwa": {
+    "min": 1.1,
+    "max": 1.7,
+    "median": 1.3,
+    "p20": 1.2,
+    "p80": 1.4,
+    "n": 36
+   },
+   "jonghap": {
+    "min": 1.28,
+    "max": 4.71,
+    "median": 2.42,
+    "p20": 2.15,
+    "p80": 2.8,
+    "n": 62
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hongik": {
+   "name": "홍익대학교",
+   "gyogwa": {
+    "min": 1.7,
+    "max": 2.6,
+    "median": 1.9,
+    "p20": 1.8,
+    "p80": 2.04,
+    "n": 29
+   },
+   "jonghap": {
+    "min": 2.0,
+    "max": 4.8,
+    "median": 2.4,
+    "p20": 2.2,
+    "p80": 2.6,
+    "n": 25
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sookmyung": {
+   "name": "숙명여자대학교",
+   "gyogwa": {
+    "min": 1.1,
+    "max": 2.12,
+    "median": 1.9,
+    "p20": 1.72,
+    "p80": 2.06,
+    "n": 30
+   },
+   "jonghap": {
+    "min": 1.68,
+    "max": 4.47,
+    "median": 2.53,
+    "p20": 2.26,
+    "p80": 3.31,
+    "n": 41
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kookmin": {
+   "name": "국민대학교",
+   "gyogwa": {
+    "min": 1.82,
+    "max": 3.25,
+    "median": 2.14,
+    "p20": 2.07,
+    "p80": 2.25,
+    "n": 38
+   },
+   "jonghap": {
+    "min": 1.4,
+    "max": 5.14,
+    "median": 2.82,
+    "p20": 2.62,
+    "p80": 3.26,
+    "n": 63
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ssu": {
+   "name": "숭실대학교",
+   "gyogwa": {
+    "min": 1.81,
+    "max": 2.47,
+    "median": 2.25,
+    "p20": 2.07,
+    "p80": 2.33,
+    "n": 41
+   },
+   "jonghap": {
+    "min": 2.3,
+    "max": 7.52,
+    "median": 3.0,
+    "p20": 2.7,
+    "p80": 3.83,
+    "n": 101
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sejong": {
+   "name": "세종대학교",
+   "gyogwa": {
+    "min": 1.78,
+    "max": 2.61,
+    "median": 2.19,
+    "p20": 1.98,
+    "p80": 2.27,
+    "n": 36
+   },
+   "jonghap": {
+    "min": 1.38,
+    "max": 6.96,
+    "median": 2.63,
+    "p20": 2.42,
+    "p80": 2.89,
+    "n": 124
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dankook": {
+   "name": "단국대학교",
+   "gyogwa": {
+    "min": 2.1,
+    "max": 3.46,
+    "median": 2.38,
+    "p20": 2.28,
+    "p80": 2.49,
+    "n": 24
+   },
+   "jonghap": {
+    "min": 2.11,
+    "max": 5.41,
+    "median": 2.95,
+    "p20": 2.77,
+    "p80": 3.34,
+    "n": 70
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ajou": {
+   "name": "아주대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 3.0,
+    "median": 2.25,
+    "p20": 1.97,
+    "p80": 2.48,
+    "n": 33
+   },
+   "jonghap": {
+    "min": 1.45,
+    "max": 4.69,
+    "median": 2.65,
+    "p20": 2.36,
+    "p80": 3.13,
+    "n": 54
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "inha": {
+   "name": "인하대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 2.54,
+    "median": 2.24,
+    "p20": 2.03,
+    "p80": 2.36,
+    "n": 53
+   },
+   "jonghap": {
+    "min": 1.14,
+    "max": 4.98,
+    "median": 2.73,
+    "p20": 2.49,
+    "p80": 3.05,
+    "n": 114
+   },
+   "suneung_choejeo": "일부 전형만 적용",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gist": {
+   "name": "GIST",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재(과학기술원) — 70% 컷 공개자료 확인 불가",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dgist": {
+   "name": "DGIST",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재(과학기술원) — 70% 컷 공개자료 확인 불가",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "unist": {
+   "name": "UNIST",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재(과학기술원) — 70% 컷 공개자료 확인 불가",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "pusan": {
+   "name": "부산대학교",
+   "gyogwa": {
+    "min": 1.07,
+    "max": 4.47,
+    "median": 2.89,
+    "p20": 2.47,
+    "p80": 3.41,
+    "n": 138
+   },
+   "jonghap": {
+    "min": 1.29,
+    "max": 6.48,
+    "median": 2.87,
+    "p20": 2.49,
+    "p80": 3.23,
+    "n": 105
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "knu": {
+   "name": "경북대학교",
+   "gyogwa": {
+    "min": 1.15,
+    "max": 5.72,
+    "median": 2.84,
+    "p20": 2.42,
+    "p80": 3.49,
+    "n": 163
+   },
+   "jonghap": {
+    "min": 1.45,
+    "max": 9.0,
+    "median": 3.64,
+    "p20": 2.99,
+    "p80": 4.32,
+    "n": 138
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "jnu": {
+   "name": "전남대학교",
+   "gyogwa": {
+    "min": 1.12,
+    "max": 5.07,
+    "median": 3.17,
+    "p20": 2.64,
+    "p80": 3.45,
+    "n": 160
+   },
+   "jonghap": {
+    "min": 1.17,
+    "max": 4.52,
+    "median": 3.58,
+    "p20": 3.07,
+    "p80": 3.85,
+    "n": 76
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "jbnu": {
+   "name": "전북대학교",
+   "gyogwa": {
+    "min": 1.04,
+    "max": 4.61,
+    "median": 3.51,
+    "p20": 2.61,
+    "p80": 3.76,
+    "n": 75
+   },
+   "jonghap": {
+    "min": 1.27,
+    "max": 5.01,
+    "median": 4.07,
+    "p20": 3.74,
+    "p80": 4.47,
+    "n": 44
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "cnu": {
+   "name": "충남대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 4.45,
+    "median": 2.88,
+    "p20": 2.51,
+    "p80": 3.15,
+    "n": 155
+   },
+   "jonghap": {
+    "min": 1.12,
+    "max": 5.88,
+    "median": 3.39,
+    "p20": 2.95,
+    "p80": 3.79,
+    "n": 143
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "cbnu": {
+   "name": "충북대학교",
+   "gyogwa": {
+    "min": 1.04,
+    "max": 4.01,
+    "median": 3.11,
+    "p20": 2.73,
+    "p80": 3.37,
+    "n": 128
+   },
+   "jonghap": {
+    "min": 1.15,
+    "max": 4.47,
+    "median": 3.29,
+    "p20": 2.96,
+    "p80": 3.66,
+    "n": 147
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kangwon": {
+   "name": "강원대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 4.88,
+    "median": 3.5,
+    "p20": 3.18,
+    "p80": 3.82,
+    "n": 159
+   },
+   "jonghap": {
+    "min": 1.32,
+    "max": 4.56,
+    "median": 3.67,
+    "p20": 3.34,
+    "p80": 3.93,
+    "n": 108
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "jeju": {
+   "name": "제주대학교",
+   "gyogwa": {
+    "min": 1.03,
+    "max": 6.99,
+    "median": 4.94,
+    "p20": 4.21,
+    "p80": 5.68,
+    "n": 107
+   },
+   "jonghap": {
+    "min": 1.51,
+    "max": 5.97,
+    "median": 4.77,
+    "p20": 3.82,
+    "p80": 5.31,
+    "n": 19
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gnu": {
+   "name": "경상국립대학교",
+   "gyogwa": {
+    "min": 1.07,
+    "max": 6.84,
+    "median": 4.24,
+    "p20": 3.68,
+    "p80": 4.72,
+    "n": 115
+   },
+   "jonghap": {
+    "min": 1.44,
+    "max": 7.43,
+    "median": 4.58,
+    "p20": 4.01,
+    "p80": 5.14,
+    "n": 132
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "pknu": {
+   "name": "국립부경대학교",
+   "gyogwa": {
+    "min": 2.0,
+    "max": 4.37,
+    "median": 3.39,
+    "p20": 3.05,
+    "p80": 3.63,
+    "n": 139
+   },
+   "jonghap": {
+    "min": 3.29,
+    "max": 4.84,
+    "median": 3.9,
+    "p20": 3.6,
+    "p80": 4.17,
+    "n": 57
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kmou": {
+   "name": "국립한국해양대학교",
+   "gyogwa": {
+    "min": 2.67,
+    "max": 4.56,
+    "median": 3.75,
+    "p20": 3.33,
+    "p80": 4.14,
+    "n": 42
+   },
+   "jonghap": {
+    "min": 2.8,
+    "max": 3.74,
+    "median": 3.35,
+    "p20": 3.08,
+    "p80": 3.56,
+    "n": 4
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "seoultech": {
+   "name": "서울과학기술대학교",
+   "gyogwa": {
+    "min": 1.65,
+    "max": 2.33,
+    "median": 2.05,
+    "p20": 1.93,
+    "p80": 2.24,
+    "n": 29
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 6.77,
+    "median": 3.13,
+    "p20": 2.5,
+    "p80": 3.78,
+    "n": 42
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kw": {
+   "name": "광운대학교",
+   "gyogwa": {
+    "min": 1.82,
+    "max": 2.72,
+    "median": 2.23,
+    "p20": 2.07,
+    "p80": 2.38,
+    "n": 28
+   },
+   "jonghap": {
+    "min": 1.35,
+    "max": 7.09,
+    "median": 3.27,
+    "p20": 2.85,
+    "p80": 4.3,
+    "n": 65
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "mju": {
+   "name": "명지대학교",
+   "gyogwa": {
+    "min": 2.19,
+    "max": 6.95,
+    "median": 2.74,
+    "p20": 2.55,
+    "p80": 3.47,
+    "n": 57
+   },
+   "jonghap": {
+    "min": 2.85,
+    "max": 4.42,
+    "median": 3.58,
+    "p20": 3.34,
+    "p80": 3.8,
+    "n": 63
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "smu": {
+   "name": "상명대학교",
+   "gyogwa": {
+    "min": 2.14,
+    "max": 4.18,
+    "median": 2.78,
+    "p20": 2.58,
+    "p80": 2.95,
+    "n": 29
+   },
+   "jonghap": {
+    "min": 1.44,
+    "max": 6.47,
+    "median": 3.06,
+    "p20": 2.65,
+    "p80": 3.35,
+    "n": 57
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gachon": {
+   "name": "가천대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 1.81,
+    "max": 5.35,
+    "median": 3.79,
+    "p20": 3.47,
+    "p80": 4.14,
+    "n": 59
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "대학이 '추가 안내자료 참고'로 수치 미제출",
+   "jonghap_note": null
+  },
+  "kyonggi": {
+   "name": "경기대학교",
+   "gyogwa": {
+    "min": 1.33,
+    "max": 4.52,
+    "median": 3.01,
+    "p20": 2.63,
+    "p80": 3.24,
+    "n": 94
+   },
+   "jonghap": {
+    "min": 2.75,
+    "max": 5.39,
+    "median": 3.66,
+    "p20": 3.42,
+    "p80": 3.93,
+    "n": 65
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sungshin": {
+   "name": "성신여자대학교",
+   "gyogwa": {
+    "min": 1.79,
+    "max": 2.39,
+    "median": 2.21,
+    "p20": 2.04,
+    "p80": 2.35,
+    "n": 9
+   },
+   "jonghap": {
+    "min": 2.21,
+    "max": 4.64,
+    "median": 3.17,
+    "p20": 2.85,
+    "p80": 3.49,
+    "n": 67
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "swu": {
+   "name": "서울여자대학교",
+   "gyogwa": {
+    "min": 2.59,
+    "max": 4.39,
+    "median": 2.96,
+    "p20": 2.78,
+    "p80": 3.13,
+    "n": 30
+   },
+   "jonghap": {
+    "min": 1.58,
+    "max": 4.71,
+    "median": 3.82,
+    "p20": 3.12,
+    "p80": 4.05,
+    "n": 138
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "duksung": {
+   "name": "덕성여자대학교",
+   "gyogwa": {
+    "min": 1.25,
+    "max": 3.55,
+    "median": 3.22,
+    "p20": 2.98,
+    "p80": 3.36,
+    "n": 10
+   },
+   "jonghap": {
+    "min": 1.59,
+    "max": 6.06,
+    "median": 3.44,
+    "p20": 3.25,
+    "p80": 3.63,
+    "n": 19
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dongduk": {
+   "name": "동덕여자대학교",
+   "gyogwa": {
+    "min": 1.32,
+    "max": 4.0,
+    "median": 3.44,
+    "p20": 3.18,
+    "p80": 3.83,
+    "n": 23
+   },
+   "jonghap": {
+    "min": 1.38,
+    "max": 4.48,
+    "median": 3.78,
+    "p20": 3.51,
+    "p80": 4.14,
+    "n": 25
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "catholic": {
+   "name": "가톨릭대학교",
+   "gyogwa": {
+    "min": 1.06,
+    "max": 3.25,
+    "median": 2.58,
+    "p20": 2.41,
+    "p80": 2.76,
+    "n": 42
+   },
+   "jonghap": {
+    "min": 1.67,
+    "max": 5.88,
+    "median": 3.25,
+    "p20": 2.92,
+    "p80": 3.76,
+    "n": 73
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kau": {
+   "name": "한국항공대학교",
+   "gyogwa": {
+    "min": 1.3,
+    "max": 2.65,
+    "median": 2.3,
+    "p20": 2.0,
+    "p80": 2.5,
+    "n": 16
+   },
+   "jonghap": {
+    "min": 1.7,
+    "max": 8.0,
+    "median": 3.4,
+    "p20": 2.85,
+    "p80": 4.03,
+    "n": 14
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "inu": {
+   "name": "인천대학교",
+   "gyogwa": {
+    "min": 2.21,
+    "max": 3.75,
+    "median": 2.88,
+    "p20": 2.68,
+    "p80": 3.08,
+    "n": 102
+   },
+   "jonghap": {
+    "min": 1.97,
+    "max": 5.97,
+    "median": 3.47,
+    "p20": 3.19,
+    "p80": 3.75,
+    "n": 98
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hansung": {
+   "name": "한성대학교",
+   "gyogwa": {
+    "min": 1.2,
+    "max": 4.05,
+    "median": 2.85,
+    "p20": 2.28,
+    "p80": 3.26,
+    "n": 45
+   },
+   "jonghap": {
+    "min": 1.7,
+    "max": 4.29,
+    "median": 3.7,
+    "p20": 3.52,
+    "p80": 4.05,
+    "n": 19
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "skuniv": {
+   "name": "서경대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "대학이 성적을 0으로만 제출(미공개)",
+   "gyogwa_note": "대학이 성적을 0으로만 제출(미공개)",
+   "jonghap_note": "대학이 성적을 0으로만 제출(미공개)"
+  },
+  "syu": {
+   "name": "삼육대학교",
+   "gyogwa": {
+    "min": 1.15,
+    "max": 4.03,
+    "median": 3.08,
+    "p20": 1.73,
+    "p80": 3.23,
+    "n": 22
+   },
+   "jonghap": {
+    "min": 1.45,
+    "max": 5.87,
+    "median": 3.95,
+    "p20": 3.54,
+    "p80": 4.52,
+    "n": 60
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "knue": {
+   "name": "한국교원대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 1.98,
+    "max": 5.06,
+    "median": 2.55,
+    "p20": 2.2,
+    "p80": 3.35,
+    "n": 25
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "모집인원 3명 이하로 미제출",
+   "jonghap_note": null
+  },
+  "yu": {
+   "name": "영남대학교",
+   "gyogwa": {
+    "min": 1.15,
+    "max": 6.15,
+    "median": 4.4,
+    "p20": 3.79,
+    "p80": 4.83,
+    "n": 164
+   },
+   "jonghap": {
+    "min": 1.74,
+    "max": 6.47,
+    "median": 4.73,
+    "p20": 4.19,
+    "p80": 5.32,
+    "n": 68
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kmu": {
+   "name": "계명대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 5.75,
+    "median": 3.42,
+    "p20": 1.35,
+    "p80": 4.63,
+    "n": 168
+   },
+   "jonghap": {
+    "min": 1.37,
+    "max": 6.38,
+    "median": 5.03,
+    "p20": 4.34,
+    "p80": 5.45,
+    "n": 148
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ulsan": {
+   "name": "울산대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 5.4,
+    "median": 3.9,
+    "p20": 3.22,
+    "p80": 4.5,
+    "n": 47
+   },
+   "jonghap": {
+    "min": 1.03,
+    "max": 6.69,
+    "median": 4.96,
+    "p20": 3.77,
+    "p80": 5.61,
+    "n": 28
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "donga": {
+   "name": "동아대학교",
+   "gyogwa": {
+    "min": 1.12,
+    "max": 4.67,
+    "median": 3.58,
+    "p20": 3.25,
+    "p80": 4.08,
+    "n": 105
+   },
+   "jonghap": {
+    "min": 1.32,
+    "max": 5.76,
+    "median": 4.6,
+    "p20": 4.18,
+    "p80": 4.92,
+    "n": 135
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "chosun": {
+   "name": "조선대학교",
+   "gyogwa": {
+    "min": 1.09,
+    "max": 7.57,
+    "median": 5.24,
+    "p20": 4.23,
+    "p80": 6.3,
+    "n": 130
+   },
+   "jonghap": {
+    "min": 1.21,
+    "max": 7.33,
+    "median": 5.11,
+    "p20": 4.46,
+    "p80": 5.81,
+    "n": 108
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "wku": {
+   "name": "원광대학교",
+   "gyogwa": {
+    "min": 1.21,
+    "max": 7.04,
+    "median": 4.84,
+    "p20": 3.7,
+    "p80": 5.95,
+    "n": 84
+   },
+   "jonghap": {
+    "min": 1.17,
+    "max": 6.96,
+    "median": 5.19,
+    "p20": 2.2,
+    "p80": 5.95,
+    "n": 77
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kongju": {
+   "name": "국립공주대학교",
+   "gyogwa": {
+    "min": 2.34,
+    "max": 6.3,
+    "median": 4.28,
+    "p20": 3.54,
+    "p80": 4.9,
+    "n": 102
+   },
+   "jonghap": {
+    "min": 2.73,
+    "max": 6.02,
+    "median": 4.42,
+    "p20": 3.75,
+    "p80": 5.15,
+    "n": 82
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kunsan": {
+   "name": "국립군산대학교",
+   "gyogwa": {
+    "min": 2.13,
+    "max": 8.49,
+    "median": 5.95,
+    "p20": 4.98,
+    "p80": 6.57,
+    "n": 85
+   },
+   "jonghap": {
+    "min": 3.82,
+    "max": 8.35,
+    "median": 6.3,
+    "p20": 5.57,
+    "p80": 7.13,
+    "n": 43
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kumoh": {
+   "name": "국립금오공과대학교",
+   "gyogwa": {
+    "min": 2.04,
+    "max": 6.14,
+    "median": 4.42,
+    "p20": 3.7,
+    "p80": 4.96,
+    "n": 54
+   },
+   "jonghap": {
+    "min": 4.96,
+    "max": 6.49,
+    "median": 5.67,
+    "p20": 5.37,
+    "p80": 6.16,
+    "n": 12
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "mokpo": {
+   "name": "국립목포대학교",
+   "gyogwa": {
+    "min": 1.67,
+    "max": 8.45,
+    "median": 5.84,
+    "p20": 4.88,
+    "p80": 6.56,
+    "n": 71
+   },
+   "jonghap": {
+    "min": 1.77,
+    "max": 8.03,
+    "median": 6.11,
+    "p20": 5.4,
+    "p80": 6.94,
+    "n": 42
+   },
+   "suneung_choejeo": "적용(요강 확인)",
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "mmu": {
+   "name": "국립목포해양대학교",
+   "gyogwa": {
+    "min": 2.33,
+    "max": 7.31,
+    "median": 4.25,
+    "p20": 3.6,
+    "p80": 5.55,
+    "n": 51
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "대학이 종합전형 결과를 입력하지 않음"
+  },
+  "sunchon": {
+   "name": "국립순천대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 6.91,
+    "median": 4.48,
+    "p20": 3.61,
+    "p80": 5.98,
+    "n": 29
+   },
+   "jonghap": {
+    "min": 3.7,
+    "max": 7.25,
+    "median": 4.97,
+    "p20": 4.33,
+    "p80": 6.08,
+    "n": 19
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gyeongguk": {
+   "name": "국립경국대학교",
+   "gyogwa": {
+    "min": 1.47,
+    "max": 6.17,
+    "median": 4.39,
+    "p20": 3.01,
+    "p80": 5.14,
+    "n": 89
+   },
+   "jonghap": {
+    "min": 3.59,
+    "max": 7.9,
+    "median": 5.64,
+    "p20": 5.06,
+    "p80": 6.29,
+    "n": 48
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "changwon": {
+   "name": "국립창원대학교",
+   "gyogwa": {
+    "min": 2.25,
+    "max": 6.13,
+    "median": 4.46,
+    "p20": 3.9,
+    "p80": 4.99,
+    "n": 54
+   },
+   "jonghap": {
+    "min": 3.31,
+    "max": 6.27,
+    "median": 4.67,
+    "p20": 4.25,
+    "p80": 5.3,
+    "n": 64
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hanbat": {
+   "name": "국립한밭대학교",
+   "gyogwa": {
+    "min": 2.85,
+    "max": 4.69,
+    "median": 3.85,
+    "p20": 3.54,
+    "p80": 4.23,
+    "n": 47
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 6.8,
+    "median": 4.79,
+    "p20": 4.31,
+    "p80": 5.26,
+    "n": 53
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "knut": {
+   "name": "국립한국교통대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 8.22,
+    "median": 4.04,
+    "p20": 2.86,
+    "p80": 4.85,
+    "n": 218
+   },
+   "jonghap": {
+    "min": 2.4,
+    "max": 5.64,
+    "median": 4.28,
+    "p20": 3.62,
+    "p80": 4.79,
+    "n": 45
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gwnu": {
+   "name": "국립강릉원주대학교",
+   "gyogwa": {
+    "min": 2.39,
+    "max": 8.41,
+    "median": 5.22,
+    "p20": 3.95,
+    "p80": 6.65,
+    "n": 43
+   },
+   "jonghap": {
+    "min": 2.08,
+    "max": 8.42,
+    "median": 5.02,
+    "p20": 3.73,
+    "p80": 5.77,
+    "n": 28
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hknu": {
+   "name": "한경국립대학교",
+   "gyogwa": {
+    "min": 1.92,
+    "max": 8.58,
+    "median": 4.62,
+    "p20": 4.17,
+    "p80": 5.93,
+    "n": 56
+   },
+   "jonghap": {
+    "min": 4.17,
+    "max": 5.72,
+    "median": 4.69,
+    "p20": 4.41,
+    "p80": 5.05,
+    "n": 28
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "koreatech": {
+   "name": "한국기술교육대학교",
+   "gyogwa": {
+    "min": 3.12,
+    "max": 4.59,
+    "median": 3.74,
+    "p20": 3.47,
+    "p80": 4.07,
+    "n": 30
+   },
+   "jonghap": {
+    "min": 1.24,
+    "max": 5.41,
+    "median": 3.99,
+    "p20": 3.48,
+    "p80": 4.35,
+    "n": 65
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "kentech": {
+   "name": "한국에너지공과대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재 — 70% 컷 공개자료 확인 불가",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "tue": {
+   "name": "한국공학대학교",
+   "gyogwa": {
+    "min": 1.24,
+    "max": 3.79,
+    "median": 2.9,
+    "p20": 2.5,
+    "p80": 3.12,
+    "n": 60
+   },
+   "jonghap": {
+    "min": 3.44,
+    "max": 5.95,
+    "median": 4.1,
+    "p20": 3.88,
+    "p80": 4.47,
+    "n": 47
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "knsu": {
+   "name": "한국체육대학교",
+   "gyogwa": {
+    "min": 2.26,
+    "max": 2.81,
+    "median": 2.66,
+    "p20": 2.32,
+    "p80": 2.71,
+    "n": 6
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "대학이 종합전형 결과를 입력하지 않음"
+  },
+  "karts": {
+   "name": "한국예술종합학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "한국예술종합학교 — 어디가 미등재, 실기 중심 전형으로 표준 70% 컷 공개 없음",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "snue": {
+   "name": "서울교육대학교",
+   "gyogwa": {
+    "min": 1.64,
+    "max": 1.64,
+    "median": 1.64,
+    "p20": 1.64,
+    "p80": 1.64,
+    "n": 1
+   },
+   "jonghap": {
+    "min": 1.76,
+    "max": 3.09,
+    "median": 2.62,
+    "p20": 2.01,
+    "p80": 3.07,
+    "n": 5
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ginue": {
+   "name": "경인교육대학교",
+   "gyogwa": {
+    "min": 2.17,
+    "max": 2.17,
+    "median": 2.17,
+    "p20": 2.17,
+    "p80": 2.17,
+    "n": 1
+   },
+   "jonghap": {
+    "min": 2.65,
+    "max": 5.03,
+    "median": 2.93,
+    "p20": 2.83,
+    "p80": 3.73,
+    "n": 5
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "gjue": {
+   "name": "공주교육대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 2.15,
+    "max": 7.01,
+    "median": 3.21,
+    "p20": 2.67,
+    "p80": 3.69,
+    "n": 6
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "학생부교과 전형 결과 미제출",
+   "jonghap_note": null
+  },
+  "gjnue": {
+   "name": "광주교육대학교",
+   "gyogwa": {
+    "min": 2.11,
+    "max": 2.76,
+    "median": 2.43,
+    "p20": 2.24,
+    "p80": 2.63,
+    "n": 2
+   },
+   "jonghap": {
+    "min": 2.91,
+    "max": 4.32,
+    "median": 3.54,
+    "p20": 3.25,
+    "p80": 3.83,
+    "n": 7
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dnue": {
+   "name": "대구교육대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 2.96,
+    "max": 4.85,
+    "median": 3.46,
+    "p20": 3.23,
+    "p80": 4.33,
+    "n": 6
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "학생부교과 전형 결과 미제출",
+   "jonghap_note": null
+  },
+  "bnue": {
+   "name": "부산교육대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 2.82,
+    "max": 4.91,
+    "median": 2.97,
+    "p20": 2.84,
+    "p80": 3.81,
+    "n": 5
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "학생부교과 전형 결과 미제출",
+   "jonghap_note": null
+  },
+  "jnue": {
+   "name": "전주교육대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "학생부교과 전형 결과 미제출",
+   "gyogwa_note": "학생부교과 전형 결과 미제출",
+   "jonghap_note": "종합전형 결과 미제출"
+  },
+  "cue": {
+   "name": "진주교육대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재(교육대학) — 입학처 별도 자료 확인 필요",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "cjue": {
+   "name": "청주교육대학교",
+   "gyogwa": null,
+   "jonghap": {
+    "min": 2.49,
+    "max": 5.92,
+    "median": 3.69,
+    "p20": 2.88,
+    "p80": 3.96,
+    "n": 7
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": "학생부교과 전형 결과 미제출",
+   "jonghap_note": null
+  },
+  "cnue": {
+   "name": "춘천교육대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재(교육대학) — 입학처 별도 자료 확인 필요",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hallym": {
+   "name": "한림대학교",
+   "gyogwa": {
+    "min": 1.17,
+    "max": 5.54,
+    "median": 4.34,
+    "p20": 3.96,
+    "p80": 4.76,
+    "n": 72
+   },
+   "jonghap": {
+    "min": 1.21,
+    "max": 6.11,
+    "median": 5.18,
+    "p20": 4.86,
+    "p80": 5.45,
+    "n": 31
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sch": {
+   "name": "순천향대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 6.0,
+    "median": 3.83,
+    "p20": 3.15,
+    "p80": 4.44,
+    "n": 261
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 6.47,
+    "median": 4.63,
+    "p20": 3.87,
+    "p80": 5.06,
+    "n": 79
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "hoseo": {
+   "name": "호서대학교",
+   "gyogwa": {
+    "min": 1.87,
+    "max": 6.07,
+    "median": 4.14,
+    "p20": 3.6,
+    "p80": 4.74,
+    "n": 124
+   },
+   "jonghap": {
+    "min": 3.32,
+    "max": 5.5,
+    "median": 4.54,
+    "p20": 4.06,
+    "p80": 5.06,
+    "n": 38
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "baekseok": {
+   "name": "백석대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 8.67,
+    "median": 5.19,
+    "p20": 4.29,
+    "p80": 5.96,
+    "n": 141
+   },
+   "jonghap": {
+    "min": 3.55,
+    "max": 7.35,
+    "median": 5.61,
+    "p20": 4.97,
+    "p80": 6.22,
+    "n": 21
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "sunmoon": {
+   "name": "선문대학교",
+   "gyogwa": {
+    "min": 2.23,
+    "max": 7.63,
+    "median": 4.9,
+    "p20": 4.14,
+    "p80": 5.79,
+    "n": 134
+   },
+   "jonghap": {
+    "min": 3.94,
+    "max": 6.98,
+    "median": 6.47,
+    "p20": 5.86,
+    "p80": 6.8,
+    "n": 34
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "nsu": {
+   "name": "남서울대학교",
+   "gyogwa": {
+    "min": 2.03,
+    "max": 6.0,
+    "median": 4.37,
+    "p20": 3.34,
+    "p80": 4.95,
+    "n": 74
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "수치 미제출"
+  },
+  "cju": {
+   "name": "청주대학교",
+   "gyogwa": {
+    "min": 1.63,
+    "max": 6.5,
+    "median": 4.5,
+    "p20": 3.68,
+    "p80": 5.13,
+    "n": 223
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "대학이 종합전형 결과를 입력하지 않음"
+  },
+  "hannam": {
+   "name": "한남대학교",
+   "gyogwa": {
+    "min": 2.7,
+    "max": 8.11,
+    "median": 4.94,
+    "p20": 4.07,
+    "p80": 5.53,
+    "n": 144
+   },
+   "jonghap": {
+    "min": 3.05,
+    "max": 7.53,
+    "median": 4.96,
+    "p20": 4.16,
+    "p80": 5.61,
+    "n": 69
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "pcu": {
+   "name": "배재대학교",
+   "gyogwa": null,
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": "어디가 표준공개자료 미등재 — 대학 자체 공개자료(최종등록 등급)만 있어 표준 70% 컷 없음",
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "mokwon": {
+   "name": "목원대학교",
+   "gyogwa": {
+    "min": 1.38,
+    "max": 5.38,
+    "median": 3.63,
+    "p20": 2.5,
+    "p80": 4.13,
+    "n": 91
+   },
+   "jonghap": {
+    "min": 3.0,
+    "max": 5.0,
+    "median": 4.0,
+    "p20": 3.6,
+    "p80": 4.4,
+    "n": 4
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dju": {
+   "name": "대전대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 6.88,
+    "median": 4.89,
+    "p20": 3.46,
+    "p80": 5.63,
+    "n": 129
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "종합전형은 등급 미제출"
+  },
+  "wsu": {
+   "name": "우송대학교",
+   "gyogwa": {
+    "min": 1.58,
+    "max": 6.17,
+    "median": 4.42,
+    "p20": 3.5,
+    "p80": 5.06,
+    "n": 97
+   },
+   "jonghap": {
+    "min": 2.15,
+    "max": 7.09,
+    "median": 5.28,
+    "p20": 4.38,
+    "p80": 5.88,
+    "n": 37
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "konyang": {
+   "name": "건양대학교",
+   "gyogwa": {
+    "min": 3.14,
+    "max": 6.33,
+    "median": 4.84,
+    "p20": 4.26,
+    "p80": 5.42,
+    "n": 35
+   },
+   "jonghap": {
+    "min": 4.0,
+    "max": 6.46,
+    "median": 4.83,
+    "p20": 4.66,
+    "p80": 5.79,
+    "n": 9
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "daegu": {
+   "name": "대구대학교",
+   "gyogwa": {
+    "min": 1.54,
+    "max": 6.67,
+    "median": 4.0,
+    "p20": 3.02,
+    "p80": 4.66,
+    "n": 162
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 8.94,
+    "median": 6.02,
+    "p20": 4.62,
+    "p80": 6.85,
+    "n": 82
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "dcatholic": {
+   "name": "대구가톨릭대학교",
+   "gyogwa": {
+    "min": 1.14,
+    "max": 7.0,
+    "median": 3.67,
+    "p20": 2.33,
+    "p80": 4.69,
+    "n": 175
+   },
+   "jonghap": {
+    "min": 1.27,
+    "max": 6.29,
+    "median": 4.45,
+    "p20": 3.5,
+    "p80": 5.08,
+    "n": 58
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "handong": {
+   "name": "한동대학교",
+   "gyogwa": {
+    "min": 2.97,
+    "max": 4.24,
+    "median": 4.19,
+    "p20": 3.7,
+    "p80": 4.21,
+    "n": 4
+   },
+   "jonghap": {
+    "min": 4.09,
+    "max": 5.16,
+    "median": 4.28,
+    "p20": 4.13,
+    "p80": 4.72,
+    "n": 5
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "deu": {
+   "name": "동의대학교",
+   "gyogwa": {
+    "min": 1.12,
+    "max": 8.0,
+    "median": 4.12,
+    "p20": 2.66,
+    "p80": 5.0,
+    "n": 244
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 8.6,
+    "median": 6.38,
+    "p20": 5.76,
+    "p80": 7.09,
+    "n": 130
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "ks": {
+   "name": "경성대학교",
+   "gyogwa": {
+    "min": 1.15,
+    "max": 5.3,
+    "median": 4.0,
+    "p20": 2.9,
+    "p80": 4.54,
+    "n": 134
+   },
+   "jonghap": {
+    "min": 3.88,
+    "max": 7.17,
+    "median": 5.93,
+    "p20": 5.11,
+    "p80": 6.36,
+    "n": 51
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "bufs": {
+   "name": "부산외국어대학교",
+   "gyogwa": {
+    "min": 2.1,
+    "max": 5.4,
+    "median": 4.6,
+    "p20": 3.76,
+    "p80": 5.12,
+    "n": 12
+   },
+   "jonghap": {
+    "min": 3.2,
+    "max": 5.1,
+    "median": 4.8,
+    "p20": 3.84,
+    "p80": 4.98,
+    "n": 3
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "silla": {
+   "name": "신라대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 6.6,
+    "median": 4.2,
+    "p20": 3.1,
+    "p80": 5.0,
+    "n": 162
+   },
+   "jonghap": {
+    "min": 1.0,
+    "max": 6.2,
+    "median": 3.9,
+    "p20": 2.86,
+    "p80": 4.6,
+    "n": 33
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  },
+  "inje": {
+   "name": "인제대학교",
+   "gyogwa": {
+    "min": 1.0,
+    "max": 6.9,
+    "median": 4.0,
+    "p20": 2.2,
+    "p80": 5.1,
+    "n": 79
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "대학이 종합전형 결과를 입력하지 않음"
+  },
+  "kyungnam": {
+   "name": "경남대학교",
+   "gyogwa": {
+    "min": 1.5,
+    "max": 6.9,
+    "median": 4.4,
+    "p20": 3.3,
+    "p80": 5.1,
+    "n": 144
+   },
+   "jonghap": null,
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": "수치 미제출"
+  },
+  "jeonju": {
+   "name": "전주대학교",
+   "gyogwa": {
+    "min": 1.83,
+    "max": 7.71,
+    "median": 6.09,
+    "p20": 4.71,
+    "p80": 6.95,
+    "n": 94
+   },
+   "jonghap": {
+    "min": 4.18,
+    "max": 7.68,
+    "median": 6.39,
+    "p20": 5.63,
+    "p80": 6.88,
+    "n": 45
+   },
+   "suneung_choejeo": null,
+   "note": null,
+   "gyogwa_note": null,
+   "jonghap_note": null
+  }
+ }
+}

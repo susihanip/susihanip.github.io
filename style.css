@@ -123,6 +123,8 @@ header.top{
 html[data-theme="light"] .site-switch a.ss-item:hover{background:rgba(24,24,27,.07);color:var(--text)}
 .site-switch .ss-item.is-on{background:rgba(250,204,21,.20);color:#ffeaa0}
 html[data-theme="light"] .site-switch .ss-item.is-on{background:rgba(250,204,21,.34);color:#8a5f04}
+.site-switch .ss-sep{flex:0 0 auto;width:1px;height:13px;background:var(--line);margin-inline:2px}
+.site-switch a.ss-home{color:var(--muted);font-weight:700}
 .theme-switch{
   margin-left:auto;flex:0 0 auto;display:inline-flex;gap:2px;padding:3px;
   background:var(--switch-bg);border:1px solid var(--line);border-radius:999px;
@@ -499,8 +501,18 @@ footer{margin-top:22px;padding-top:18px;padding-bottom:40px;border-top:1px solid
   .notice ul{padding-left:17px}
   .foot-links{gap:12px}
 }
-@media (max-width:380px){
+@media (max-width:480px){
   .brand > span > span{display:none}
+}
+@media (max-width:400px){
+  .top-in{gap:6px}
+  .site-switch .ss-item{padding:8px 6px;font-size:10.5px}
+  .theme-switch button{padding:7px}
+}
+@media (max-width:345px){
+  .brand > span + span{display:none}
+}
+@media (max-width:380px){
   .wrap{padding-left:16px;padding-right:16px}
 }
 @media (min-width:560px){

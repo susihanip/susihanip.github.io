@@ -106,8 +106,23 @@ header.top{
 .brand{display:flex;align-items:center;gap:9px;min-width:0}
 .brand .mark{width:32px;height:32px;flex:0 0 32px;border-radius:10px;display:grid;place-items:center;background:var(--surface);border:1px solid rgba(250,204,21,.45)}
 .brand .mark svg{width:19px;height:19px;display:block}
-.brand b{font-size:16px;letter-spacing:-.2px;display:block;line-height:1.15}
-.brand span{font-size:11px;color:var(--muted);display:block;line-height:1.2}
+.brand b{font-size:16px;letter-spacing:-.2px;display:block;line-height:1.15;white-space:nowrap}
+.brand span{font-size:11px;color:var(--muted);display:block;line-height:1.2;white-space:nowrap}
+/* 정시 | 수시 전환 탭 */
+.site-switch{
+  flex:0 0 auto;display:inline-flex;align-items:center;gap:1px;padding:3px;
+  background:transparent;border:1px solid var(--line);border-radius:999px;
+}
+.site-switch .ss-item{
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:11.5px;font-weight:800;line-height:1;letter-spacing:-.1px;
+  padding:8px 9px;border-radius:999px;color:var(--muted);
+  transition:background .16s,color .16s;
+}
+.site-switch a.ss-item:hover{color:var(--text);background:rgba(148,163,184,.16)}
+html[data-theme="light"] .site-switch a.ss-item:hover{background:rgba(24,24,27,.07);color:var(--text)}
+.site-switch .ss-item.is-on{background:rgba(250,204,21,.20);color:#ffeaa0}
+html[data-theme="light"] .site-switch .ss-item.is-on{background:rgba(250,204,21,.34);color:#8a5f04}
 .theme-switch{
   margin-left:auto;flex:0 0 auto;display:inline-flex;gap:2px;padding:3px;
   background:var(--switch-bg);border:1px solid var(--line);border-radius:999px;
@@ -444,6 +459,9 @@ footer{margin-top:22px;padding-top:18px;padding-bottom:40px;border-top:1px solid
   .theme-switch{gap:3px;padding:4px}
   .theme-switch button{padding:8px}
   .theme-switch button span,.ch-link span{display:none}
+  .top-in{gap:7px}
+  .site-switch{padding:2px}
+  .site-switch .ss-item{padding:8px;font-size:11px}
   .hero{padding-top:28px;padding-bottom:10px}
   .hero h1{font-size:25px}
   .hero p{font-size:13.5px}
@@ -481,9 +499,9 @@ footer{margin-top:22px;padding-top:18px;padding-bottom:40px;border-top:1px solid
   .notice ul{padding-left:17px}
   .foot-links{gap:12px}
 }
-@media (max-width:370px){
+@media (max-width:380px){
   .brand > span > span{display:none}
-  .wrap{padding:0 16px}
+  .wrap{padding-left:16px;padding-right:16px}
 }
 @media (min-width:560px){
   .score-row{grid-template-columns:auto 1fr auto}

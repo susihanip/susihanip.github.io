@@ -746,8 +746,7 @@
      "kind": "sum",
      "count": 2,
      "limit": 6,
-     "label": "교과우수자-학교장 추천",
-     "narrow": 1
+     "label": "교과우수자-학교장 추천"
     }
    ],
    "none": [],
@@ -869,15 +868,13 @@
      "kind": "sum",
      "count": 2,
      "limit": 5,
-     "label": "고교추천",
-     "narrow": 1
+     "label": "고교추천"
     },
     {
      "kind": "sum",
      "count": 2,
      "limit": 6,
-     "label": "고교추천",
-     "narrow": 1
+     "label": "고교추천"
     }
    ],
    "none": [],
@@ -915,12 +912,34 @@
  },
  "inha": {
   "교과": {
-   "criteria": [],
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자연"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "인문"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "자연 ( 의예과 )"
+    }
+   ],
    "none": [],
    "applied": [
     "지역균형"
    ],
-   "range": null,
+   "range": [
+    5,
+    4
+   ],
    "has_any_none": false
   },
   "종합": {
@@ -1576,7 +1595,6 @@
     }
    ],
    "none": [
-    "고교추천",
     "기회균형 Ⅰ _ 사회통합"
    ],
    "applied": [],
@@ -2307,7 +2325,8 @@
      "kind": "sum",
      "count": 2,
      "limit": 8,
-     "label": "지역인재"
+     "label": "지역인재",
+     "narrow": 1
     }
    ],
    "none": [
@@ -2621,8 +2640,7 @@
      "kind": "sum",
      "count": 3,
      "limit": 4,
-     "label": "학교생활우수자 ( 의학과 )",
-     "narrow": 1
+     "label": "학교생활우수자 ( 의학과 )"
     },
     {
      "kind": "sum",

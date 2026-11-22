@@ -117,9 +117,17 @@ def main():
         pg.click('#score-clear'); pg.wait_for_timeout(300)
         check('초기화로 내신·수능 입력 해제', pg.input_value('#score') == '' and pg.input_value('[data-se="kor"]') == '')
 
-        # 6) 레이아웃 오버플로
+        # 6) 레이아웃 오버플로 · 모바일 여백 · 헤더 배치
         ow = pg.evaluate('document.documentElement.scrollWidth - window.innerWidth')
         check('390px 가로 오버플로 없음', ow <= 1, f'{ow}px')
+        gut = pg.evaluate("parseFloat(getComputedStyle(document.querySelector('.hero')).paddingLeft)")
+        check('모바일 좌우 여백 18px', gut >= 18, f'{gut}px')
+        hdr = pg.evaluate("""() => {
+          const g = s => { const e = document.querySelector(s); if (!e) return null; const r = e.getBoundingClientRect(); return {x: r.x, r: r.right, y: r.y, b: r.bottom}; };
+          return {brand: g('.brand'), theme: g('.theme-switch'), ch: g('.ch-link'), vw: innerWidth};
+        }""")
+        check('헤더 요소가 화면 안에 들어옴', hdr['ch']['r'] <= hdr['vw'] - 8 and hdr['brand']['x'] >= 8, hdr)
+        check('로고·테마·유튜브 겹치지 않음', hdr['brand']['r'] <= hdr['theme']['x'] and hdr['theme']['r'] <= hdr['ch']['x'], hdr)
 
         # 7) 스크린샷 (다크/라이트, 모바일)
         pg.evaluate('window.scrollTo(0,0)')
@@ -129,6 +137,8 @@ def main():
         pg.click('[data-theme-set="light"]')
         pg.wait_for_timeout(350)
         check('라이트 테마 전환', pg.evaluate('document.documentElement.getAttribute("data-theme")') == 'light')
+        bg = pg.evaluate("getComputedStyle(document.querySelector('.ch-link')).backgroundImage")
+        check('라이트 테마 유튜브 버튼 빨간색', 'rgb(239, 68, 68)' in bg or 'rgb(220, 38, 38)' in bg, bg)
         pg.screenshot(path=os.path.join(SHOT_DIR, f'{TAG}-susi-light-390-{stamp}.png'))
         pg.reload(wait_until='load')
         pg.wait_for_selector('.card')
@@ -156,6 +166,14 @@ def main():
         pd.screenshot(path=os.path.join(SHOT_DIR, f'{TAG}-susi-dark-desktop-{stamp}.png'))
         check('데스크톱 콘솔 오류 0', len(c2) == 0, c2[:3])
         pd.close()
+
+        # ── 초소형 320 ──
+        ps = b.new_page(viewport={'width': 320, 'height': 720})
+        ps.goto(base, wait_until='load')
+        ps.wait_for_selector('.card', timeout=30000)
+        ow3 = ps.evaluate('document.documentElement.scrollWidth - window.innerWidth')
+        check('320px 가로 오버플로 없음', ow3 <= 1, f'{ow3}px')
+        ps.close()
         b.close()
 
     if srv:

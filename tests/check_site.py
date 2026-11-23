@@ -8,12 +8,14 @@
 import sys, json, os, functools, threading, socketserver, http.server, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SHOT_DIR = os.path.join(ROOT, '..', '..', 'attachments', '2026-11-22')
+SHOT_DIR = os.path.join(ROOT, '..', '..', 'attachments', '2026-11-23')
 LIVE = '--live' in sys.argv
 BASE = 'https://susihanip.github.io/' if LIVE else None
 TAG = 'live' if LIVE else 'local'
 
 from playwright.sync_api import sync_playwright
+
+N = len(json.load(open(os.path.join(ROOT, 'data', 'universities.json'), encoding='utf-8'))['universities'])
 
 errors = []
 def log(msg):
@@ -44,12 +46,12 @@ def main():
         pg.on('pageerror', lambda e: cons.append(('pageerror', str(e))))
         pg.goto(base, wait_until='load')
         pg.wait_for_selector('.card', timeout=30000)
-        check('카드 110곳 렌더', pg.locator('.card').count() == 110, pg.locator('.card').count())
+        check(f'카드 {N}곳 렌더', pg.locator('.card').count() == N, pg.locator('.card').count())
 
         # 1) 내신 입력
         pg.fill('#score', '2.8')
         pg.wait_for_timeout(400)
-        check('판정 사유 박스 표시', pg.locator('.why').count() == 110, pg.locator('.why').count())
+        check('판정 사유 박스 표시', pg.locator('.why').count() == N, pg.locator('.why').count())
         check('내신 비교 문장', 'vs 중위 컷' in pg.locator('.why').first.inner_text() or 'vs 상위' in pg.locator('.why').first.inner_text())
         sum_txt = pg.locator('#score-sum').inner_text()
         check('요약에 내신 구간 카운트', '안정' in sum_txt and '어려움' in sum_txt, sum_txt)
@@ -106,13 +108,13 @@ def main():
         pg.click('[data-region="서울"]')
         pg.wait_for_timeout(300)
         regions_ok = pg.evaluate("Array.from(document.querySelectorAll('.card')).length")
-        check('지역 필터(서울) 동작', 0 < regions_ok < 110, regions_ok)
+        check('지역 필터(서울) 동작', 0 < regions_ok < N, regions_ok)
         pg.click('[data-region="전체"]'); pg.wait_for_timeout(250)
         pg.click('[data-type="논술"]'); pg.wait_for_timeout(300)
-        check('전형 필터(논술) 동작', 0 < pg.locator('.card').count() < 110, pg.locator('.card').count())
+        check('전형 필터(논술) 동작', 0 < pg.locator('.card').count() < N, pg.locator('.card').count())
         pg.click('[data-type="전체"]'); pg.wait_for_timeout(250)
         pg.click('[data-band="어려움"]'); pg.wait_for_timeout(300)
-        check('구간 필터(어려움) 동작', 0 < pg.locator('.card').count() < 110, pg.locator('.card').count())
+        check('구간 필터(어려움) 동작', 0 < pg.locator('.card').count() < N, pg.locator('.card').count())
         pg.click('[data-band="전체"]'); pg.wait_for_timeout(250)
         pg.click('#score-clear'); pg.wait_for_timeout(300)
         check('초기화로 내신·수능 입력 해제', pg.input_value('#score') == '' and pg.input_value('[data-se="kor"]') == '')
@@ -160,7 +162,7 @@ def main():
         for k, v in [('kor', '1'), ('mat', '2'), ('eng', '1'), ('t1', '1'), ('t2', '2')]:
             pd.fill(f'[data-se="{k}"]', v)
         pd.wait_for_timeout(400)
-        check('데스크톱 카드 렌더', pd.locator('.card').count() == 110)
+        check('데스크톱 카드 렌더', pd.locator('.card').count() == N)
         ow2 = pd.evaluate('document.documentElement.scrollWidth - window.innerWidth')
         check('1440px 가로 오버플로 없음', ow2 <= 1, f'{ow2}px')
         pd.screenshot(path=os.path.join(SHOT_DIR, f'{TAG}-susi-dark-desktop-{stamp}.png'))

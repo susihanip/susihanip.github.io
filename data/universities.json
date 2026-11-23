@@ -67,13 +67,13 @@
         "학생부종합",
         "논술"
       ],
-      "quota": "정원 내 1,044명 (교과 지역균형 180 · 종합 693 · 논술 171)",
+      "quota": "1,044명 (지역균형 180 · 일반Ⅰ 494 · 일반Ⅱ 74 · 기회균형 85 · 서강가치 34 · 특성화고교졸업자 6 · 논술 171, 정원 외 포함)",
       "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 18:00",
-      "summary": "지역균형 교과100% | 일반Ⅰ·Ⅱ 서류100% | 논술 100% | 수능최저는 지역균형·논술만, 선택과목 제한 없음",
-      "keywords": "지역균형 일반I 일반II 기회균형 서강가치 특성화고 논술",
-      "noticeUrl": "https://admission3.sogang.ac.kr/enter/html/rolling/guide.asp",
-      "pdfUrl": "https://admission3.sogang.ac.kr/upload/GUIDES/20260609163807KP38K2.pdf",
-      "shortsUrl": "",
+      "summary": "지역균형 교과100%(석차90+성취10)·면접 없음, 수능최저 3개 영역 각 3등급·한국사 4 | 일반Ⅰ·Ⅱ 서류100%, 수능최저 없음 | 2027 일반Ⅰ(494)·일반Ⅱ(74) 분리, 일반Ⅱ는 학부 단위·2학기 전공 선택 | 논술100%(100분), 최저 3개 영역 합 7 | 특성화고 1단계 5배수→면접20%",
+      "keywords": "지역균형 일반I 일반II 기회균형 서강가치 특성화고 논술 수능최저",
+      "noticeUrl": "https://admission.sogang.ac.kr/enter/html/rolling/guide.asp",
+      "pdfUrl": "http://admission.sogang.ac.kr/upload/BBS0014/20260609114515AV55WP.PDF",
+      "shortsUrl": "https://youtube.com/shorts/4a6kHNW7fcE",
       "region": "서울"
     },
     {

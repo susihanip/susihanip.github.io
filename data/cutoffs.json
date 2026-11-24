@@ -3161,6 +3161,539 @@
       "note": "학생부교과·종합 전형 결과 모두 미등재",
       "gyogwa_note": "대학 미제출 — 입시 결과 미존재",
       "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "kkotdongne": {
+      "name": "가톨릭꽃동네대학교",
+      "gyogwa": {
+        "min": 3.67,
+        "max": 7.13,
+        "median": 5.28,
+        "p20": 4.42,
+        "p80": 5.6,
+        "n": 8
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "methodist": {
+      "name": "감리교신학대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 7.0,
+        "median": 6.03,
+        "p20": 5.21,
+        "p80": 6.29,
+        "n": 7
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "kangseo": {
+      "name": "강서대학교",
+      "gyogwa": {
+        "min": 3.3,
+        "max": 5.95,
+        "median": 4.08,
+        "p20": 3.77,
+        "p80": 4.66,
+        "n": 17
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "gjcatholic": {
+      "name": "광주가톨릭대학교",
+      "gyogwa": {
+        "min": 3.78,
+        "max": 3.78,
+        "median": 3.78,
+        "p20": 3.78,
+        "p80": 3.78,
+        "n": 1
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "gwangju": {
+      "name": "광주대학교",
+      "gyogwa": {
+        "min": 4.5,
+        "max": 7.63,
+        "median": 7.0,
+        "p20": 6.25,
+        "p80": 7.0,
+        "n": 76
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "geumgang": {
+      "name": "금강대학교",
+      "gyogwa": {
+        "min": 1.0,
+        "max": 7.37,
+        "median": 7.25,
+        "p20": 3.5,
+        "p80": 7.32,
+        "n": 3
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "daeshin": {
+      "name": "대신대학교",
+      "gyogwa": {
+        "min": 1.8,
+        "max": 9.0,
+        "median": 7.9,
+        "p20": 5.38,
+        "p80": 7.96,
+        "n": 8
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "djcatholic": {
+      "name": "대전가톨릭대학교",
+      "gyogwa": {
+        "min": 3.82,
+        "max": 3.82,
+        "median": 3.82,
+        "p20": 3.82,
+        "p80": 3.82,
+        "n": 1
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "djtheology": {
+      "name": "대전신학대학교",
+      "gyogwa": {
+        "min": 6.0,
+        "max": 6.0,
+        "median": 6.0,
+        "p20": 6.0,
+        "p80": 6.0,
+        "n": 1
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "luther": {
+      "name": "루터대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 6.0,
+        "median": 5.5,
+        "p20": 5.2,
+        "p80": 5.8,
+        "n": 2
+      },
+      "jonghap": {
+        "min": 6.67,
+        "max": 6.67,
+        "median": 6.67,
+        "p20": 6.67,
+        "p80": 6.67,
+        "n": 1
+      },
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": null
+    },
+    "mpcatholic": {
+      "name": "목포가톨릭대학교",
+      "gyogwa": {
+        "min": 4.35,
+        "max": 7.32,
+        "median": 4.67,
+        "p20": 4.48,
+        "p80": 6.26,
+        "n": 3
+      },
+      "jonghap": {
+        "min": 4.27,
+        "max": 4.27,
+        "median": 4.27,
+        "p20": 4.27,
+        "p80": 4.27,
+        "n": 1
+      },
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": null
+    },
+    "bsjangsin": {
+      "name": "부산장신대학교",
+      "gyogwa": {
+        "min": 6.0,
+        "max": 7.0,
+        "median": 6.5,
+        "p20": 6.2,
+        "p80": 6.8,
+        "n": 2
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "seoulchristian": {
+      "name": "서울기독대학교",
+      "gyogwa": {
+        "min": 5.87,
+        "max": 6.35,
+        "median": 6.11,
+        "p20": 5.97,
+        "p80": 6.25,
+        "n": 2
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "seoultheology": {
+      "name": "서울신학대학교",
+      "gyogwa": {
+        "min": 3.0,
+        "max": 7.28,
+        "median": 4.36,
+        "p20": 3.7,
+        "p80": 4.88,
+        "n": 23
+      },
+      "jonghap": {
+        "min": 4.39,
+        "max": 6.72,
+        "median": 5.37,
+        "p20": 5.19,
+        "p80": 5.83,
+        "n": 11
+      },
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": null
+    },
+    "seouljangsin": {
+      "name": "서울장신대학교",
+      "gyogwa": {
+        "min": 6.43,
+        "max": 7.6,
+        "median": 6.64,
+        "p20": 6.55,
+        "p80": 7.04,
+        "n": 4
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "hanyoung": {
+      "name": "서울한영대학교",
+      "gyogwa": {
+        "min": 5.33,
+        "max": 7.24,
+        "median": 6.19,
+        "p20": 5.45,
+        "p80": 7.1,
+        "n": 20
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "skhu": {
+      "name": "성공회대학교",
+      "gyogwa": {
+        "min": 2.0,
+        "max": 3.17,
+        "median": 2.82,
+        "p20": 2.53,
+        "p80": 3.0,
+        "n": 10
+      },
+      "jonghap": {
+        "min": 3.07,
+        "max": 5.64,
+        "median": 4.42,
+        "p20": 4.11,
+        "p80": 4.66,
+        "n": 8
+      },
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": null
+    },
+    "swcatholic": {
+      "name": "수원가톨릭대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 6.0,
+        "median": 5.0,
+        "p20": 5.0,
+        "p80": 5.6,
+        "n": 3
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "asin": {
+      "name": "아신대학교",
+      "gyogwa": {
+        "min": 5.3,
+        "max": 7.0,
+        "median": 6.5,
+        "p20": 5.72,
+        "p80": 7.0,
+        "n": 4
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "yswbu": {
+      "name": "영산선학대학교",
+      "gyogwa": null,
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": "학생부교과·종합 전형 결과 모두 미등재",
+      "gyogwa_note": "대학 미제출 — 원불교 성직자를 양성하는 본교 지원 관련 특성상 ①교단 추천 ② 생활.정신면을 강조하는 면접 내용 ③수능 미반영(최저학력 없음) 등을 종합적으로",
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "yesu": {
+      "name": "예수대학교",
+      "gyogwa": {
+        "min": 4.06,
+        "max": 4.7,
+        "median": 4.14,
+        "p20": 4.09,
+        "p80": 4.48,
+        "n": 3
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "icatholic": {
+      "name": "인천가톨릭대학교",
+      "gyogwa": {
+        "min": 5.48,
+        "max": 5.48,
+        "median": 5.48,
+        "p20": 5.48,
+        "p80": 5.48,
+        "n": 1
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "puts": {
+      "name": "장로회신학대학교",
+      "gyogwa": {
+        "min": 3.55,
+        "max": 5.55,
+        "median": 4.15,
+        "p20": 3.79,
+        "p80": 4.99,
+        "n": 3
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학 미제출 — 추가 안내자료 참고"
+    },
+    "seungga": {
+      "name": "중앙승가대학교",
+      "gyogwa": null,
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": "학생부교과·종합 전형 결과 모두 미등재",
+      "gyogwa_note": "수치 미제출",
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "chongshin": {
+      "name": "총신대학교",
+      "gyogwa": {
+        "min": 3.6,
+        "max": 4.39,
+        "median": 3.67,
+        "p20": 3.63,
+        "p80": 4.1,
+        "n": 3
+      },
+      "jonghap": {
+        "min": 1.0,
+        "max": 5.54,
+        "median": 4.55,
+        "p20": 3.99,
+        "p80": 4.96,
+        "n": 13
+      },
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": null
+    },
+    "chugye": {
+      "name": "추계예술대학교",
+      "gyogwa": {
+        "min": 2.0,
+        "max": 2.0,
+        "median": 2.0,
+        "p20": 2.0,
+        "p80": 2.0,
+        "n": 1
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "calvin": {
+      "name": "칼빈대학교",
+      "gyogwa": {
+        "min": 7.0,
+        "max": 8.0,
+        "median": 8.0,
+        "p20": 7.6,
+        "p80": 8.0,
+        "n": 4
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "kbible": {
+      "name": "한국성서대학교",
+      "gyogwa": {
+        "min": 3.59,
+        "max": 7.77,
+        "median": 4.98,
+        "p20": 4.48,
+        "p80": 5.88,
+        "n": 18
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "chimrye": {
+      "name": "한국침례신학대학교",
+      "gyogwa": {
+        "min": 1.5,
+        "max": 6.0,
+        "median": 4.0,
+        "p20": 2.4,
+        "p80": 5.4,
+        "n": 4
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "hanshin": {
+      "name": "한신대학교",
+      "gyogwa": {
+        "min": 2.6,
+        "max": 6.02,
+        "median": 4.09,
+        "p20": 3.57,
+        "p80": 4.7,
+        "n": 78
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "hnth": {
+      "name": "호남신학대학교",
+      "gyogwa": {
+        "min": 6.0,
+        "max": 8.0,
+        "median": 7.0,
+        "p20": 6.4,
+        "p80": 7.6,
+        "n": 2
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "howon": {
+      "name": "호원대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 8.0,
+        "median": 7.0,
+        "p20": 6.0,
+        "p80": 8.0,
+        "n": 24
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
     }
   }
 }

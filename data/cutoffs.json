@@ -3694,6 +3694,56 @@
       "note": null,
       "gyogwa_note": null,
       "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "kwangshin": {
+      "name": "광신대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 8.0,
+        "median": 7.0,
+        "p20": 5.8,
+        "p80": 8.0,
+        "n": 5
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "ytus": {
+      "name": "영남신학대학교",
+      "gyogwa": null,
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": "학생부교과·종합 전형 결과 모두 미등재",
+      "gyogwa_note": "수치 미제출",
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "hanil": {
+      "name": "한일장신대학교",
+      "gyogwa": {
+        "min": 5.0,
+        "max": 9.0,
+        "median": 7.0,
+        "p20": 6.0,
+        "p80": 8.0,
+        "n": 13
+      },
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": null,
+      "gyogwa_note": null,
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
+    },
+    "yewon": {
+      "name": "예원예술대학교",
+      "gyogwa": null,
+      "jonghap": null,
+      "suneung_choejeo": null,
+      "note": "학생부교과·종합 전형 결과 모두 미등재",
+      "gyogwa_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음",
+      "jonghap_note": "대학이 어디가에 전년도 입시결과를 입력하지 않음"
     }
   }
 }

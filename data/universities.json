@@ -3351,6 +3351,73 @@
    "pdfUrl": "",
    "shortsUrl": "",
    "region": "지방"
+  },
+  {
+   "id": "kwangshin",
+   "name": "광신대학교",
+   "campus": "광주 북구캠퍼스",
+   "types": [
+    "학생부교과",
+    "실기"
+   ],
+   "quota": "수시 84명 · 2027학년도 총 110명 중",
+   "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+   "summary": "교과 63 · 실기 21",
+   "keywords": "학생부교과 실기 광신",
+   "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000073",
+   "pdfUrl": "",
+   "shortsUrl": "",
+   "region": "지방"
+  },
+  {
+   "id": "ytus",
+   "name": "영남신학대학교",
+   "campus": "경북 경산캠퍼스",
+   "types": [
+    "학생부교과"
+   ],
+   "quota": "수시 93명 · 2027학년도 총 123명 중",
+   "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+   "summary": "교과 91 · 기타 2 | 전형기간 자율모집 9명",
+   "keywords": "학생부교과 영남신학",
+   "noticeUrl": "https://entra.ytus.ac.kr/board/view/admissions_notice2/296",
+   "pdfUrl": "",
+   "shortsUrl": "",
+   "region": "지방"
+  },
+  {
+   "id": "hanil",
+   "name": "한일장신대학교",
+   "campus": "전북 완주캠퍼스",
+   "types": [
+    "학생부교과",
+    "실기"
+   ],
+   "quota": "수시 241명 · 2027학년도 총 248명 중",
+   "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+   "summary": "교과 225 · 실기 16",
+   "keywords": "학생부교과 실기 한일장신",
+   "noticeUrl": "https://www.hanil.ac.kr/portal/ipsi/main/main.do",
+   "pdfUrl": "",
+   "shortsUrl": "",
+   "region": "지방"
+  },
+  {
+   "id": "yewon",
+   "name": "예원예술대학교",
+   "campus": "전북 임실·경기 양주캠퍼스",
+   "types": [
+    "학생부교과",
+    "실기"
+   ],
+   "quota": "수시 225명 · 2027학년도 총 316명 중",
+   "schedule": "2026. 9. 7.(월) ~ 9. 11.(금) (수시 원서접수 공통기간, 마감시각 대학별 상이)",
+   "summary": "교과 18 · 실기 203 · 기타 4 | 전형기간 자율모집 60명",
+   "keywords": "학생부교과 실기 예원예술",
+   "noticeUrl": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&searchSyr=2027&unvCd=0000218",
+   "pdfUrl": "",
+   "shortsUrl": "",
+   "region": "지방"
   }
  ]
 }

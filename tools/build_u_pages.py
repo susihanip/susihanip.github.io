@@ -2,8 +2,7 @@
 """정시한입·수시한입 대학별 정적 SEO 페이지(/u/{uid}.html) + sitemap.xml 생성기.
 
 사용(저장소 루트에서):
-  python3 tools/build_u_pages.py          # 이 저장소의 /u/ 페이지 + sitemap.xml 재생성
-  (대학 목록·학과 데이터가 바뀌면 반드시 다시 실행)
+  python3 tools/build_u_pages.py          # 이 저장소의 /u/ 페이지 + sitemap.xml + 홈 대학 링크 재생성
 
 법적 원칙:
   - 요강 PDF·본문을 복제하지 않고 입학처 공식 링크만 연결한다.
@@ -673,6 +672,34 @@ def write_sitemap(cfg, unis, today):
     return len(unis) + 1
 
 
+def update_index_links(cfg, unis):
+    """홈페이지 footer의 <!-- U-LINKS:BEGIN --> ~ <!-- U-LINKS:END --> 블록을 대학 목록으로 채운다.
+
+    JS 카드만으로는 크롤러가 /u/ 페이지로 가는 링크를 보지 못하므로 정적 링크를 둔다.
+    """
+    path = os.path.join(cfg["root"], "index.html")
+    if not os.path.exists(path):
+        return 0
+    with open(path, encoding="utf-8") as f:
+        html = f.read()
+    begin = "<!-- U-LINKS:BEGIN -->"
+    end = "<!-- U-LINKS:END -->"
+    if begin not in html or end not in html:
+        return -1
+    label = "정시" if cfg["mode"] == "jeongsi" else "수시"
+    items = "".join('<li><a href="u/%s.html">%s</a></li>' % (u["id"], esc(u["name"])) for u in unis)
+    block = (begin + "\n"
+             '    <summary>대학별 2027 ' + label + ' 모집요강 바로가기 · <b>' + str(len(unis)) + '개 대학</b></summary>\n'
+             '    <ul>' + items + "</ul>\n"
+             "    " + end)
+    head, rest = html.split(begin, 1)
+    _, tail = rest.split(end, 1)
+    out = head + block + tail
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(out)
+    return len(unis)
+
+
 def build(site, today=None):
     cfg = BASE_SITES[site]
     today = today or date.today().isoformat()
@@ -705,8 +732,9 @@ def build(site, today=None):
             f.write(html)
         total_bytes += len(html.encode("utf-8"))
     n_urls = write_sitemap(cfg, unis, today)
-    print("[%s] /u/ pages: %d (removed %d) · sitemap urls: %d · html %.1f MB" % (
-        site, len(unis), removed, n_urls, total_bytes / 1024 / 1024))
+    n_links = update_index_links(cfg, unis)
+    print("[%s] /u/ pages: %d (removed %d) · sitemap urls: %d · index links: %s · html %.1f MB" % (
+        site, len(unis), removed, n_urls, n_links, total_bytes / 1024 / 1024))
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
   var state = {
     items: [], cuts: {}, sunj: {},
     q: "", type: "전체", region: "전체", sort: "추천순", band: "전체",
-    cat: "전체", vband: "전체", open: {},
+    cat: "전체", vband: "전체", open: {}, focusUid: null,
     track: "gyogwa", grade: null,
     seMode: "subject", se: { kor: null, mat: null, eng: null, t1: null, t2: null },
     seN: 2, seVal: null,
@@ -427,6 +427,7 @@
     var q = state.q.trim().toLowerCase();
     var g = state.grade;
     var rows = state.items.filter(function (u) {
+      if (state.focusUid && u.id !== state.focusUid) return false;
       var okType = state.type === "전체" || (u.types || []).indexOf(state.type) !== -1;
       var okRegion = state.region === "전체" || u.region === state.region;
       var okQuery = !q || haystack(u).indexOf(q) !== -1 || deptQueryHit(u.id, q);
@@ -867,16 +868,18 @@
 
   var t = null;
   qEl.addEventListener("input", function () {
+    clearFocus();
     state.q = qEl.value;
     clearEl.classList.toggle("show", !!qEl.value);
     clearTimeout(t);
     t = setTimeout(render, 90);
   });
   clearEl.addEventListener("click", function () {
+    clearFocus();
     qEl.value = ""; state.q = ""; clearEl.classList.remove("show"); qEl.focus(); render();
   });
   qEl.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { qEl.value = ""; state.q = ""; clearEl.classList.remove("show"); render(); }
+    if (e.key === "Escape") { clearFocus(); qEl.value = ""; state.q = ""; clearEl.classList.remove("show"); render(); }
   });
 
   // ── 테마 ──
@@ -900,6 +903,62 @@
     });
   });
 
+  function clearFocus() {
+    if (!state.focusUid) return;
+    state.focusUid = null;
+    var n = document.getElementById("uparam-note");
+    if (n) n.remove();
+  }
+  // ── 대학별 정적 페이지(/u/{uid}.html)의 "내 점수로 계산하기" 버튼으로 들어오면
+  //    그 대학만 검색·펌침해서 바로 보여준다 (?u=konkuk)
+  function applyUParam() {
+    var uid = null;
+    try { uid = new URLSearchParams(location.search).get("u"); } catch (e) { return null; }
+    if (!uid) return null;
+    var u = null;
+    for (var i = 0; i < state.items.length; i++) if (state.items[i].id === uid) { u = state.items[i]; break; }
+    if (!u) return null;
+    state.focusUid = u.id;
+    state.q = "";
+    qEl.value = "";
+    if (clearEl) clearEl.classList.remove("show");
+    state.type = "전체"; state.region = "전체"; state.band = "전체";
+    state.cat = "전체"; state.vband = "전체"; state.sort = "추천순";
+    ["type", "region", "band", "cat", "vband", "sort"].forEach(function (a) {
+      Array.prototype.forEach.call(document.querySelectorAll(".chip[data-" + a + "]"), function (c) {
+        c.setAttribute("aria-pressed", String(c.dataset[a] === state[a]));
+      });
+    });
+    state.open[u.id] = true;
+    var old = document.getElementById("uparam-note");
+    if (old) old.remove();
+    var note = document.createElement("div");
+    note.id = "uparam-note";
+    note.className = "uparam-note";
+    note.innerHTML = '🔎 <b>' + esc(u.name) + '</b> 카드로 바로 이동했어요. 학과 목록은 카드 안에서 펼쳐 볼 수 있어요.' +
+      '<button type="button" id="uparam-clear">전체 196개 대학 보기</button>';
+    var countRow = countEl.closest(".count-row") || countEl;
+    countRow.parentNode.insertBefore(note, countRow);
+    note.querySelector("#uparam-clear").addEventListener("click", function () {
+      qEl.value = ""; state.q = ""; clearEl.classList.remove("show");
+      state.open = {};
+      state.focusUid = null;
+      note.remove();
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    return uid;
+  }
+  function scrollToUParam(uid) {
+    if (!uid) return;
+    var art = document.getElementById("uparam-note") || document.querySelector('article.card[data-uid="' + uid + '"]');
+    if (!art) return;
+    var hd = document.querySelector("header.top");
+    var ct = document.querySelector(".controls");
+    var off = (hd ? hd.offsetHeight : 0) + (ct ? ct.offsetHeight : 0) + 8;
+    window.scrollTo({ top: art.getBoundingClientRect().top + window.pageYOffset - off, behavior: "auto" });
+  }
+
   Promise.all([
     fetch("data/universities.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
     fetch("data/cutoffs.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : { universities: {} }; }).catch(function () { return { universities: {} }; }),
@@ -920,7 +979,9 @@
         d.length === 3 ? d[0] + "." + Number(d[1]) + "." + Number(d[2]) : data.updated;
     }
     updateScoreUI();
+    var uidParam = applyUParam();
     render();
+    scrollToUParam(uidParam);
   }).catch(function () {
     listEl.innerHTML = '<div class="empty"><b>목록을 불러오지 못했어요</b>' +
       "잠시 후 새로고침해 주세요. 계속 안 되면 수시한입 채널에 알려 주세요.</div>";

@@ -569,3 +569,15 @@ footer{margin-top:22px;padding-top:18px;padding-bottom:40px;border-top:1px solid
   .dept-name{font-size:12.5px}
   .dept-cut{font-size:10.5px}
 }
+
+/* ── 대학별 페이지(/u/)에서 ?u= 로 들어왔을 때 안내 ── */
+.uparam-note{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  margin:0 0 10px;padding:10px 12px;border-radius:12px;font-size:12px;line-height:1.5;
+  color:var(--text-soft);background:var(--accent-soft);border:1px solid var(--accent-line);
+}
+.uparam-note b{color:var(--text)}
+.uparam-note button{
+  margin-left:auto;font-family:inherit;font-size:11.5px;font-weight:800;cursor:pointer;
+  color:var(--on-gold);background:var(--accent);border:0;border-radius:999px;padding:6px 12px;
+}

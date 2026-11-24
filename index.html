@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>2027 수시모집요강 모음 | 수시한입</title>
-<meta name="description" content="2027학년도 대학별 수시모집요강을 한 곳에서 — 내 내신 등급과 수능 등급을 넣으면 지원 가능 대학과 함께 ‘왜 되는지·왜 어려운지’를 내신 컷 비교·수능최저 판정으로 자세히 보여줍니다. 전형(교과·종합·논술)·모집인원·원서접수 일정·입학처 공지·요강 PDF·1분 요약 쇼츠까지. (수시한입)"
+<meta name="description" content="2027학년도 대학별 수시모집요강을 한 곳에서 — 내 내신 등급과 수능 등급을 넣으면 지원 가능 대학과 함께 ‘왜 되는지·왜 어려운지’를 내신 컷 비교·수능최저 판정으로 자세히 보여줍니다. 전형(교과·종합·논술)·모집인원·원서접수 일정·입학처 공지·요강 PDF·1분 요약 쇼츠까지. (수시한입)" />
 <meta name="theme-color" content="#09090b" id="meta-theme" />
 <meta property="og:title" content="2027 수시모집요강 모음 | 수시한입" />
 <meta property="og:description" content="대학별 2027 수시모집요강 · 전형 · 모집인원 · 수능 최저 · 원서접수 일정 · 입학처 공지 · PDF · 1분 요약 쇼츠" />
@@ -117,6 +117,13 @@
     <button class="chip" type="button" data-band="소신" aria-pressed="false">소신</button>
     <button class="chip" type="button" data-band="어려움" aria-pressed="false">어려움</button>
   </div>
+  <div class="filters" id="dept-band-filters" role="group" aria-label="학과별 판정 필터" hidden>
+    <button class="chip" type="button" data-vband="전체" aria-pressed="true">학과 전체</button>
+    <button class="chip" type="button" data-vband="안정" aria-pressed="false">안정 학과</button>
+    <button class="chip" type="button" data-vband="적정" aria-pressed="false">적정 학과</button>
+    <button class="chip" type="button" data-vband="소신" aria-pressed="false">소신 학과</button>
+    <button class="chip" type="button" data-vband="어려움" aria-pressed="false">어려움 학과</button>
+  </div>
   <p class="score-sum" id="score-sum" hidden></p>
   <p class="score-note">입결은 <b>2026학년도 수시 70% 컷(최종등록자)</b>, 수능최저는 <b>2027학년도 대입정보포털(어디가) 전형별 주요사항</b> 기준의 <b>참고용 판정</b>입니다. 학과·반영비율·탐구 과목 수·영어/한국사 조건에 따라 달라지므로, 정확한 지원 가능 여부는 반드시 각 대학 입학처 요강에서 확인하세요.</p>
 </section>
@@ -124,7 +131,7 @@
 <div class="wrap controls">
   <div class="search">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="대학명·키워드 검색 (예: 서울대, 논술)" aria-label="대학명 또는 키워드 검색" />
+    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="대학·학과 검색 (예: 서울대, 컴퓨터, 간호)" aria-label="대학명 또는 학과명 검색" />
     <button class="clear" id="clear" type="button" aria-label="검색어 지우기">✕</button>
   </div>
   <div class="filters" role="group" aria-label="전형 필터">
@@ -140,6 +147,15 @@
     <button class="chip" type="button" data-region="수도권" aria-pressed="false">수도권</button>
     <button class="chip" type="button" data-region="지방" aria-pressed="false">지방</button>
   </div>
+  <div class="filters cat-filters" role="group" aria-label="계열(큰 구분) 필터">
+    <button class="chip" type="button" data-cat="전체" aria-pressed="true">계열 전체</button>
+    <button class="chip" type="button" data-cat="i" aria-pressed="false">이공계</button>
+    <button class="chip" type="button" data-cat="m" aria-pressed="false">문과</button>
+    <button class="chip" type="button" data-cat="s" aria-pressed="false">의약·보건</button>
+    <button class="chip" type="button" data-cat="e" aria-pressed="false">사범·교육</button>
+    <button class="chip" type="button" data-cat="a" aria-pressed="false">예체능</button>
+    <button class="chip" type="button" data-cat="f" aria-pressed="false">자유전공·융합</button>
+  </div>
 </div>
 
 <main class="wrap">
@@ -151,7 +167,7 @@
       <button class="chip" type="button" data-sort="가나다순" aria-pressed="false">가나다순</button>
     </div>
   </div>
-  <p class="legend" id="legend" hidden><b>안정</b> = 대학 상위 20% 모집단위 컷보다 좋음 · <b>적정</b> = 중위 컷 수준 · <b>소신</b> = 대학 최고 컷 이내 · <b>어려움</b> = 그보다 낮음 (등급은 낮을수록 좋음)<br>카드의 <b>판정 사유</b>는 ① 내신을 전년도 컷과 등급 차이로 비교 ② 입력한 수능 등급으로 수능최저 충족 여부 ③ 부족한 이유와 대안 전형 순서로 보여줍니다.</p>
+  <p class="legend" id="legend" hidden><b>대학 카드</b> — <b>안정</b> = 대학 상위 20% 모집단위 컷보다 좋음 · <b>적정</b> = 중위 컷 수준 · <b>소신</b> = 대학 최고 컷 이내 · <b>어려움</b> = 그보다 낮음 (등급은 낮을수록 좋음)<br><b>학과 판정</b> — 그 학과의 2026 수시 70% 컷과 내 내신의 차이로 <b>안정</b>(컷 − 내신 ≥ +0.30) · <b>적정</b>(−0.20~+0.30) · <b>소신</b>(−0.60~−0.20) · <b>어려움</b>(−0.60 미만) · <b>미등록</b>(컷 미공개)을 표시하고, 수능최저 미충족은 사유와 함께 알려줍니다. 학과·계열로 걸러 보면 조건에 맞는 학과가 있는 대학만 남고 학과 목록이 자동으로 펼쳐집니다.</p>
   <div id="list">
     <div class="loading"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span>요강 목록 불러오는 중…</span></div>
   </div>
@@ -168,6 +184,7 @@
       <li>표시된 모집인원은 각 대학 <b>2027학년도 모집요강·대교협 전형시행계획</b> 기준입니다. 모집단위 신설·개편으로 최종 인원이 달라질 수 있으니 원서접수 전 입학처 공지에서 다시 확인하세요.</li>
       <li>전형방법·수능 최저는 대학별 <b>최종 확정 요강</b>이 기준입니다. 이 페이지는 원문 링크를 모아둔 안내용입니다.</li>
       <li>입결 배지는 <b>2026학년도 최종등록자 70% 컷(학생부 환산등급)</b>을 대학 단위로 묶은 참고값입니다. 학과별·전형별 차이가 크고, 대학마다 반영 방식이 달라 다른 대학과 직접 비교할 수 없습니다.</li>
+      <li>카드 안 <b>학과(모집단위)별 70% 컷</b>은 대교협 ‘어디가’가 공개한 2026학년도 모집단위별 최종등록자 70% 컷(학생부 환산등급)입니다. 선택한 전형(교과/종합)의 컷을 보여주고, 같은 학과에 여러 전형이 있으면 <b>일반전형 가운데 가장 좋은(낮은) 등급</b>을 대표값으로 쓰며 특별전형만 있는 경우 <b>*</b>를 붙였습니다. 대학이 결과를 내지 않은 학과는 ‘컷 미공개’, 입시결과를 공개하지 않는 대학(KAIST, POSTECH, GIST, DGIST, UNIST, KENTECH, 한국예술종합학교 등)은 모집단위 이름만 실었습니다.</li>
       <li>수능최저 판정은 <b>2027학년도 대입정보포털(어디가) 대학별 전형평가기준의 ‘전형별 주요사항’</b>에 적힌 기준을 전형·계열별로 옮긴 뒤, 입력한 등급으로 가장 유리한 기준을 계산한 값입니다. 같은 대학에서도 전형·모집단위마다 기준이 다르고, 탐구 반영 과목 수·영어 감점·한국사 조건은 표시하지 못했으니 해당 전형의 요강 원문을 꼭 확인하세요.</li>
       <li>수능최저 기준이 공개되지 않은 대학·전형은 ‘요강 확인’으로 표시됩니다. 판정 결과는 합격·불합격 예측이 아닙니다.</li>
       <li>모든 링크는 각 대학 입학처와 유튜브로 연결됩니다.</li>

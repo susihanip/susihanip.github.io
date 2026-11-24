@@ -2,6 +2,7 @@
   var state = {
     items: [], cuts: {}, sunj: {},
     q: "", type: "전체", region: "전체", sort: "추천순", band: "전체",
+    cat: "전체", vband: "전체", open: {},
     track: "gyogwa", grade: null,
     seMode: "subject", se: { kor: null, mat: null, eng: null, t1: null, t2: null },
     seN: 2, seVal: null,
@@ -14,6 +15,7 @@
   var scoreEl = document.getElementById("score");
   var scoreClear = document.getElementById("score-clear");
   var bandWrap = document.getElementById("band-filters");
+  var vbandWrap = document.getElementById("dept-band-filters");
   var scoreSum = document.getElementById("score-sum");
   var legendEl = document.getElementById("legend");
   var seSubjEl = document.getElementById("se-subj");
@@ -36,6 +38,12 @@
   function gapTxt(v) {
     var a = Math.abs(v);
     return (Math.abs(a - Math.round(a)) < 0.005 ? String(Math.round(a)) : fmt(a)) + "등급";
+  }
+  // 부호를 붙인 등급 차이 (컷 − 내신: +면 내신이 더 좋아 여유)
+  function gapSigned(v) {
+    var a = Math.abs(v);
+    var s = (Math.abs(a - Math.round(a)) < 0.005) ? String(Math.round(a)) : fmt(a);
+    return (v >= 0 ? "+" : "-") + s + "등급";
   }
 
   /* ── 입결 컷 데이터 ── */
@@ -327,15 +335,114 @@
     return [u.name, u.campus, (u.types || []).join(" "), u.quota, u.schedule, u.summary, u.keywords || ""]
       .join(" ").toLowerCase();
   }
+  /* ── 학과(모집단위) 데이터: 카드 안에서 학과별 70% 컷과 판정을 보여준다 ── */
+  var DEPTS = {};
+  var DEPT_CATS = { m: "문과", i: "이공계", s: "의약·보건", e: "사범·교육", a: "예체능", f: "자유전공·융합", x: "기타" };
+
+  // 전형명 → 교과/종합 구분
+  function trackKind(name) {
+    var n = String(name);
+    if (n.indexOf("교과") !== -1) return "gyogwa";
+    if (n.indexOf("종합") !== -1) return "jonghap";
+    return null;
+  }
+  function deptRows(uid) {
+    var d = DEPTS[uid];
+    return (d && d.s && d.s.length) ? d.s : null;
+  }
+  // 학과 목록(선택한 전형 기준). 그 전형이 아예 없는 대학은 전체 모집단위를 보여준다
+  function deptPool(uid) {
+    var rows = deptRows(uid);
+    if (!rows) return null;
+    var picked = [], anyKind = false;
+    rows.forEach(function (row) {
+      var kt = (row[2] || []).filter(function (t) { return trackKind(t[0]) === state.track; });
+      if (kt.length) { anyKind = true; picked.push({ name: row[0], cat: row[1], catName: DEPT_CATS[row[1]] || "기타", all: row[2] || [], kt: kt }); }
+    });
+    if (anyKind) return picked;
+    return rows.map(function (row) {
+      return { name: row[0], cat: row[1], catName: DEPT_CATS[row[1]] || "기타", all: row[2] || [], kt: [] };
+    });
+  }
+  // 대표 컷: 일반전형 중 가장 좋은(낮은) 등급, 없으면 특별전형
+  function deptRep(o) {
+    var best = null, any = null;
+    o.kt.forEach(function (t) {
+      if (t[3] == null) return;
+      if (!t[1]) { if (best == null || t[3] < best) best = t[3]; }
+      else if (any == null || t[3] < any) any = t[3];
+    });
+    return best != null ? best : any;
+  }
+  function deptIsSpecialOnly(o) {
+    var any = false;
+    for (var i = 0; i < o.kt.length; i++) {
+      if (o.kt[i][3] == null) continue;
+      if (!o.kt[i][1]) return false;
+      any = true;
+    }
+    return any;
+  }
+  // 컷(합격자 70% 등급) − 내 내신: +면 내신이 더 좋다
+  function deptBand(cutV, g) {
+    if (cutV == null || g == null) return "미등록";
+    var d = cutV - g;
+    if (d >= 0.3) return "안정";
+    if (d >= -0.2) return "적정";
+    if (d >= -0.6) return "소신";
+    return "어려움";
+  }
+  function deptQueryHit(uid, q) {
+    if (!q) return false;
+    var rows = deptRows(uid);
+    if (!rows) return false;
+    for (var i = 0; i < rows.length; i++) {
+      if (String(rows[i][0]).toLowerCase().indexOf(q) !== -1) return true;
+    }
+    return false;
+  }
+  function deptFilterOn() {
+    return state.cat !== "전체" || state.vband !== "전체";
+  }
+  function deptMatches(uid, q, g) {
+    var pool = deptPool(uid);
+    if (!pool) return null;
+    var out = [];
+    pool.forEach(function (o) {
+      if (state.cat !== "전체" && o.cat !== state.cat) return;
+      if (q && String(o.name).toLowerCase().indexOf(q) === -1) return;
+      if (state.vband !== "전체" && deptBand(deptRep(o), g) !== state.vband) return;
+      out.push(o);
+    });
+    return out;
+  }
+  function deptCounts(uid, g) {
+    var pool = deptPool(uid), n = { "안정": 0, "적정": 0, "소신": 0, "어려움": 0, "미등록": 0 };
+    if (!pool) return n;
+    pool.forEach(function (o) { n[deptBand(deptRep(o), g)]++; });
+    return n;
+  }
+
   function filtered() {
     var q = state.q.trim().toLowerCase();
+    var g = state.grade;
     var rows = state.items.filter(function (u) {
       var okType = state.type === "전체" || (u.types || []).indexOf(state.type) !== -1;
       var okRegion = state.region === "전체" || u.region === state.region;
-      var okQuery = !q || haystack(u).indexOf(q) !== -1;
+      var okQuery = !q || haystack(u).indexOf(q) !== -1 || deptQueryHit(u.id, q);
       var b = bandOf(u);
       var okBand = state.band === "전체" || b === state.band || b === "미등록";
-      return okType && okRegion && okQuery && okBand;
+      if (!okType || !okRegion || !okQuery || !okBand) return false;
+      if (state.cat !== "전체" || state.vband !== "전체") {
+        var ms = deptMatches(u.id, q, g) || [];
+        var pass = ms.some(function (o) {
+          if (state.cat !== "전체" && o.cat !== state.cat) return false;
+          if (state.vband !== "전체" && deptBand(deptRep(o), g) !== state.vband) return false;
+          return true;
+        });
+        if (!pass) return false;
+      }
+      return true;
     });
     if (state.sort === "가나다순") {
       rows.sort(function (a, b) { return String(a.name || "").localeCompare(String(b.name || ""), "ko"); });
@@ -412,6 +519,105 @@
       "</div>";
   }
 
+  function itemById(uid) {
+    for (var i = 0; i < state.items.length; i++) if (state.items[i].id === uid) return state.items[i];
+    return null;
+  }
+
+  function deptTracksHtml(o, g) {
+    var out = [];
+    // 선택한 전형(교과/종합) 줄을 먼저, 다른 전형 줄은 뒤에 보여준다
+    var ts = o.all.slice().sort(function (a, b) {
+      var ka = trackKind(a[0]) === state.track ? 0 : 1, kb = trackKind(b[0]) === state.track ? 0 : 1;
+      if (ka !== kb) return ka - kb;
+      if (!!a[1] !== !!b[1]) return a[1] ? 1 : -1;
+      return 0;
+    });
+    ts.forEach(function (t) {
+      if (ts.length > 6 && t[1] && t[3] == null) return;
+      var cutTxt = t[3] == null ? "컷 미공개" : "70% 컷 " + fmt(t[3]) + "등급";
+      var diff = (t[3] != null && g != null) ? " (" + gapSigned(t[3] - g) + ")" : "";
+      out.push("<li><span class=\"tk\">" + esc(t[0]) + (t[1] ? " <span class=\"sp\">특별</span>" : "") + "</span><span>" + cutTxt + diff + "</span></li>");
+    });
+    if (!out.length) return "";
+    return '<ul class="dept-tracks">' + out.join("") + "</ul>";
+  }
+
+  function deptBox(u) {
+    var pool = deptPool(u.id);
+    if (!pool || !pool.length) return "";
+    var g = state.grade;
+    var q = state.q.trim().toLowerCase();
+    var filterOn = deptFilterOn();
+    var qHit = !!q && deptQueryHit(u.id, q) && haystack(u).indexOf(q) === -1;
+    var focus = filterOn || qHit;
+    var open = focus || !!state.open[u.id];
+    var list = pool.filter(function (o) {
+      if (state.cat !== "전체" && o.cat !== state.cat) return false;
+      if (q && String(o.name).toLowerCase().indexOf(q) === -1) return false;
+      if (state.vband !== "전체" && deptBand(deptRep(o), g) !== state.vband) return false;
+      return true;
+    });
+    if (focus && !list.length) return "";
+    if (state.vband !== "전체" && g == null) list = pool;
+
+    var n = deptCounts(u.id, g);
+    var sum = [];
+    if (g != null) {
+      ["안정", "적정", "소신", "어려움"].forEach(function (b) {
+        if (n[b]) sum.push('<span class="s">' + b + " " + n[b] + "</span>");
+      });
+      if (n["미등록"]) sum.push('<span class="s">미등록 ' + n["미등록"] + "</span>");
+    } else {
+      var cc = {};
+      pool.forEach(function (o) { cc[o.catName] = (cc[o.catName] || 0) + 1; });
+      Object.keys(cc).forEach(function (k) { sum.push('<span class="s">' + esc(k) + " " + cc[k] + "</span>"); });
+    }
+
+    var j = g != null || hasSe() ? judge(u) : null;
+    var sunMiss = j && j.s === "miss";
+    var sunTxt = "";
+    if (sunMiss) {
+      var sl = sunLine(u, j) || "수능최저 미충족";
+      sunTxt = ' <span class="warn">· 수능최저 미충족 — ' + esc(sl) + "</span>";
+    }
+
+    var head = '<div class="dept-head">' +
+      '<button class="dept-toggle" type="button" data-dept-toggle="' + esc(u.id) + '" aria-expanded="' + (open ? "true" : "false") + '">' +
+      (open ? "학과 " + list.length + "개 접기" : "학과 " + pool.length + "개 보기") +
+      '<span class="arw">' + (open ? "▲" : "▼") + "</span></button>" +
+      '<div class="dept-sum">' + sum.join("") + "</div></div>";
+
+    if (!open) return '<div class="dept-box">' + head + "</div>";
+
+    var LIMIT = 40;
+    var items = list.slice(0, LIMIT).map(function (o) {
+      var cut = deptRep(o);
+      var b = deptBand(cut, g);
+      var cutTxt = cut == null ? "컷 미공개" : "70% 컷 " + fmt(cut) + "등급";
+      var diff = (cut != null && g != null)
+        ? "내 " + fmt(g) + " vs 컷 " + fmt(cut) + " (" + gapSigned(cut - g) + ")"
+        : (cut == null ? (o.kt.length ? "입결(70% 컷)이 공개되지 않았습니다" : "이 전형에서는 모집하지 않습니다") : "내신을 넣으면 이 학과 컷과 비교합니다");
+      var extra = "";
+      if (g != null && sunMiss) extra = ' <span class="warn">· 수능최저 미충족 — ' + esc(sunLine(u, j) || "기준 확인 필요") + "</span>";
+      return '<li class="dept-item" data-uid="' + esc(u.id) + '" data-dept="' + esc(o.name) + '">' +
+        '<button class="dept-row" type="button" aria-label="' + esc(o.name) + ' 전형별 컷 보기">' +
+        '<span class="dept-name">' + esc(o.name) + "</span>" +
+        '<span class="dept-cat">' + esc(o.catName) + "</span>" +
+        '<span class="dept-cut">' + esc(cutTxt) + "</span>" +
+        (g != null ? '<span class="badge ' + bandClass(b) + '">' + esc(b) + (o.kt.length > 1 && deptIsSpecialOnly(o) ? "*" : "") + "</span>" : "") +
+        (o.all.length > 1 ? '<span class="dept-arw" aria-hidden="true">▾</span>' : "") +
+        "</button>" +
+        (g != null || extra ? '<p class="dept-why">' + esc(diff) + extra + "</p>" : "") +
+        "</li>";
+    }).join("");
+
+    var more = list.length > LIMIT ? '<div class="dept-more">학과가 ' + list.length + "개 더 있습니다. 학과명을 검색하거나 계열·판정 필터로 좁혀 보세요.</div>" : "";
+    var dn = DEPTS[u.id] || {};
+    var note = (dn.note || dn.ns) ? '<p class="dept-note">※ ' + esc(dn.note || dn.ns) + "</p>" : "";
+    return '<div class="dept-box">' + head + '<ul class="dept-list">' + items + "</ul>" + more + note + "</div>";
+  }
+
   function card(u) {
     var types = (u.types || []).map(function (t) {
       return '<span class="g ' + (TYPE_CLASS[t] || "") + '">' + esc(t) + "</span>";
@@ -427,7 +633,7 @@
 
     var band = bandOf(u);
     return '' +
-      '<article class="card" data-id="' + esc(u.id) + '">' +
+      '<article class="card" data-id="' + esc(u.id) + '" data-uid="' + esc(u.id) + '">' +
         '<div class="card-head">' +
           '<div class="card-title">' +
             "<h2>" + esc(u.name) + "</h2>" +
@@ -437,6 +643,7 @@
         "</div>" +
         cutBlock(u) +
         whyBlock(u, band) +
+        deptBox(u) +
         '<dl class="facts">' +
           (u.quota ? '<div class="fact"><dt>모집인원</dt><dd>' + esc(u.quota) + "</dd></div>" : "") +
           (u.schedule ? '<div class="fact"><dt>원서접수</dt><dd class="strong">' + esc(u.schedule) + "</dd></div>" : "") +
@@ -469,10 +676,15 @@
     scoreSum.hidden = !on && !hasSe();
     legendEl.hidden = !on;
     scoreClear.hidden = state.grade == null && !hasSe();
+    if (vbandWrap) vbandWrap.hidden = !on;
     if (!on) {
       state.band = "전체";
       Array.prototype.forEach.call(bandWrap.querySelectorAll(".chip"), function (c) {
         c.setAttribute("aria-pressed", String(c.dataset.band === "전체"));
+      });
+      state.vband = "전체";
+      if (vbandWrap) Array.prototype.forEach.call(vbandWrap.querySelectorAll(".chip"), function (c) {
+        c.setAttribute("aria-pressed", String(c.dataset.vband === "전체"));
       });
     }
     if (!on && !hasSe()) { scoreSum.innerHTML = ""; return; }
@@ -501,8 +713,19 @@
   function render() {
     if (!state.ready) return;
     var rows = filtered();
+    var q2 = state.q.trim().toLowerCase();
+    var deptN = 0;
+    if (deptFilterOn() || q2) {
+      rows.forEach(function (u) {
+        var ms = deptMatches(u.id, q2, state.grade);
+        if (ms) deptN += ms.length;
+      });
+    }
     countEl.hidden = false;
     countEl.innerHTML = "총 <b>" + rows.length + "</b>곳" +
+      ((deptFilterOn() || q2) ? " · 학과 <b>" + deptN + "</b>개" : "") +
+      (state.cat === "전체" ? "" : " · " + esc(DEPT_CATS[state.cat] || state.cat)) +
+      (state.vband === "전체" ? "" : " · " + esc(state.vband) + " 학과") +
       (state.type === "전체" ? "" : " · " + esc(state.type)) +
       (state.region === "전체" ? "" : " · " + esc(state.region)) +
       (state.band === "전체" ? "" : " · " + esc(state.band)) +
@@ -537,6 +760,40 @@
   wireChips("region", function (v) { state.region = v; });
   wireChips("sort", function (v) { state.sort = v; });
   wireChips("band", function (v) { state.band = v; });
+  wireChips("cat", function (v) { state.cat = v; });
+  wireChips("vband", function (v) { state.vband = v; });
+
+  // 카드 안 학과 목록: 토글 · 학과별 전형 내역 펼치기
+  listEl.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("[data-dept-toggle]") : null;
+    if (t) {
+      var uid = t.getAttribute("data-dept-toggle");
+      state.open[uid] = !state.open[uid];
+      var art = t.closest("article.card");
+      var u = itemById(uid);
+      if (art && u) {
+        var tmp = document.createElement("div");
+        tmp.innerHTML = card(u);
+        art.replaceWith(tmp.firstElementChild);
+      }
+      return;
+    }
+    var r = e.target.closest ? e.target.closest(".dept-row") : null;
+    if (r) {
+      var item = r.parentNode;
+      var old = item.querySelector(".dept-tracks");
+      if (old) { old.remove(); return; }
+      var u2 = item.getAttribute("data-uid"), dn = item.getAttribute("data-dept");
+      var pool = deptPool(u2) || [];
+      for (var i = 0; i < pool.length; i++) {
+        if (pool[i].name === dn) {
+          var html = deptTracksHtml(pool[i], state.grade);
+          if (html) item.insertAdjacentHTML("beforeend", html);
+          return;
+        }
+      }
+    }
+  });
 
   Array.prototype.forEach.call(document.querySelectorAll("[data-track]"), function (btn) {
     btn.addEventListener("click", function () {
@@ -646,9 +903,12 @@
   Promise.all([
     fetch("data/universities.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
     fetch("data/cutoffs.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : { universities: {} }; }).catch(function () { return { universities: {} }; }),
-    fetch("data/suneung.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+    fetch("data/suneung.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
+    fetch("data/depts.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
   ]).then(function (res) {
     var data = res[0], cuts = res[1], sunj = res[2];
+    DEPTS = (res[3] && res[3].universities) || {};
+    if (res[3] && res[3].cats) DEPT_CATS = res[3].cats;
     state.items = (data.universities || []).slice();
     state.cuts = (cuts && cuts.universities) || {};
     state.sunj = sunj || {};

@@ -98,6 +98,9 @@ tr.grp td{border-bottom:1px solid var(--line2)}
 .others{display:flex;gap:6px;flex-wrap:wrap}
 .others a{font-size:11.5px;font-weight:700;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--body);background:var(--chip)}
 .note{font-size:11px;line-height:1.65;color:var(--dim);margin:8px 0 0}
+.more-link{color:var(--link);text-decoration:none;font-weight:800}
+html[data-theme="light"]{--link:#b45309}
+:root{--link:#FACC15}
 .disc{border:1px dashed var(--line2);border-radius:12px;padding:11px 12px;font-size:11px;line-height:1.65;color:var(--muted);background:var(--chip)}
 footer{border-top:1px solid var(--line);padding:16px 0 30px;font-size:11px;color:var(--dim);line-height:1.7}
 footer a{color:var(--muted);text-decoration:none}
@@ -166,7 +169,7 @@ footer a{color:var(--muted);text-decoration:none}
   <section class="card">
     <h2>같은 지역 다른 대학</h2>
     <div class="others"><a href="./kaist.html">KAIST</a><a href="./postech.html">POSTECH</a><a href="./dgist.html">DGIST</a><a href="./unist.html">UNIST</a><a href="./pusan.html">부산대학교</a><a href="./knu.html">경북대학교</a><a href="./jnu.html">전남대학교</a><a href="./jbnu.html">전북대학교</a><a href="./cnu.html">충남대학교</a><a href="./cbnu.html">충북대학교</a><a href="./kangwon.html">강원대학교</a><a href="./jeju.html">제주대학교</a></div>
-    <p class="note"><a href="https://susihanip.github.io/" style="color:var(--accent)">전체 196개 대학 수시모집요강 보기 →</a></p>
+    <p class="note"><a class="more-link" href="https://susihanip.github.io/">전체 196개 대학 수시모집요강 보기 →</a></p>
   </section>
 
   <p class="disc">전년도 70% 컷(대입정보포털 ‘어디가’ 공시 · 최종등록자 기준)을 참고용으로 보여드립니다. 학과·반영비율·변환표준점수·수능최저에 따라 결과가 달라지니, 최종 지원 전에는 반드시 대학 입학처 공식 모집요강을 확인하세요.</p>

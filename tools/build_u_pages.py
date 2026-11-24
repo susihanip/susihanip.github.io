@@ -165,6 +165,9 @@ tr.grp td{border-bottom:1px solid var(--line2)}
 .others{display:flex;gap:6px;flex-wrap:wrap}
 .others a{font-size:11.5px;font-weight:700;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--body);background:var(--chip)}
 .note{font-size:11px;line-height:1.65;color:var(--dim);margin:8px 0 0}
+.more-link{color:var(--link);text-decoration:none;font-weight:800}
+html[data-theme="light"]{--link:#b45309}
+:root{--link:%(accent)s}
 .disc{border:1px dashed var(--line2);border-radius:12px;padding:11px 12px;font-size:11px;line-height:1.65;color:var(--muted);background:var(--chip)}
 footer{border-top:1px solid var(--line);padding:16px 0 30px;font-size:11px;color:var(--dim);line-height:1.7}
 footer a{color:var(--muted);text-decoration:none}
@@ -552,7 +555,7 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
   <section class="card">
     <h2>같은 지역 다른 대학</h2>
     <div class="others">{others}</div>
-    <p class="note"><a href="{base}/" style="color:var(--accent)">전체 196개 대학 {modelabel}모집요강 보기 →</a></p>
+    <p class="note"><a class="more-link" href="{base}/">전체 196개 대학 {modelabel}모집요강 보기 →</a></p>
   </section>
 
   <p class="disc">{disc}</p>

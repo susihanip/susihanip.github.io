@@ -472,6 +472,15 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
         "dateModified": today,
     }
 
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": cfg["brand"], "item": base + "/"},
+            {"@type": "ListItem", "position": 2, "name": "%s 2027 %s 모집요강" % (name, "정시" if mode == "jeongsi" else "수시"), "item": url},
+        ],
+    }
+
     html = """<!DOCTYPE html>
 <html lang="ko" data-theme="dark">
 <head>
@@ -500,6 +509,7 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
 <style>{css}</style>
 <script type="application/ld+json">{jsonld}</script>
+<script type="application/ld+json">{breadcrumb}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>
 <script>
@@ -643,7 +653,8 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
     return html.format(
         title=esc(title), desc=esc(desc), url=url, ogtitle=esc(ogtitle), ogdesc=esc(ogdesc),
         ogimg=esc(og_img), brand=esc(cfg["brand"]), handle=esc(cfg["handle"]),
-        css=css, jsonld=json.dumps(jsonld, ensure_ascii=False), ga=cfg["ga"],
+        css=css, jsonld=json.dumps(jsonld, ensure_ascii=False),
+        breadcrumb=json.dumps(breadcrumb_ld, ensure_ascii=False), ga=cfg["ga"],
         base=base, svg=svg, nav=nav, name=esc(name), modelabel=cfg["mode_label"],
         sub=esc(sub), badges="".join(badges), calclink=esc(calclink), facts=facts_html,
         cutline=cutline, table=table_html, extra=extra_section, links=links_html,

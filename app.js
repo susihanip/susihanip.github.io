@@ -552,7 +552,7 @@
     var filterOn = deptFilterOn();
     var qHit = !!q && deptQueryHit(u.id, q) && haystack(u).indexOf(q) === -1;
     var focus = filterOn || qHit;
-    var open = typeof state.open[u.id] === "boolean" ? state.open[u.id] : focus;
+    var open = typeof state.open[u.id] === "boolean" ? state.open[u.id] : qHit;
     var list = pool.filter(function (o) {
       if (state.cat !== "전체" && o.cat !== state.cat) return false;
       if (q && String(o.name).toLowerCase().indexOf(q) === -1) return false;
@@ -896,7 +896,7 @@
   }
   var savedTheme = null;
   try { savedTheme = localStorage.getItem(THEME_KEY); } catch (e) {}
-  applyTheme(savedTheme === "light" ? "light" : "dark");
+  applyTheme(savedTheme === "dark" ? "dark" : "light");
   Array.prototype.forEach.call(document.querySelectorAll("[data-theme-set]"), function (b) {
     b.addEventListener("click", function () {
       var theme = b.dataset.themeSet;

@@ -482,13 +482,13 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
     }
 
     html = """<!DOCTYPE html>
-<html lang="ko" data-theme="dark">
+<html lang="ko" data-theme="light">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>{title}</title>
 <meta name="description" content="{desc}" />
-<meta name="theme-color" content="#09090b" id="meta-theme" />
+<meta name="theme-color" content="#f8fafc" id="meta-theme" />
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index,follow,max-image-preview:large" />
 <meta property="og:type" content="article" />
@@ -527,7 +527,7 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
       <span>{brand}<small>대학별 2027 {modelabel}모집요강</small></span>
     </a>
     {nav}
-    <button type="button" class="theme" id="theme-btn" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환">☀</button>
+    <button type="button" class="theme" id="theme-btn" aria-label="라이트/다크 테마 전환" title="라이트/다크 테마 전환">🌙</button>
   </div>
 </header>
 
@@ -590,7 +590,7 @@ def build_page(cfg, u, dept_entry, cut_entry, all_unis, suneung, today):
   }}
   var saved = null;
   try {{ saved = localStorage.getItem(KEY); }} catch (e) {{}}
-  apply(saved === "light" ? "light" : "dark");
+  apply(saved === "dark" ? "dark" : "light");
   btn.addEventListener("click", function () {{
     var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
     apply(next);

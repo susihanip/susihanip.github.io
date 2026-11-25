@@ -552,7 +552,7 @@
     var filterOn = deptFilterOn();
     var qHit = !!q && deptQueryHit(u.id, q) && haystack(u).indexOf(q) === -1;
     var focus = filterOn || qHit;
-    var open = focus || !!state.open[u.id];
+    var open = typeof state.open[u.id] === "boolean" ? state.open[u.id] : focus;
     var list = pool.filter(function (o) {
       if (state.cat !== "전체" && o.cat !== state.cat) return false;
       if (q && String(o.name).toLowerCase().indexOf(q) === -1) return false;
@@ -585,7 +585,7 @@
 
     var head = '<div class="dept-head">' +
       '<button class="dept-toggle" type="button" data-dept-toggle="' + esc(u.id) + '" aria-expanded="' + (open ? "true" : "false") + '">' +
-      (open ? "학과 " + list.length + "개 접기" : "학과 " + pool.length + "개 보기") +
+      (open ? "학과 " + list.length + "개 접기" : "학과 " + list.length + "개 보기") +
       '<span class="arw">' + (open ? "▲" : "▼") + "</span></button>" +
       '<div class="dept-sum">' + sum.join("") + "</div></div>";
 
@@ -684,6 +684,7 @@
         c.setAttribute("aria-pressed", String(c.dataset.band === "전체"));
       });
       state.vband = "전체";
+      state.open = {};
       if (vbandWrap) Array.prototype.forEach.call(vbandWrap.querySelectorAll(".chip"), function (c) {
         c.setAttribute("aria-pressed", String(c.dataset.vband === "전체"));
       });
@@ -761,15 +762,15 @@
   wireChips("region", function (v) { state.region = v; });
   wireChips("sort", function (v) { state.sort = v; });
   wireChips("band", function (v) { state.band = v; });
-  wireChips("cat", function (v) { state.cat = v; });
-  wireChips("vband", function (v) { state.vband = v; });
+  wireChips("cat", function (v) { state.cat = v; state.open = {}; });
+  wireChips("vband", function (v) { state.vband = v; state.open = {}; });
 
   // 카드 안 학과 목록: 토글 · 학과별 전형 내역 펼치기
   listEl.addEventListener("click", function (e) {
     var t = e.target.closest ? e.target.closest("[data-dept-toggle]") : null;
     if (t) {
       var uid = t.getAttribute("data-dept-toggle");
-      state.open[uid] = !state.open[uid];
+      state.open[uid] = !(t.getAttribute("aria-expanded") === "true");
       var art = t.closest("article.card");
       var u = itemById(uid);
       if (art && u) {
@@ -870,16 +871,17 @@
   qEl.addEventListener("input", function () {
     clearFocus();
     state.q = qEl.value;
+    state.open = {};
     clearEl.classList.toggle("show", !!qEl.value);
     clearTimeout(t);
     t = setTimeout(render, 90);
   });
   clearEl.addEventListener("click", function () {
     clearFocus();
-    qEl.value = ""; state.q = ""; clearEl.classList.remove("show"); qEl.focus(); render();
+    qEl.value = ""; state.q = ""; state.open = {}; clearEl.classList.remove("show"); qEl.focus(); render();
   });
   qEl.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { clearFocus(); qEl.value = ""; state.q = ""; clearEl.classList.remove("show"); render(); }
+    if (e.key === "Escape") { clearFocus(); qEl.value = ""; state.q = ""; state.open = {}; clearEl.classList.remove("show"); render(); }
   });
 
   // ── 테마 ──

@@ -171,15 +171,16 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "수시계 2,517명 (교과 지역균형 508 · 종합 1,018 · 논술 489)",
+   "quota": "정원 외 포함 2,862명 (교과 지역균형 508 · 학생부종합 1,018 · 기회균형 460 · 논술 489 · 실기·실적 387)",
    "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 18:00",
-   "summary": "지역균형 교과90+출결10 | 탐구·융합·성장 서류100%(면접) | 논술 일반형·창의형 | 지역균형·논술 일부 수능최저",
-   "keywords": "지역균형 탐구형인재 융합형인재 성장형인재 어울림 농어촌 논술 일반형 창의형",
-   "noticeUrl": "https://admission.cau.ac.kr/detail.do?board_seq=3239&menuurl=n5%2FP1yX8Zyh%2Fvtvla1KeyA%3D%3D&pageNo=1",
+   "summary": "2027 논술 창의형 신설 86명·학생부종합 성장형인재 신설 108명 | 지역균형 교과90+출결10(추천20명, 3합7) | 논술 일반형 논술70+교과20+출결10(3합6) | 다빈치캠퍼스 수능최저 폐지",
+   "keywords": "지역균형 탐구형인재 융합형인재 성장형인재 어울림 농어촌 논술 일반형 창의형 산업보안 지능형반도체",
+   "noticeUrl": "https://admission.cau.ac.kr/detail.do?board_seq=3239&menuurl=bmyV1ovIAzYtqDXLjUSVtw%3D%3D&pageNo=1",
    "pdfUrl": "https://admission.cau.ac.kr/file/download.do?sfn=20260805051541573_1bad9e70323a464d83d4f7e99b9378c7.pdf&ofn=%EC%A4%91%EC%95%99%EB%8C%80%ED%95%99%EA%B5%90_2027%ED%95%99%EB%85%84%EB%8F%84%20%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95_%EC%97%85%EB%A1%9C%EB%93%9C%EC%9A%A9(%EC%B5%9C%EC%A2%85).pdf",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/T7tj53VuwWc",
    "region": "서울"
   },
   {

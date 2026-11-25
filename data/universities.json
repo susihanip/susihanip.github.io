@@ -205,19 +205,19 @@
   {
    "id": "hufs",
    "name": "한국외국어대학교",
-   "campus": "서울·글로벌캠퍼스",
+   "campus": "서울·글로벌·송도",
    "types": [
     "학생부교과",
     "학생부종합",
     "논술"
    ],
-   "quota": "서울·글로벌캠퍼스 (교과 학교장추천 · 종합 · 논술)",
+   "quota": "수시 2,102명 (학교장추천 370 · 학생부종합 1,280 · 논술 452)",
    "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 17:00",
-   "summary": "학교장추천 교과 | 서류형·면접형 종합 | 논술 | 2027부터 수능최저 한국사 영역 반영 폐지",
-   "keywords": "학교장추천 서류형 면접형 논술 Language Diplomacy LD LT",
+   "summary": "2027 변경 — 송도캠퍼스 개교 + 신설 3곳 48명(AI융합대학 서울 18·글로벌 15·글로벌바이오&비즈니스융합학부 15) · 수능최저 한국사 영역 반영 폐지 | 학교장추천 교과 100%(5개 학기 이상·고교별 10명) 수능최저 2개 영역 등급합 4(서울)·6(글로벌) | 면접형 1단계 3배수→서류 50+면접 50 | 서류형·SW인재·기회균형 서류 100 | 논술 100%(1,000점, 인문·사회 통합교과형·자연 수학Ⅰ·Ⅱ)",
+   "keywords": "학교장추천 면접형 서류형 SW인재 기회균형 논술 송도캠퍼스 AI융합대학 글로벌바이오 Language Diplomacy LD LT 수능최저 2합4",
    "noticeUrl": "https://adms.hufs.ac.kr/cms/FrCon/index.do?MENU_ID=650",
    "pdfUrl": "https://adms.hufs.ac.kr/ajaxfile/FileCpnt/FileDownload.do?FILE_ORG_NM=2027%ED%95%99%EB%85%84%EB%8F%84%20%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91%20%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95(%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B3%B5%EC%A7%80).pdf&FILE_NM=202605/1780106172399_0.pdf&FILE_SEQ=1&SITE_NO=2&MENU_NO=650&CONTENTS_NO=1",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/tEpa2M5PHkA",
    "region": "서울"
   },
   {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "channel": {
   "name": "수시한입",
   "handle": "@susihanip",
@@ -246,15 +246,16 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "정원 내 2,092명 (교과 고교추천 377 · 종합 1,298 · 논술 297 · 예체능 120)",
-   "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 17:00",
-   "summary": "고교추천 교과100% | 미래인재 서류형·면접형 | 논술 100% | 인문 2개 영역 등급합 5 등 수능최저",
-   "keywords": "고교추천 미래인재 고른기회 사회기여자 논술 예체능",
+   "quota": "정원 내 2,092명 (고교추천 377 · 학생부종합 1,337 · 논술 297 · 예체능실기 81)",
+   "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 10.(목) 17:00",
+   "summary": "고교추천 교과100%·2개 영역 등급합 5 | 미래인재 서류형 909·면접형 209 | 논술 297명 100분",
+   "keywords": "고교추천 미래인재 고른기회 사회기여자 논술 예체능서류 수능최저 등급합5 스크랜튼",
    "noticeUrl": "https://admission.ewha.ac.kr/admission/html/rolling/guide.asp",
    "pdfUrl": "https://admission.ewha.ac.kr/upload/GUIDES/20260907134642BHLTER.pdf",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/lzNbsGsrC6M",
    "region": "서울"
   },
   {

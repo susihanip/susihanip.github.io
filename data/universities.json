@@ -227,15 +227,16 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
    "quota": "정원 내 1,036명 (교과 고교추천 254 · 종합 687 · 논술 88 · 실기 7)",
    "schedule": "2026. 9. 7.(월) 10:00 ~ 9. 10.(목) 18:00",
-   "summary": "고교추천 교과80+정성20(학교별 20명) | 종합Ⅰ 면접형·종합Ⅱ 서류형 | 논술80+교과20, 수능최저 없음",
-   "keywords": "고교추천 학생부종합전형I II 기회균형 사회공헌 논술",
+   "summary": "고교추천 교과80+정성20(학교별 20명)·수능최저 3개 영역 등급합 8+한국사 4 | 종합Ⅰ 면접형 1단계 3배수→서류50+면접50, 종합Ⅱ 서류100 | 논술 88명 수리논술80+교과20, 수능최저 미적용 | 2027 교과 정성평가 10%→20% 확대",
+   "keywords": "고교추천 학생부종합전형I II 기회균형 사회공헌 논술 수능최저 등급합8 정성평가",
    "noticeUrl": "https://admission.uos.ac.kr/admissionNew/html/susi/info.do?menuid=2002001001000000000",
    "pdfUrl": "https://file.uos.ac.kr/upload/admission/2027%ED%95%99%EB%85%84%EB%8F%84%20%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91%20%EC%8B%A0%EC%9E%85%EC%83%9D%20%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95_260831.pdf",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/j1xehfc8jl4",
    "region": "서울"
   },
   {

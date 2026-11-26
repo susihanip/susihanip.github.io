@@ -525,25 +525,43 @@
      "kind": "sum",
      "count": 2,
      "limit": 5,
-     "label": "미래인재-서류형"
+     "label": "서류형 인문(국어 포함)"
     },
     {
      "kind": "sum",
      "count": 2,
-     "limit": 7,
-     "label": "예체능서류"
+     "limit": 5,
+     "label": "서류형 자연(수학 포함)"
+    },
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 5,
+     "label": "의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 6,
+     "label": "약학전공"
     },
     {
      "kind": "sum",
      "count": 3,
      "limit": 5,
-     "label": "미래인재-서류형"
+     "label": "스크랜튼학부"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 7,
+     "label": "예체능서류 디자인"
     },
     {
      "kind": "sum",
      "count": 3,
      "limit": 9,
-     "label": "예체능서류"
+     "label": "예체능서류 체육"
     }
    ],
    "none": [
@@ -554,17 +572,49 @@
    "applied": [],
    "range": [
     5,
-    6
+    9
    ],
    "has_any_none": true
   },
   "논술": {
-   "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "인문(국어 포함)"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자연(수학 포함)"
+    },
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 5,
+     "label": "의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 4,
+     "limit": 6,
+     "label": "약학전공"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "스크랜튼학부"
+    }
    ],
-   "range": null,
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    6
+   ],
    "has_any_none": false
   }
  },

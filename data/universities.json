@@ -265,15 +265,16 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "주요 전형 1,478명 (DoDream 655 · 기회균형 132 · 학교장추천 409 · 논술 282) + 실기",
+   "quota": "수시 1,915명 (정원 내 1,767 · 정원 외 148) — 학생부종합 1,051 · 교과 학교장추천 409 · 논술 282 · 실기 173",
    "schedule": "2026. 9. 9.(수) 10:00 ~ 9. 11.(금) 17:00",
-   "summary": "DoDream 서류→면접 | 학교장추천 교과70+서류30 | 논술80+교과20 | 인문·자연 등급합 기준 수능최저",
-   "keywords": "DoDream 불교추천 기회균형 학교장추천 논술 실기 연극",
+   "summary": "2027 Do Dream 655(+21)·학교장추천 409·논술 282(−11) | 수능최저는 논술전형만 2개 영역 등급합 5(경찰행정 2합4·약학 3합4) | 학교장추천 교과70+서류30, 논술70+교과20+출결10",
+   "keywords": "동국대 2027수시 DoDream 불교추천 기회균형 학교장추천 논술 실기 연극 수능최저 2합5 등급합5",
    "noticeUrl": "https://ipsi.dongguk.edu/admission/html/rolling/guide.asp",
    "pdfUrl": "https://ipsi.dongguk.edu/upload/file/20260715140521FRWQXB.PDF",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/2Th9xU0O0XM",
    "region": "서울"
   },
   {

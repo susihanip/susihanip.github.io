@@ -702,12 +702,23 @@
    "has_any_none": true
   },
   "논술": {
-   "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "논술",
+     "flags": {
+      "hanguksa": 4
+     }
+    }
    ],
-   "range": null,
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
    "has_any_none": false
   }
  },

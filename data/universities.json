@@ -303,13 +303,14 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "정원 내 1,095명 (수시 비중 50.9%)",
+   "quota": "정원 외 포함 1,310명 (종합 467 · 교과 지역균형 287 · 논술 214 · 실기 127 · 정원 외 215)",
    "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 17:00",
-   "summary": "숙명인재 면접형 | 소프트웨어인재 종합 | 지역균형선발 교과70+서류30 | 논술우수자 | 예능창의인재 실기",
-   "keywords": "숙명인재 소프트웨어인재 기회균형 지역균형선발 논술우수자 예능창의인재",
-   "noticeUrl": "https://admission.sookmyung.ac.kr/admission/html/counsel/noticeView.asp?p_board_idx=54119",
+   "summary": "지역균형선발 287명(248→+39)·교과70+서류30, 수능최저 미적용(약학부 3합5 제외) | 숙명인재 면접형 361명 1단계 4배수→70+면접30, 소프트웨어인재 35명 | 논술 214명 논술90+교과10·2합5(약학부 3합4) | 예능창의 127명, 무용·관현악·작곡 교과 신설 반영",
+   "keywords": "숙명인재 소프트웨어인재 기회균형 지역균형선발 논술우수자 예능창의인재 수능최저 면접형 자유전공학부 첨단공학부",
+   "noticeUrl": "https://admission.sookmyung.ac.kr/admission/html/rolling/guide.asp",
    "pdfUrl": "https://admission.sookmyung.ac.kr/upload/BBS0021/20260907095555QDLVUJ.PDF",
    "shortsUrl": "",
    "region": "서울"

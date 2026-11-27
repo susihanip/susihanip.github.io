@@ -729,23 +729,33 @@
      "kind": "sum",
      "count": 3,
      "limit": 5,
-     "label": "지역균형선발"
+     "label": "지역균형선발 약학부",
+     "narrow": true,
+     "flags": {
+      "math": "require"
+     },
+     "src": "summary"
     }
    ],
-   "none": [],
+   "none": [
+    "지역균형선발 (약학부 제외 — 인문·자연·자유전공학부)"
+   ],
    "applied": [],
    "range": [
     5,
     5
    ],
-   "has_any_none": false
+   "has_any_none": true
   },
   "종합": {
    "criteria": [],
    "none": [
     "숙명인재 ( 면접형 )",
     "소프트웨어인재",
-    "기회균형 농어촌학생 ( 정원외 ) 특성화고교",
+    "기회균형",
+    "농어촌학생 ( 정원외 )",
+    "특성화고교출신자",
+    "특성화고졸재직자",
     "특수교육대상자"
    ],
    "applied": [],
@@ -753,12 +763,32 @@
    "has_any_none": true
   },
   "논술": {
-   "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "인문·자연 (약학부 제외)",
+     "src": "summary"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "약학부",
+     "narrow": true,
+     "flags": {
+      "math": "require"
+     },
+     "src": "summary"
+    }
    ],
-   "range": null,
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    4
+   ],
    "has_any_none": false
   }
  },

@@ -401,16 +401,38 @@
     }
     return false;
   }
+  // 검색어가 학과명에 하나라도 걸리는지(전체 학과 기준, 검색어별 캐시).
+  // 대학명에만 걸리는 검색어('건국대')로 학과 목록을 0개로 만들지 않기 위한 구분
+  var deptQCache = { q: null, v: "" };
+  function deptSearchQ() {
+    var q = state.q.trim().toLowerCase();
+    if (deptQCache.q === q) return deptQCache.v;
+    var v = "";
+    if (q) {
+      var ids = Object.keys(DEPTS);
+      for (var a = 0; a < ids.length && !v; a++) {
+        var rows = deptRows(ids[a]);
+        if (!rows) continue;
+        for (var b = 0; b < rows.length; b++) {
+          if (String(rows[b][0]).toLowerCase().indexOf(q) !== -1) { v = q; break; }
+        }
+      }
+    }
+    deptQCache = { q: q, v: v };
+    return v;
+  }
   function deptFilterOn() {
     return state.cat !== "전체" || state.vband !== "전체";
   }
   function deptMatches(uid, q, g) {
     var pool = deptPool(uid);
     if (!pool) return null;
+    // 학과명에 걸리는 검색어만 학과 목록을 거른다 (대학명 검색 시 학과 0개 방지)
+    var dq = deptSearchQ();
     var out = [];
     pool.forEach(function (o) {
       if (state.cat !== "전체" && o.cat !== state.cat) return;
-      if (q && String(o.name).toLowerCase().indexOf(q) === -1) return;
+      if (dq && String(o.name).toLowerCase().indexOf(dq) === -1) return;
       if (state.vband !== "전체" && deptBand(deptRep(o), g) !== state.vband) return;
       out.push(o);
     });
@@ -550,12 +572,14 @@
     var g = state.grade;
     var q = state.q.trim().toLowerCase();
     var filterOn = deptFilterOn();
-    var qHit = !!q && deptQueryHit(u.id, q) && haystack(u).indexOf(q) === -1;
-    var focus = filterOn || qHit;
+    // 학과명에 실제로 걸린 검색어만 학과 목록을 거른다 (대학명 검색 시 '학과 0개'가 되던 문제)
+    var dq = deptSearchQ();
+    var qHit = !!dq && deptQueryHit(u.id, q);
+    var focus = filterOn || !!dq;
     var open = typeof state.open[u.id] === "boolean" ? state.open[u.id] : qHit;
     var list = pool.filter(function (o) {
       if (state.cat !== "전체" && o.cat !== state.cat) return false;
-      if (q && String(o.name).toLowerCase().indexOf(q) === -1) return false;
+      if (dq && String(o.name).toLowerCase().indexOf(dq) === -1) return false;
       if (state.vband !== "전체" && deptBand(deptRep(o), g) !== state.vband) return false;
       return true;
     });
@@ -969,6 +993,7 @@
   ]).then(function (res) {
     var data = res[0], cuts = res[1], sunj = res[2];
     DEPTS = (res[3] && res[3].universities) || {};
+    deptQCache = { q: null, v: "" };
     if (res[3] && res[3].cats) DEPT_CATS = res[3].cats;
     state.items = (data.universities || []).slice();
     state.cuts = (cuts && cuts.universities) || {};

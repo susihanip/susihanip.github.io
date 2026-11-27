@@ -813,20 +813,34 @@
   "종합": {
    "criteria": [],
    "none": [
-    "국민프런티어 국제인재 알고리즘우수자 기회균형",
-    "농어촌학생 기회균형 Ⅱ"
+    "국민프런티어",
+    "국제인재",
+    "알고리즘우수자",
+    "기회균형Ⅰ",
+    "농어촌학생",
+    "기회균형Ⅱ",
+    "성인학습자",
+    "특성화고 등을 졸업한 재직자"
    ],
    "applied": [],
    "range": null,
    "has_any_none": true
   },
   "논술": {
-   "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "논술"
+    }
    ],
-   "range": null,
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
    "has_any_none": false
   }
  },

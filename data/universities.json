@@ -360,15 +360,16 @@
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "교과 지역균형 398명 · 종합(세종인재 면접·서류형) · 논술우수자 · 실기",
+   "quota": "정원 외 포함 1,857명 (교과 지역균형 398 · 학생부종합 768 · 계약학과 95 · 논술 344 · 실기우수자 119 · 예체능특기자 13 · 재직자 120)",
    "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 18:00",
-   "summary": "지역균형 교과100% | 세종인재 면접형·서류형 | 논술80+교과20 | 자유전공 2개 영역 합5 등 수능최저",
-   "keywords": "지역균형 세종인재 기회균형 사이버국방 국방AI 논술우수자 실기우수자",
+   "summary": "지역균형 교과100·면접 없음 | 세종인재 면접형 364(3배수)→60+면접40 · 서류형 260 계열 선발 | 논술 80+교과 20 | 수능최저 지역균형 2개 영역 6(자유전공 5)·논술 2합 5 | 회화과·패션디자인학과 정시로 이동",
+   "keywords": "지역균형 세종인재 면접형 서류형 기회균형 사회기여 사이버국방 국방AI 계약학과 논술우수자 실기우수자 예체능특기자",
    "noticeUrl": "https://ipsi.sejong.ac.kr/ipsi/early/notice.do?mode=view&articleNo=2644",
    "pdfUrl": "https://ipsi.sejong.ac.kr/ipsi/early/notice.do?mode=download&articleNo=2644&attachNo=2653",
-   "shortsUrl": "",
+   "shortsUrl": "https://youtube.com/shorts/K00kF8CfJ4w",
    "region": "서울"
   },
   {

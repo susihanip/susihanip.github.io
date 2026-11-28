@@ -899,20 +899,20 @@
     {
      "kind": "sum",
      "count": 2,
+     "limit": 6,
+     "label": "인문계열·자연계열"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
      "limit": 5,
      "label": "자유전공학부"
     },
     {
      "kind": "sum",
-     "count": 2,
-     "limit": 6,
-     "label": "인문 , 자연"
-    },
-    {
-     "kind": "sum",
      "count": 3,
      "limit": 10,
-     "label": "항공시스템공학 특별"
+     "label": "항공시스템공학(공군)"
     }
    ],
    "none": [],
@@ -923,13 +923,38 @@
    ],
    "has_any_none": false
   },
-  "논술": {
+  "종합": {
    "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "none": [
+    "세종인재 면접형",
+    "세종인재 서류형",
+    "기회균형",
+    "사회기여 및 배려자",
+    "서해5도학생",
+    "특성화고교졸 재직자",
+    "사이버국방",
+    "국방AI융합시스템공학",
+    "국방AI로봇융합공학"
    ],
+   "applied": [],
    "range": null,
+   "has_any_none": true
+  },
+  "논술": {
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "자유전공학부·인문계열·자연계열"
+    }
+   ],
+   "none": [],
+   "applied": [],
+   "range": [
+    5,
+    5
+   ],
    "has_any_none": false
   }
  },

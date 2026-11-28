@@ -965,38 +965,95 @@
      "kind": "sum",
      "count": 2,
      "limit": 6,
-     "label": "지역균형선발"
+     "label": "죽전 지역균형선발"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 8,
+     "label": "천안 교과우수자 인문·자연·체육"
+    },
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 5,
+     "label": "천안 간호학과"
+    },
+    {
+     "kind": "topN",
+     "count": 1,
+     "limit": 4,
+     "label": "천안 공공정책학과(야)"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 4,
+     "label": "지역메디바이오 의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "지역메디바이오 치의예과"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "지역메디바이오 약학과"
     }
    ],
    "none": [],
    "applied": [],
    "range": [
-    6,
-    6
+    4,
+    8
    ],
    "has_any_none": false
   },
   "종합": {
-   "criteria": [],
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 5,
+     "label": "DKU인재 면접형 의학계열"
+    },
+    {
+     "kind": "sum",
+     "count": 3,
+     "limit": 6,
+     "label": "DKU인재 면접형 약학계열"
+    }
+   ],
    "none": [
-    "DKU 인재 ( 서류형 )",
-    "DKU 인재 ( 면접형 )",
-    "SW 인재",
+    "DKU인재 서류형",
+    "DKU인재 면접형 인문·자연·예능",
+    "SW인재",
     "창업인재",
-    "기회균형선발 사회적배려대상자 교육기회배려자 "
+    "기회균형선발",
+    "사회적배려대상자",
+    "지역의료인재",
+    "군사학과",
+    "교육기회배려자",
+    "농어촌학생 비의약계열"
    ],
    "applied": [],
-   "range": null,
+   "range": [
+    5,
+    6
+   ],
    "has_any_none": true
   },
   "논술": {
    "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "none": [
+    "논술우수자(죽전)"
    ],
+   "applied": [],
    "range": null,
-   "has_any_none": false
+   "has_any_none": true
   }
  },
  "ajou": {

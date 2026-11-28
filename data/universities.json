@@ -375,19 +375,20 @@
   {
    "id": "dankook",
    "name": "단국대학교",
-   "campus": "죽전캠퍼스",
+   "campus": "죽전 · 천안",
    "types": [
     "학생부교과",
     "학생부종합",
-    "논술"
+    "논술",
+    "실기"
    ],
-   "quota": "죽전캠퍼스 — 교과 · 종합(DKU인재) · 논술우수자 · 실기우수자",
+   "quota": "정원 외 포함 3,135명 (죽전 1,582 · 천안 1,553) — 교과 801 (지역균형 242 · 교과우수자 517 · 지역메디바이오 42) · 학생부종합 1,532 (DKU인재 서류형 686 · 면접형 216 · SW 34 · 창업 12 · 기회균형 142 · 사회적배려 117 · 지역의료 15 · 군사학과 30) · 논술 310 · 실기 492 (실기우수자 405 · 체육특기자 87)",
    "schedule": "2026. 9. 8.(화) 10:00 ~ 9. 11.(금) 18:00",
-   "summary": "DKU인재 서류100% | 교과 학교장추천 | 논술우수자 | 실기우수자(체육·예술) | 전형별 수능최저 상이",
-   "keywords": "DKU인재 SW인재 기회균형 농어촌 논술우수자 실기우수자",
-   "noticeUrl": "https://ipsi.dankook.ac.kr/jukjeon/notice/list.html?bbsid=juk_info&camp_type=&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=50954",
-   "pdfUrl": "https://ipsi.dankook.ac.kr/bbs/filedown.php?bbsid=juk_info&file_seq=6830",
-   "shortsUrl": "",
+   "summary": "논술 90+교과 10 | 의예과 지역의료인재 신설 15명(5배수→70+면접 30) | AI건축융합학과 신설·국제스포츠 골프전공 폐지 | 서류 온라인 업로드로 변경 | 수능최저 죽전 지역균형 2합 6, 천안 교과우수자 2합 8, 논술·종합·실기 미적용",
+   "keywords": "DKU인재 서류형 면접형 SW인재 창업인재 기회균형선발 사회적배려대상자 지역의료인재 군사학과 지역균형선발 학생부교과우수자 지역메디바이오인재 논술우수자 실기우수자 체육특기자 AI건축융합학과 죽전 천안",
+   "noticeUrl": "https://ipsi.dankook.ac.kr/jukjeon/doumi/mojip.html?bbsid=juk_paper&ctg_cd=01",
+   "pdfUrl": "https://ipsi.dankook.ac.kr/bbs/filedown.php?bbsid=juk_paper&file_seq=6869",
+   "shortsUrl": "https://youtube.com/shorts/r7H8kclp3UU",
    "region": "수도권"
   },
   {

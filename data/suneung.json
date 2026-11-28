@@ -4,7 +4,7 @@
   "base_year": "2027학년도",
   "source": "대입정보포털 어디가(KCUE) 2027학년도 대학별 전형평가기준 「전형별 주요사항」 + 수시한입 요강 요약",
   "note": "전형·모집단위·계열별로 기준이 달라 대표값만 담았습니다. 탐구 반영 과목 수, 영어·한국사 조건은 각 대학 요강 원문을 확인하세요.",
-  "collected_at": "2026-11-22"
+  "collected_at": "2026-11-28"
  },
  "snu": {
   "종합": {
@@ -876,12 +876,20 @@
    "has_any_none": true
   },
   "논술": {
-   "criteria": [],
-   "none": [],
-   "applied": [
-    "논술"
+   "criteria": [
+    {
+     "kind": "sum",
+     "count": 2,
+     "limit": 6,
+     "label": "논술"
+    }
    ],
-   "range": null,
+   "none": [],
+   "applied": [],
+   "range": [
+    6,
+    6
+   ],
    "has_any_none": false
   }
  },
